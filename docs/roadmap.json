@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "f6d409f64322afdda2e8e2c4321ad61a7474854f288e71f88b7d540fff41e4ab",
-  "syncedAt": "2026-10-17T22:51:40.497682+00:00",
+  "contentVersion": "ee088bce844088555f094933ba622caf47cc453776cdf6735973444c370a6920",
+  "syncedAt": "2026-10-17T22:52:23.566430+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1081,36 +1081,38 @@
       "number": 27,
       "title": "Verify automatic roadmap publication lifecycle",
       "category": "ops",
-      "summary": "Verify that new roadmap work and board changes publish automatically without granting the publisher access to game code.",
+      "summary": "Live publication check: new items, board changes and evidence stay in sync.",
       "scope": [
-        "This infrastructure acceptance record exercises new-item discovery, priority and status changes, checklist edits, closure and reopening. It does not change game milestone maturity or manual acceptance."
+        "This infrastructure acceptance record exercises automatic discovery, priority and status changes, checklist edits, closure and reopening. The close/reopen cycle is a controlled publishing check; it does not establish game milestone maturity or manual acceptance."
       ],
-      "evidence": [],
+      "evidence": [
+        "Issue #27 was auto-added as Backlog, moved to Next / Review, and published with statusSource=project using the dedicated read-only credentials. This fixture is now being closed and reopened to verify the publication lifecycle."
+      ],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "New labelled issue appears with automatic Project membership."
         },
         {
-          "done": false,
-          "text": "Project priority and execution changes reach the public snapshot."
+          "done": true,
+          "text": "Project priority Next and execution Review reached the public snapshot."
         },
         {
-          "done": false,
-          "text": "Issue description and checklist edits reach the public snapshot."
+          "done": true,
+          "text": "Issue description and checklist edits are exercised in the next publication."
         },
         {
           "done": false,
           "text": "Closure and reopening are reflected in Completed and active views."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Next",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/27",
-      "updatedAt": "2026-10-17T22:50:43Z",
+      "updatedAt": "2026-10-17T22:52:13Z",
       "order": 27,
       "statusSource": "project"
     }
