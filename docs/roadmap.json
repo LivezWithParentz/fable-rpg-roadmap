@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1224a3a398499f782edf53c440725ce738bf7440e2ca3949ec257e68838cf589",
-  "syncedAt": "2026-10-17T20:35:44.619652+00:00",
+  "contentVersion": "79ed7ba1e9a56e2c6522564a34ca5ce491ada486e0398075063c60f842169e0d",
+  "syncedAt": "2026-10-17T22:37:20.817876+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -987,7 +987,8 @@
       "category": "ops",
       "summary": "The guided Blender/image asset workflow and isolated pilot are implemented locally. tools/asset-pipeline.ps1 provides inspect, plan, prepare and validate. Per-asset manifests bind source selection, dimensions, editable derivatives, GLB outputs and hash-bound evidence. Existing sources are preserved; gameplay scenes survive…",
       "scope": [
-        "Alex's character-art hold and campaign cast remain unchanged. The main export preset now applies the existing gore-review exclusion list for broken, unused vendor VFX demo scenes. The previous sole launcher is preserved as an ignored non-launcher backup before rebuilding."
+        "Alex's character-art hold and campaign cast remain unchanged. The main export preset now applies the existing gore-review exclusion list for broken, unused vendor VFX demo scenes. The previous sole launcher is preserved as an ignored non-launcher backup before rebuilding.",
+        "Asset Workshop follow-up (2026-10-17): private deployed app, implementation/evidence issue. Separate repository commit bac04d9 contains the prototype. Original barrel/guard adapter smokes and negative rig/texture checks passed; restricted Windows runner installation, potion reconciliation, scoped GitHub App setup, human review and one real asset PR remain open. Final release stays locked. Game pipeline and PLAN changes remain local and uncommitted; no art acceptance or hold change is implied."
       ],
       "evidence": [],
       "acceptance": [
@@ -1016,8 +1017,8 @@
           "text": "Barrel/guard re-export preserves gameplay scene hashes."
         },
         {
-          "done": false,
-          "text": "User approves exact generated potion concept and one 30-credit Tripo conversion (model tripo-v3.1 / v3.1-20260211); no paid calls submitted. Verified balance 1,035, zero frozen; keep 500-credit floor."
+          "done": true,
+          "text": "Jason explicitly approved the exact potion concept and one 30-credit Tripo conversion (tripo-v3.1 / v3.1-20260211). Wrapper encoding failure interrupted execution; no task ID was captured. Journal is needsreconciliation, verified balance remains 1,035/0 frozen, and no automatic resubmission is allowed. Keep the 500-credit floor."
         },
         {
           "done": false,
@@ -1034,7 +1035,7 @@
       "maturity": "Prototype",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
-      "updatedAt": "2026-10-17T20:05:33Z",
+      "updatedAt": "2026-10-17T22:23:45Z",
       "order": 25,
       "statusSource": "project"
     },
