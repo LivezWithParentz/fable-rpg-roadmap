@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "79ed7ba1e9a56e2c6522564a34ca5ce491ada486e0398075063c60f842169e0d",
-  "syncedAt": "2026-10-17T22:37:20.817876+00:00",
+  "contentVersion": "bbef92b3200948a8bcc3bc3c5f108e4f1d8d970e96eecca65637bdf3bd7c49d7",
+  "syncedAt": "2026-10-17T22:50:11.084107+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1083,14 +1083,14 @@
         }
       ],
       "status": "In progress",
-      "priority": null,
+      "priority": "Now",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/26",
       "updatedAt": "2026-10-17T20:35:37Z",
       "order": 26,
-      "statusSource": "issue"
+      "statusSource": "project"
     }
   ]
 }
