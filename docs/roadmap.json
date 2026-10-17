@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "4312b570d4259def0efaa1e9de795845704754e40126df3876f6cb57b13ec536",
-  "syncedAt": "2026-10-17T22:55:08.552532+00:00",
+  "contentVersion": "6dfc6da2679a752d83b8fe95ed67bf77ba21441a320d4fd2987efb7e94846ca7",
+  "syncedAt": "2026-10-17T23:30:28.453749+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -976,7 +976,9 @@
       "summary": "The guided Blender/image asset workflow and isolated pilot are implemented locally. tools/asset-pipeline.ps1 provides inspect, plan, prepare and validate. Per-asset manifests bind source selection, dimensions, editable derivatives, GLB outputs and hash-bound evidence. Existing sources are preserved; gameplay scenes survive…",
       "scope": [
         "Alex's character-art hold and campaign cast remain unchanged. The main export preset now applies the existing gore-review exclusion list for broken, unused vendor VFX demo scenes. The previous sole launcher is preserved as an ignored non-launcher backup before rebuilding.",
-        "Asset Workshop follow-up (2026-10-17): private deployed app, implementation/evidence issue. Separate repository commit bac04d9 contains the prototype. Original barrel/guard adapter smokes and negative rig/texture checks passed; restricted Windows runner installation, potion reconciliation, scoped GitHub App setup, human review and one real asset PR remain open. Final release stays locked. Game pipeline and PLAN changes remain local and uncommitted; no art acceptance or hold change is implied."
+        "Asset Workshop follow-up (2026-10-17): private deployed app, implementation/evidence issue. Separate repository commit bac04d9 contains the prototype. Original barrel/guard adapter smokes and negative rig/texture checks passed; restricted Windows runner installation, potion reconciliation, scoped GitHub App setup, human review and one real asset PR remain open. Final release stays locked. Game pipeline and PLAN changes are now committed; no art acceptance or hold change is implied.",
+        "Asset Workshop multi-input follow-up: c1a027d in the separate app repo adds image/model/mixed entry routes and stage-to-stage revision handoff. A real uploaded image+GLB barrel completed restricted-runner preparation, Godot collision/import checks and three captures; image quote remained unapproved and no paid generation occurred. 17 API tests, two Python checks and five local/live browser flows pass. The potion's prior uncertain submission, human art/gameplay acceptance and GitHub App delivery remain open. See Workshop issue #1 for exact evidence and limits.",
+        "Repository consolidation (2026-10-17): Workshop source and its complete commit history through c1a027d now live in tools/asset-workshop in this game repository. The former sibling checkout is an ignored .local/legacy-checkout backup. Canonical Workshop tracking is this issue; previous separate-repository evidence remains historical. Godot excludes the web tooling via .gdignore. Private onboarding/dev credentials remain ignored and ACL-protected; installed ProgramData runner, Cloudflare resources, uploads and reviews retain their paths/identities. Build, 17 API tests, two Python tests, three local and two live Playwright tests, and npm 10 lockfile dry-run passed from the new location. Restricted runner remained running. No paid call or approval change."
       ],
       "evidence": [],
       "acceptance": [
@@ -1023,7 +1025,7 @@
       "maturity": "Prototype",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
-      "updatedAt": "2026-10-17T22:23:45Z",
+      "updatedAt": "2026-10-17T23:25:47Z",
       "order": 25,
       "statusSource": "project"
     },
@@ -1074,7 +1076,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/26",
-      "updatedAt": "2026-10-17T22:54:57Z",
+      "updatedAt": "2026-10-17T22:56:07Z",
       "order": 26,
       "statusSource": "project"
     },
