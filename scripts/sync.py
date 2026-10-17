@@ -74,6 +74,7 @@ def get_project() -> dict:
         for item in page['nodes']:
             result[item['id']] = {value.get('field', {}).get('name'): value.get('name', value.get('text'))
                                   for value in item['fieldValues']['nodes'] if value.get('field')}
+            result[item['id']]['position'] = len(result)
         if not page['pageInfo']['hasNextPage']:
             return result
         cursor = page['pageInfo']['endCursor']
@@ -175,7 +176,7 @@ def publish_item(issue: dict, project: dict, mapping: dict) -> dict | None:
     if issue['state'] == 'CLOSED':
         status = 'Done'
     milestone = re.search(r'^GAME-M(\d+)([abc]?)$', key)
-    order = int(milestone[1]) * 10 + (ord(milestone[2]) - 96 if milestone[2] else 0) if milestone else issue['number']
+    order = int(milestone[1]) * 10 + (ord(milestone[2]) - 96 if milestone[2] else 0) if milestone else fields.get('position', issue['number'])
     if key == 'ART-02':
         note = 'Character art remains on hold pending Alex’s models and the relevant review. Delivery and technical checks do not imply visual approval.'
     return {'key': key, 'number': issue['number'], 'title': plain(title), 'category': category,
