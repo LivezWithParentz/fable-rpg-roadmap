@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "04e93e089bbb6c42ab4b3a77d53b0a3f03f449496a9e9833a20310d1a64765c6",
-  "syncedAt": "2026-10-17T20:32:44.475939+00:00",
+  "contentVersion": "1224a3a398499f782edf53c440725ce738bf7440e2ca3949ec257e68838cf589",
+  "syncedAt": "2026-10-17T20:35:44.619652+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -133,7 +133,7 @@
       "acceptance": [
         {
           "done": false,
-          "text": "Naturally play all four first-quest Ã— Winter Supplies outcome combinations in the exported campaign."
+          "text": "Naturally play all four first-quest × Winter Supplies outcome combinations in the exported campaign."
         },
         {
           "done": false,
@@ -157,7 +157,7 @@
         },
         {
           "done": false,
-          "text": "Keep the M0â€“M12 Completed tracking directive separate from this follow-up evidence."
+          "text": "Keep the M0–M12 Completed tracking directive separate from this follow-up evidence."
         }
       ],
       "status": "Backlog",
@@ -374,7 +374,7 @@
         "Establish a runnable Godot project that imports, starts, exports for Windows x8664, and launches as a standalone build. This card records the M0 tracking status only."
       ],
       "evidence": [
-        "Fresh import/editor/startup validation passed. The retained Windows campaign executable successfully ran all 19 M9â€“M12 packaged restart processes."
+        "Fresh import/editor/startup validation passed. The retained Windows campaign executable successfully ran all 19 M9–M12 packaged restart processes."
       ],
       "acceptance": [
         {
@@ -516,7 +516,7 @@
         "Prove checkpoint and world-state persistence, safe restart reconstruction, previous-save backup, and rejection of corrupt or unsupported saves without overwriting them."
       ],
       "evidence": [
-        "Fresh testm3 passed. M9â€“M12 restart harnesses also passed against the retained campaign executable with dedicated acceptance slots."
+        "Fresh testm3 passed. M9–M12 restart harnesses also passed against the retained campaign executable with dedicated acceptance slots."
       ],
       "acceptance": [
         {
@@ -660,7 +660,7 @@
         "Package the integrated playable region as a Windows build and review the continuous world and the previously stated gameplay/save gates."
       ],
       "evidence": [
-        "Fresh import/editor/startup validation passed; all 19 retained-campaign M9â€“M12 restart processes passed."
+        "Fresh import/editor/startup validation passed; all 19 retained-campaign M9–M12 restart processes passed."
       ],
       "acceptance": [
         {
@@ -752,7 +752,7 @@
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
-      "note": "The intended 10â€“15 minute pacing and natural choice/readability review were not measured in this audit; QA-03 (#3) remains open.",
+      "note": "The intended 10–15 minute pacing and natural choice/readability review were not measured in this audit; QA-03 (#3) remains open.",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/18",
       "updatedAt": "2026-10-17T19:54:42Z",
       "order": 90,
@@ -1037,6 +1037,59 @@
       "updatedAt": "2026-10-17T20:05:33Z",
       "order": 25,
       "statusSource": "project"
+    },
+    {
+      "key": "OPS-04",
+      "number": 26,
+      "title": "Publish an automatically updated public roadmap",
+      "category": "ops",
+      "summary": "Publish an attractive public roadmap on GitHub Pages while keeping game source private. Status, priority, issue text and acceptance updates should flow automatically from GitHub.",
+      "scope": [
+        "Separate public repository and website with Now, Next, Later and Completed views, categories, search and expandable milestone detail.",
+        "A one-way publisher reads roadmap-labelled issues and Project fields on a five-minute GitHub Actions schedule, with a manual refresh option.",
+        "Source access uses separate read-only issue and Project credentials kept in encrypted Actions secrets. No code or credentials are published.",
+        "PLAN.md remains authoritative for scope, maturity and acceptance. The website does not write back to the game or change milestone acceptance.",
+        "Owner: @LivezWithParentz",
+        "Area: Website / roadmap publishing",
+        "Milestone: Post-M12 acceptance and production follow-ups",
+        "Execution status: In progress"
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Public website is deployed and works without a GitHub login."
+        },
+        {
+          "done": false,
+          "text": "New labelled issues, edits, Project status/priority moves, issue closure and reopening update the public data correctly."
+        },
+        {
+          "done": false,
+          "text": "Category filters, search, detail links, keyboard navigation and mobile layout work."
+        },
+        {
+          "done": false,
+          "text": "Refresh credentials can read source data but cannot read game code or modify source issues/Project status."
+        },
+        {
+          "done": false,
+          "text": "No game code, credentials, raw issue payloads or private assets appear in the public repository/site."
+        },
+        {
+          "done": false,
+          "text": "README, PLAN.md and agent guidance explain where to update work and how publication refreshes."
+        }
+      ],
+      "status": "In progress",
+      "priority": null,
+      "area": "Production tooling",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/26",
+      "updatedAt": "2026-10-17T20:35:37Z",
+      "order": 26,
+      "statusSource": "issue"
     }
   ]
 }
