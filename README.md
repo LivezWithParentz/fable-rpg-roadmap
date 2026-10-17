@@ -23,7 +23,7 @@ Two separate encrypted Actions secrets grant read access:
 - `PROJECT_READ_TOKEN`: classic token with **only `read:project`**. It reads the personal Project, without repository/code permissions.
 - `ISSUE_READ_TOKEN`: fine-grained token restricted to `godot-game-main`, with **Issues: read** and required **Metadata: read**. It cannot read code or change issues.
 
-The publisher repository's own `GITHUB_TOKEN` saves public snapshots; it cannot access the private game code. The source credentials expire **October 17, 2027** and must be rotated in repository Actions secrets before then. They are never included in browser JavaScript or JSON. `project-map.json` preserves known issue-to-Project item links when GitHub redacts relationship fields; it contains IDs only.
+The publisher repository's own `GITHUB_TOKEN` saves public snapshots; it cannot access the private game code. The source credentials expire **October 17, 2027** and must be rotated in repository Actions secrets before then. They are never included in browser JavaScript or JSON. The Project must remain public so the repository-only issue reader can discover membership IDs for new issues. GitHub still restricts source issue details to repository members; the website publishes selected text separately. `project-map.json` caches issue-to-Project membership IDs only. Making the Project private again breaks discovery for new items; existing cached links continue to refresh.
 
 ## Local preview and refresh
 

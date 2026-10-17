@@ -104,8 +104,14 @@ def sections(body: str) -> dict[str, list[str]]:
 
 
 def text_lines(lines: list[str]) -> list[str]:
-    return [plain(re.sub(r'^[-+]\s*', '', line)) for line in lines
-            if not re.match(r'^[-*]\s*\[[ xX]\]', line) and not line.startswith('|')]
+    result = []
+    for line in lines:
+        if re.match(r'^[-*]\s*\[[ xX]\]', line) or line.startswith('|'):
+            continue
+        cleaned = plain(re.sub(r'^[-+]\s*', '', line))
+        if not re.match(r'^(Owner|Area|Milestone|Execution status|Feature maturity|Documentation):', cleaned):
+            result.append(cleaned)
+    return result
 
 
 def first_section(parts: dict, names: list[str]) -> list[str]:
