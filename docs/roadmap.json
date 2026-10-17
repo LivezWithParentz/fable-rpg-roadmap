@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "bf1ed8541df17ac8e84b36c492fadb15e07517e4766462f0ad02d43f023783d3",
-  "syncedAt": "2026-10-17T22:53:12.684320+00:00",
+  "contentVersion": "4312b570d4259def0efaa1e9de795845704754e40126df3876f6cb57b13ec536",
+  "syncedAt": "2026-10-17T22:55:08.552532+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1032,47 +1032,49 @@
       "number": 26,
       "title": "Publish an automatically updated public roadmap",
       "category": "ops",
-      "summary": "Publish an attractive public roadmap on GitHub Pages while keeping game source private. Status, priority, issue text and acceptance updates should flow automatically from GitHub.",
+      "summary": "Publish an attractive public roadmap on GitHub Pages while keeping game source private. Status, priority, issue text and acceptance updates flow automatically from GitHub.",
       "scope": [
         "Separate public repository and website with Now, Next, Later and Completed views, categories, search and expandable milestone detail.",
-        "A one-way publisher reads roadmap-labelled issues and Project fields on a five-minute GitHub Actions schedule, with a manual refresh option.",
-        "Source access uses separate read-only issue and Project credentials kept in encrypted Actions secrets. No code or credentials are published.",
-        "PLAN.md remains authoritative for scope, maturity and acceptance. The website does not write back to the game or change milestone acceptance."
+        "A one-way publisher reads roadmap-labelled issues and Project fields on a five-minute GitHub Actions schedule, subject to GitHub scheduling delays. Run workflow provides a manual refresh; open pages check for new snapshots every minute.",
+        "Source access uses separate read-only issue and Project credentials in encrypted Actions secrets. The Project is public for automatic membership discovery; the game repository remains private.",
+        "PLAN.md remains authoritative for scope, maturity and acceptance. The website cannot update source issues, Project fields or milestone maturity. Alex's art hold remains active."
       ],
-      "evidence": [],
+      "evidence": [
+        "Website implementation commits 12aa0a3, 9b11bd5, ae34b06 and 3dd0317 are pushed. Run 39076873397 passed refresh and Pages deployment after the concurrent snapshot/site push handling was improved. Lifecycle runs 39076748715, 39076795458 and 39076842317 demonstrated automatic new membership, Next/Review, closure/Done, and reopening/In progress. The already-open browser page refreshed itself and removed the reopened card from Completed. Source repository visibility was verified private; public wrapper visibility was verified public. All 15 individual completed gameplay milestone cards remain present. No game maturity, gameplay acceptance or art approval changed."
+      ],
       "acceptance": [
         {
-          "done": false,
-          "text": "Public website is deployed and works without a GitHub login."
+          "done": true,
+          "text": "Public website deployed; anonymous browser returned HTTP 200 and loaded milestone details."
         },
         {
-          "done": false,
-          "text": "New labelled issues, edits, Project status/priority moves, issue closure and reopening update the public data correctly."
+          "done": true,
+          "text": "New labelled issues, description/checklist edits, Project status/priority moves, closure and reopening updated the public data and intended views; issue #27 records the controlled lifecycle check."
         },
         {
-          "done": false,
-          "text": "Category filters, search, detail links, keyboard navigation and mobile layout work."
+          "done": true,
+          "text": "Category filters, M12c search/detail deep links, Escape/tab keyboard controls and 390 px mobile layout passed; dialog is labelled and there is no horizontal overflow."
         },
         {
-          "done": false,
-          "text": "Refresh credentials can read source data but cannot read game code or modify source issues/Project status."
+          "done": true,
+          "text": "Source credentials are read-only: Issues/Metadata on the selected private repository and read:project only on the personal Project; neither grants game code access or source write access. Expiry October 17, 2027 is documented."
         },
         {
-          "done": false,
-          "text": "No game code, credentials, raw issue payloads or private assets appear in the public repository/site."
+          "done": true,
+          "text": "Public tracked files and Pages artifact contain only website, selected roadmap JSON, ID mapping and publisher files. No game scenes/scripts/assets, credentials or raw issue payloads were copied."
         },
         {
-          "done": false,
-          "text": "README, PLAN.md and agent guidance explain where to update work and how publication refreshes."
+          "done": true,
+          "text": "README, PLAN.md and agent guidance explain source updates and automatic/manual publication. Scoped documentation commit a2f60f6 is pushed; concurrent asset-pipeline edits remain separate."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Now",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/26",
-      "updatedAt": "2026-10-17T20:35:37Z",
+      "updatedAt": "2026-10-17T22:54:57Z",
       "order": 26,
       "statusSource": "project"
     },
@@ -1083,15 +1085,15 @@
       "category": "ops",
       "summary": "Live publication check: new items, board changes and evidence stay in sync.",
       "scope": [
-        "This infrastructure acceptance record exercises automatic discovery, priority and status changes, checklist edits, closure and reopening. The close/reopen cycle is a controlled publishing check; it does not establish game milestone maturity or manual acceptance."
+        "This infrastructure acceptance record exercised automatic discovery, priority and status changes, checklist edits, closure and reopening. The controlled lifecycle check does not change game milestone maturity or manual acceptance."
       ],
       "evidence": [
-        "Issue #27 was auto-added as Backlog, moved to Next / Review, and published with statusSource=project using the dedicated read-only credentials. This fixture is now being closed and reopened to verify the publication lifecycle."
+        "Issue #27 was auto-added as Backlog. The deployed public JSON and browser showed Next / Review, then Done, then In progress after reopening, all with statusSource=project. The update used separate read-only issue and Project credentials. Pages runs 39076748715, 39076795458 and 39076842317 published the lifecycle states. This verification record is closed after its controlled test cycle; no milestone maturity or game acceptance changed."
       ],
       "acceptance": [
         {
           "done": true,
-          "text": "New labelled issue appears with automatic Project membership."
+          "text": "New labelled issue appeared with automatic Project membership."
         },
         {
           "done": true,
@@ -1099,20 +1101,20 @@
         },
         {
           "done": true,
-          "text": "Issue description and checklist edits are exercised in the next publication."
+          "text": "Updated outcome text and three checked items reached the public snapshot."
         },
         {
-          "done": false,
-          "text": "Closure and reopening are reflected in Completed and active views."
+          "done": true,
+          "text": "Closure appeared in Completed; reopening returned In progress / Next and removed the card from Completed on the already-open page's automatic refresh."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Next",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/27",
-      "updatedAt": "2026-10-17T22:52:52Z",
+      "updatedAt": "2026-10-17T22:54:14Z",
       "order": 27,
       "statusSource": "project"
     }
