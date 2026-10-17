@@ -12,7 +12,7 @@ The publisher reads every issue labelled `roadmap`, its title, selected descript
 
 Keep source issues updated. Useful description headings: `Outcome`, `Milestone scope`, `Scope and current evidence`, `Acceptance checklist`, and `Evidence recorded in PLAN.md`. An optional `Public roadmap` section can provide a public-facing summary. Code blocks and unrelated sections are excluded. This is one-way publication; the website does not update issues, `PLAN.md`, or feature maturity.
 
-`PLAN.md` in the private game repository remains authoritative for scope and milestone evidence. Completed tracking does not imply every manual acceptance gate passed. Character-art review remains held pending Alex's models.
+`PLAN.md` in the private game repository remains authoritative for scope and milestone evidence. Completed tracking does not imply every manual acceptance gate passed. The source repository's **Auto-close issues with merged linked pull requests** setting and the Project's merge/auto-close workflows are disabled. Close source issues explicitly after acceptance; merging code does not grant it. Character-art review remains held pending Alex's models.
 
 ## Credentials and publication boundary
 
