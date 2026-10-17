@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "bbef92b3200948a8bcc3bc3c5f108e4f1d8d970e96eecca65637bdf3bd7c49d7",
-  "syncedAt": "2026-10-17T22:50:11.084107+00:00",
+  "contentVersion": "f6d409f64322afdda2e8e2c4321ad61a7474854f288e71f88b7d540fff41e4ab",
+  "syncedAt": "2026-10-17T22:51:40.497682+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -13,11 +13,7 @@
         "Reproduce the heavy-attack visual issue using the assigned Whirlwind snapshot; preserve the accepted Whirlwind behavior.",
         "Review movement commitment and recovery, camera comfort, attack transitions, target feedback, guard/parry response, and special-move readability in the campaign context.",
         "Fix only issues confirmed in the review; run relevant focused checks and package a fresh campaign build after source changes.",
-        "No prior review executable or export proves that the current source has been integrated into the campaign launcher.",
-        "Owner: @LivezWithParentz",
-        "Area: Combat / release review",
-        "Milestone: Post-M12 acceptance and production follow-ups",
-        "Execution status: Backlog"
+        "No prior review executable or export proves that the current source has been integrated into the campaign launcher."
       ],
       "evidence": [],
       "acceptance": [
@@ -77,11 +73,7 @@
         "3. Open the road gate; clear or bypass the road and camp raiders.",
         "4. Find the hidden chest and collect the ledger.",
         "5. Complete each first-quest outcome from a fresh start. For each branch, save, exit the executable, relaunch, and confirm the selected outcome, chest state, rewards, and world reactions persist.",
-        "Review route clarity and controls while playing, including inventory, merchant, dialogue/quest HUD, mouse capture, camera, sword reach, warnings, audio balance, and continuous-route performance.",
-        "Owner: @LivezWithParentz",
-        "Area: Gameplay / route acceptance",
-        "Milestone: Post-M12 acceptance and production follow-ups",
-        "Execution status: Backlog"
+        "Review route clarity and controls while playing, including inventory, merchant, dialogue/quest HUD, mouse capture, camera, sword reach, warnings, audio balance, and continuous-route performance."
       ],
       "evidence": [],
       "acceptance": [
@@ -411,11 +403,7 @@
       "category": "ops",
       "summary": "Verify a new roadmap issue is automatically added to the Project in Backlog.",
       "scope": [
-        "Verify a new roadmap issue is automatically added to the Project in Backlog.",
-        "Owner: @LivezWithParentz",
-        "Area: Release review",
-        "Milestone: Post-M12 acceptance and production follow-ups",
-        "Execution status: Backlog"
+        "Verify a new roadmap issue is automatically added to the Project in Backlog."
       ],
       "evidence": [],
       "acceptance": [
@@ -1049,11 +1037,7 @@
         "Separate public repository and website with Now, Next, Later and Completed views, categories, search and expandable milestone detail.",
         "A one-way publisher reads roadmap-labelled issues and Project fields on a five-minute GitHub Actions schedule, with a manual refresh option.",
         "Source access uses separate read-only issue and Project credentials kept in encrypted Actions secrets. No code or credentials are published.",
-        "PLAN.md remains authoritative for scope, maturity and acceptance. The website does not write back to the game or change milestone acceptance.",
-        "Owner: @LivezWithParentz",
-        "Area: Website / roadmap publishing",
-        "Milestone: Post-M12 acceptance and production follow-ups",
-        "Execution status: In progress"
+        "PLAN.md remains authoritative for scope, maturity and acceptance. The website does not write back to the game or change milestone acceptance."
       ],
       "evidence": [],
       "acceptance": [
@@ -1090,6 +1074,44 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/26",
       "updatedAt": "2026-10-17T20:35:37Z",
       "order": 26,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-05",
+      "number": 27,
+      "title": "Verify automatic roadmap publication lifecycle",
+      "category": "ops",
+      "summary": "Verify that new roadmap work and board changes publish automatically without granting the publisher access to game code.",
+      "scope": [
+        "This infrastructure acceptance record exercises new-item discovery, priority and status changes, checklist edits, closure and reopening. It does not change game milestone maturity or manual acceptance."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "New labelled issue appears with automatic Project membership."
+        },
+        {
+          "done": false,
+          "text": "Project priority and execution changes reach the public snapshot."
+        },
+        {
+          "done": false,
+          "text": "Issue description and checklist edits reach the public snapshot."
+        },
+        {
+          "done": false,
+          "text": "Closure and reopening are reflected in Completed and active views."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Production tooling",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/27",
+      "updatedAt": "2026-10-17T22:50:43Z",
+      "order": 27,
       "statusSource": "project"
     }
   ]
