@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "ee088bce844088555f094933ba622caf47cc453776cdf6735973444c370a6920",
-  "syncedAt": "2026-10-17T22:52:23.566430+00:00",
+  "contentVersion": "bf1ed8541df17ac8e84b36c492fadb15e07517e4766462f0ad02d43f023783d3",
+  "syncedAt": "2026-10-17T22:53:12.684320+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1106,13 +1106,13 @@
           "text": "Closure and reopening are reflected in Completed and active views."
         }
       ],
-      "status": "Done",
+      "status": "In progress",
       "priority": "Next",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/27",
-      "updatedAt": "2026-10-17T22:52:13Z",
+      "updatedAt": "2026-10-17T22:52:52Z",
       "order": 27,
       "statusSource": "project"
     }
