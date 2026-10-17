@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "04e93e089bbb6c42ab4b3a77d53b0a3f03f449496a9e9833a20310d1a64765c6",
+  "syncedAt": "2026-10-17T20:32:44.475939+00:00",
+  "items": [
+    {
+      "key": "QA-01",
+      "number": 1,
+      "title": "Complete campaign combat review and merge gate",
+      "category": "qa",
+      "summary": "Complete hands-on combat acceptance in the current campaign build and merge only accepted source changes into the sole campaign launcher.",
+      "scope": [
+        "Reproduce the heavy-attack visual issue using the assigned Whirlwind snapshot; preserve the accepted Whirlwind behavior.",
+        "Review movement commitment and recovery, camera comfort, attack transitions, target feedback, guard/parry response, and special-move readability in the campaign context.",
+        "Fix only issues confirmed in the review; run relevant focused checks and package a fresh campaign build after source changes.",
+        "No prior review executable or export proves that the current source has been integrated into the campaign launcher.",
+        "Owner: @LivezWithParentz",
+        "Area: Combat / release review",
+        "Milestone: Post-M12 acceptance and production follow-ups",
+        "Execution status: Backlog"
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Reproduce and resolve, or document an explicit disposition for, the heavy-attack visual issue."
+        },
+        {
+          "done": false,
+          "text": "Review movement, camera comfort, remaining combos, target feedback, guard/parry, and special moves in the fresh campaign build."
+        },
+        {
+          "done": false,
+          "text": "Confirm successful melee contacts do not show unintended cosmetic effects and interruptions do not leave queued attacks or stuck combat states."
+        },
+        {
+          "done": false,
+          "text": "Run relevant focused checks after source changes and record their exact results."
+        },
+        {
+          "done": false,
+          "text": "Export the campaign launcher from the reviewed source; record the build date, source revision, and SHA-256 in PLAN.md."
+        },
+        {
+          "done": false,
+          "text": "Record manual observations, failures, and any remaining gates in PLAN.md."
+        },
+        {
+          "done": false,
+          "text": "Merge/re-export only after the review gate passes; builds/fableopenworld.exe remains the sole campaign launcher."
+        },
+        {
+          "done": false,
+          "text": "Keep manual feel acceptance distinct from automated checks and feature maturity."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Now",
+      "area": "Combat",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
+      "updatedAt": "2026-10-17T19:56:17Z",
+      "order": 1,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-02",
+      "number": 2,
+      "title": "Complete M7 route and branch restart acceptance",
+      "category": "qa",
+      "summary": "Complete hands-on acceptance of the original bandit-dispute route and its persistent branches in the current campaign launcher.",
+      "scope": [
+        "Start a fresh game and follow the actual player-facing route:",
+        "1. Speak with Elin and understand the missing-ledger investigation.",
+        "2. Enter Tomas's workshop and learn the relevant context.",
+        "3. Open the road gate; clear or bypass the road and camp raiders.",
+        "4. Find the hidden chest and collect the ledger.",
+        "5. Complete each first-quest outcome from a fresh start. For each branch, save, exit the executable, relaunch, and confirm the selected outcome, chest state, rewards, and world reactions persist.",
+        "Review route clarity and controls while playing, including inventory, merchant, dialogue/quest HUD, mouse capture, camera, sword reach, warnings, audio balance, and continuous-route performance.",
+        "Owner: @LivezWithParentz",
+        "Area: Gameplay / route acceptance",
+        "Milestone: Post-M12 acceptance and production follow-ups",
+        "Execution status: Backlog"
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "On a fresh game, speak to Elin, enter Tomas's workshop, open the road gate, clear or bypass road/camp raiders, find the hidden chest, and collect the ledger."
+        },
+        {
+          "done": false,
+          "text": "Complete both first-quest outcomes from fresh games; verify commitment is clear and contradictory endings cannot occur."
+        },
+        {
+          "done": false,
+          "text": "Save, exit, and reopen the campaign launcher for each branch; confirm world reactions, chest state, and rewards match the selected outcome."
+        },
+        {
+          "done": false,
+          "text": "Review inventory, merchant, dialogue/quest HUD, mouse capture, camera, sword reach, warnings, audio balance, and route performance."
+        },
+        {
+          "done": false,
+          "text": "Record build/source revision, settings, observations, failures, and remaining issues in PLAN.md; update M7 maturity only under its stated gate."
+        },
+        {
+          "done": false,
+          "text": "Use builds/fableopenworld.exe, the current campaign launcher."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/2",
+      "updatedAt": "2026-10-17T19:56:18Z",
+      "order": 2,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-03",
+      "number": 3,
+      "title": "Manually accept M9 Winter Supplies outcomes and restart paths",
+      "category": "qa",
+      "summary": "Accept Winter Supplies as a complete aftermath quest with two fair, persistent outcomes and correct reward delivery across both first-quest branches.",
+      "scope": [
+        "Accept Winter Supplies as a complete aftermath quest with two fair, persistent outcomes and correct reward delivery across both first-quest branches."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Naturally play all four first-quest Ã— Winter Supplies outcome combinations in the exported campaign."
+        },
+        {
+          "done": false,
+          "text": "Confirm the decision costs are explained before commitment and neither choice contradicts or erases the first-quest outcome."
+        },
+        {
+          "done": false,
+          "text": "Confirm the shelter/supply, dialogue, and settlement-reputation reactions match each outcome."
+        },
+        {
+          "done": false,
+          "text": "Confirm rewards are delivered once and the tracked shipment objective survives ordinary inventory actions."
+        },
+        {
+          "done": false,
+          "text": "Save, exit, and relaunch for each branch; verify the same outcome and reactions reconstruct."
+        },
+        {
+          "done": false,
+          "text": "Record build/source revision, route steps, observations, failed steps, and remaining issues in PLAN.md."
+        },
+        {
+          "done": false,
+          "text": "Keep the M0â€“M12 Completed tracking directive separate from this follow-up evidence."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/3",
+      "updatedAt": "2026-10-17T19:56:19Z",
+      "order": 3,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-04",
+      "number": 4,
+      "title": "Manually accept M10 routines and personal relationships",
+      "category": "qa",
+      "summary": "Complete hands-on M10 acceptance for daily routines, personal relationships, optional favours, and save/reopen behavior in the exported campaign.",
+      "scope": [
+        "Complete hands-on M10 acceptance for daily routines, personal relationships, optional favours, and save/reopen behavior in the exported campaign."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Play and observe a complete in-game day, including work/evening/home transitions; important NPCs remain reachable and routines are understandable."
+        },
+        {
+          "done": false,
+          "text": "Confirm menu/dialogue/loading clock pauses, no offline time advancement, and waiting until morning through the public resting point."
+        },
+        {
+          "done": false,
+          "text": "Complete both first-quest routes and the optional Elin, Mira, and Tomas favours/benefits through the exported UI."
+        },
+        {
+          "done": false,
+          "text": "Confirm merchant hours, quest NPC destinations, home-doorway conversations, and the absent mayor's state remain clear and usable."
+        },
+        {
+          "done": false,
+          "text": "Save and Continue at night; verify time, trust, favours, unique benefits, and NPC destinations persist without duplicate claims."
+        },
+        {
+          "done": false,
+          "text": "Inspect camera and art readability and measure continuous 1080p performance; record build/source revision, settings, observations, and remaining gates in PLAN.md."
+        },
+        {
+          "done": false,
+          "text": "Keep automation evidence distinct from manual acceptance and feature maturity."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/4",
+      "updatedAt": "2026-10-17T19:56:20Z",
+      "order": 4,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-05",
+      "number": 5,
+      "title": "Complete campaign gore acceptance and performance review",
+      "category": "qa",
+      "summary": "Close the campaign gore review only after settings, lethal/nonlethal/fallback behavior, rewards and recovery, presentation, and performance have evidence.",
+      "scope": [
+        "Close the campaign gore review only after settings, lethal/nonlethal/fallback behavior, rewards and recovery, presentation, and performance have evidence."
+      ],
+      "evidence": [
+        "The revised prepared Raider package was visually approved for the exact delivered asset. This does not accept every character model or the complete gameplay/performance slice. Focused and packaged checks are recorded in PLAN.md and the review manifest. The remaining gate combines campaign-context behavior, settings/fallbacks, save/recovery, and a measured worst-case combat review."
+      ],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Verify Off/Blood/Full settings, lethal/nonlethal behavior, and blood-only fallback for unsupported models in the campaign."
+        },
+        {
+          "done": false,
+          "text": "Verify quest rewards are issued once and save/recovery integrity and normal campaign behavior are preserved after gore events."
+        },
+        {
+          "done": false,
+          "text": "Inspect the prepared Raider and general gore presentation in campaign context; record the exact accepted asset/source revision and captures."
+        },
+        {
+          "done": false,
+          "text": "Measure worst-case combat performance on the target setup; record resolution, settings, observed frame rate, and scenario; resolve or explicitly retain open gates."
+        },
+        {
+          "done": false,
+          "text": "Rerun relevant focused and packaged checks after changes; update PLAN.md and the review package manifest with exact results."
+        },
+        {
+          "done": false,
+          "text": "Keep the user-approved Raider art scope specific to that package; do not treat it as universal character-art approval."
+        },
+        {
+          "done": false,
+          "text": "Do not mark the broader slice Validated from focused automation or visual review alone."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
+      "updatedAt": "2026-10-17T19:34:57Z",
+      "order": 5,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-01",
+      "number": 6,
+      "title": "Reconcile grounded NPC image-to-model pilot",
+      "category": "art",
+      "summary": "Reconcile the existing grounded image-to-model pilot's final state and actual billing before deciding whether more generation or extraction work is justified.",
+      "scope": [
+        "Reconcile the existing grounded image-to-model pilot's final state and actual billing before deciding whether more generation or extraction work is justified."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Determine from the provider/task record whether the pilot completed, failed, or remains uncertain; save the actual output and task state."
+        },
+        {
+          "done": false,
+          "text": "Reconcile actual credits billed and current balance against the 500-credit floor; update billing.md and the preparation state without overwriting originals."
+        },
+        {
+          "done": false,
+          "text": "Archive task metadata, original preview, and output before evaluating any derivative; keep generated results out of production until reviewed."
+        },
+        {
+          "done": false,
+          "text": "Review identity uniqueness and grounded style; record a decision and unresolved visual/technical issues."
+        },
+        {
+          "done": false,
+          "text": "Keep generation on hold until the pilot is reconciled and any next exact proposal is separately approved."
+        },
+        {
+          "done": false,
+          "text": "Record remaining modular extraction, shared-rig binding, twelve-clip, and visual/runtime gates in PLAN.md."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Now",
+      "area": "NPC production",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/6",
+      "updatedAt": "2026-10-17T19:35:10Z",
+      "order": 6,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-02",
+      "number": 7,
+      "title": "Keep character-art hold until Alex model delivery and review",
+      "category": "art",
+      "summary": "Resume deferred character-art review only after Alex's model delivery; accept, request focused revisions, or keep the work in study status based on the project's visual and technical gates.",
+      "scope": [
+        "Resume deferred character-art review only after Alex's model delivery; accept, request focused revisions, or keep the work in study status based on the project's visual and technical gates."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Keep bulk character-art production on hold while Alex's models are pending."
+        },
+        {
+          "done": false,
+          "text": "On delivery, preserve editable sources and record provenance, exact revisions, exports, rig/clip context, and review captures."
+        },
+        {
+          "done": false,
+          "text": "Review anatomy, face/eyes, hair, clothing interfaces, deformation, materials, gameplay-distance appearance, and rig/animation compatibility."
+        },
+        {
+          "done": false,
+          "text": "Check the applicable ARTPLAN gate; document specific pass/fail observations and requested revisions."
+        },
+        {
+          "done": false,
+          "text": "Record the decision as accepted, revise, or study only; delivery alone does not establish approval."
+        },
+        {
+          "done": false,
+          "text": "Update PLAN.md with the decision and evidence before advancing dependent art work."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Art",
+      "maturity": null,
+      "note": "Character art remains on hold pending Alex’s models and the relevant review. Delivery and technical checks do not imply visual approval.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/7",
+      "updatedAt": "2026-10-17T19:35:18Z",
+      "order": 7,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M0",
+      "number": 8,
+      "title": "Runnable project",
+      "category": "game",
+      "summary": "Establish a runnable Godot project that imports, starts, exports for Windows x8664, and launches as a standalone build. This card records the M0 tracking status only.",
+      "scope": [
+        "Establish a runnable Godot project that imports, starts, exports for Windows x8664, and launches as a standalone build. This card records the M0 tracking status only."
+      ],
+      "evidence": [
+        "Fresh import/editor/startup validation passed. The retained Windows campaign executable successfully ran all 19 M9â€“M12 packaged restart processes."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M0 scope and its recorded evidence are preserved in PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "M0 has its own Completed tracking card."
+        },
+        {
+          "done": true,
+          "text": "This card does not claim later milestones, remaining historical gates, or post-milestone follow-ups passed."
+        },
+        {
+          "done": true,
+          "text": "Planned/Prototype/Implemented/Validated maturity remains exactly as recorded in PLAN.md."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "No new export was produced. The retained campaign binary is dated 2026-10-15 and does not establish inclusion of every later source change.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/8",
+      "updatedAt": "2026-10-17T19:54:33Z",
+      "order": 0,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-01",
+      "number": 9,
+      "title": "Verify roadmap Project automation setup",
+      "category": "ops",
+      "summary": "Verify a new roadmap issue is automatically added to the Project in Backlog.",
+      "scope": [
+        "Verify a new roadmap issue is automatically added to the Project in Backlog.",
+        "Owner: @LivezWithParentz",
+        "Area: Release review",
+        "Milestone: Post-M12 acceptance and production follow-ups",
+        "Execution status: Backlog"
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "A new open issue labelled roadmap is auto-added to the Project in Backlog."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Production tooling",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/9",
+      "updatedAt": "2026-10-17T19:35:30Z",
+      "order": 9,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M1",
+      "number": 10,
+      "title": "Movement and interaction",
+      "category": "game",
+      "summary": "Third-person movement and camera, obstacle/slope traversal, contextual interaction targeting, NPC/pickup/door interaction, pause input suppression, and readable HUD/pause feedback.",
+      "scope": [
+        "Third-person movement and camera, obstacle/slope traversal, contextual interaction targeting, NPC/pickup/door interaction, pause input suppression, and readable HUD/pause feedback."
+      ],
+      "evidence": [
+        "Fresh testm1 passed; testdodgeroll also passed."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M1 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "This audit did not repeat a natural mouse/camera comfort playtest.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/10",
+      "updatedAt": "2026-10-17T19:54:34Z",
+      "order": 10,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M2",
+      "number": 11,
+      "title": "Melee encounter",
+      "category": "game",
+      "summary": "A bounded melee loop with one hit per sword swing, recovery and dodge states, enemy telegraph/attack/recovery, death, and checkpoint reset.",
+      "scope": [
+        "A bounded melee loop with one hit per sword swing, recovery and dodge states, enemy telegraph/attack/recovery, death, and checkpoint reset."
+      ],
+      "evidence": [
+        "Fresh testm2 and testcombatprototype passed, including repeated fights and recovery."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M2 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "Combat presentation/feel follow-up QA-01 (#1), including the reported heavy-attack visual issue, remains separate.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/11",
+      "updatedAt": "2026-10-17T19:54:34Z",
+      "order": 20,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M3",
+      "number": 12,
+      "title": "Persistence proof",
+      "category": "game",
+      "summary": "Prove checkpoint and world-state persistence, safe restart reconstruction, previous-save backup, and rejection of corrupt or unsupported saves without overwriting them.",
+      "scope": [
+        "Prove checkpoint and world-state persistence, safe restart reconstruction, previous-save backup, and rejection of corrupt or unsupported saves without overwriting them."
+      ],
+      "evidence": [
+        "Fresh testm3 passed. M9â€“M12 restart harnesses also passed against the retained campaign executable with dedicated acceptance slots."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M3 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "No new manual save-menu playthrough was performed.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/12",
+      "updatedAt": "2026-10-17T19:54:36Z",
+      "order": 30,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M4",
+      "number": 13,
+      "title": "Small RPG loop",
+      "category": "game",
+      "summary": "Connect shared combat, inventory, item resources, persistent pickups/cache rewards, merchant and inventory menus into a small playable RPG loop.",
+      "scope": [
+        "Connect shared combat, inventory, item resources, persistent pickups/cache rewards, merchant and inventory menus into a small playable RPG loop."
+      ],
+      "evidence": [
+        "Fresh testm4shared and testm5 passed, covering trade/inventory/save behavior and the explosion unlock after either first-quest outcome."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M4 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "A complete natural inventory/shop playthrough was not repeated; the UI wiring was inspected in source.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/13",
+      "updatedAt": "2026-10-17T19:54:37Z",
+      "order": 40,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M5",
+      "number": 14,
+      "title": "Choice and consequence",
+      "category": "game",
+      "summary": "Make the first quest's two outcomes exclusive, understandable, evidence-gated, once-rewarded, reactive in the world, and persistent across load/restart, including save migration.",
+      "scope": [
+        "Make the first quest's two outcomes exclusive, understandable, evidence-gated, once-rewarded, reactive in the world, and persistent across load/restart, including save migration."
+      ],
+      "evidence": [
+        "Fresh testm5 passed both branches, reward guards, reactions, load/restart and migration. Packaged M9 checks passed all four first/second-quest outcome combinations."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M5 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "Natural route/readability acceptance remains covered by QA-02 (#2).",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/14",
+      "updatedAt": "2026-10-17T19:54:38Z",
+      "order": 50,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M6",
+      "number": 15,
+      "title": "Integrated region",
+      "category": "game",
+      "summary": "Integrate workshop entry, interactable NPCs, road-to-camp traversal, regular enemies and an optional ambusher, leader strength comparison, hidden chest reward, and versioned persistence.",
+      "scope": [
+        "Integrate workshop entry, interactable NPCs, road-to-camp traversal, regular enemies and an optional ambusher, leader strength comparison, hidden chest reward, and versioned persistence."
+      ],
+      "evidence": [
+        "Fresh testm6 passed interior access, NPC availability, road traversal, enemy/leader comparison, hidden rewards and migration. testleaderescape passed."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M6 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "This is the authored compact region scope; later story-region campaigns are outside M6.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/15",
+      "updatedAt": "2026-10-17T19:54:39Z",
+      "order": 60,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M7",
+      "number": 16,
+      "title": "Validate and package",
+      "category": "game",
+      "summary": "Package the integrated playable region as a Windows build and review the continuous world and the previously stated gameplay/save gates.",
+      "scope": [
+        "Package the integrated playable region as a Windows build and review the continuous world and the previously stated gameplay/save gates."
+      ],
+      "evidence": [
+        "Fresh import/editor/startup validation passed; all 19 retained-campaign M9â€“M12 restart processes passed."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M7 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The original full-route exported UI/readability/audio/performance acceptance is not fully established by this audit. QA-02 (#2) stays open. Six helper defaults and timeout cleanup need repair in OPS-02 (#24).",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/16",
+      "updatedAt": "2026-10-17T19:54:40Z",
+      "order": 70,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M8",
+      "number": 17,
+      "title": "Combat feel, animation, and specialization",
+      "category": "game",
+      "summary": "Provide combat styles, animation presentation, training/specialization, follow-ups, and persistence while preserving the established combat contracts.",
+      "scope": [
+        "Provide combat styles, animation presentation, training/specialization, follow-ups, and persistence while preserving the established combat contracts."
+      ],
+      "evidence": [
+        "Fresh testm8, testtraining, testleaderescape, testdodgeroll and testcombatprototype passed."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M8 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The current heavy-attack visual/feel follow-up remains QA-01 (#1). Headless checks do not accept final animation feel.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/17",
+      "updatedAt": "2026-10-17T19:54:40Z",
+      "order": 80,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M9",
+      "number": 18,
+      "title": "Winter Supplies",
+      "category": "game",
+      "summary": "Add the second quest after either bandit-dispute outcome: investigate the missing shipment, recover it, choose relief or trade, grant distinct once-only rewards, and reconstruct the selected world/dialogue result after restart.",
+      "scope": [
+        "Add the second quest after either bandit-dispute outcome: investigate the missing shipment, recover it, choose relief or trade, grant distinct once-only rewards, and reconstruct the selected world/dialogue result after restart."
+      ],
+      "evidence": [
+        "Fresh testm9 and testm9route passed. Eight packaged processes passed all four outcome combinations across write/reopen."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M9 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The intended 10â€“15 minute pacing and natural choice/readability review were not measured in this audit; QA-03 (#3) remains open.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/18",
+      "updatedAt": "2026-10-17T19:54:42Z",
+      "order": 90,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M10",
+      "number": 19,
+      "title": "Schedules and personal trust",
+      "category": "game",
+      "summary": "Add a shared game clock, authored NPC work/evening/home routines, reachable quest conversations, and optional remembered relationships/favours with persistent once-only benefits.",
+      "scope": [
+        "Add a shared game clock, authored NPC work/evening/home routines, reachable quest conversations, and optional remembered relationships/favours with persistent once-only benefits."
+      ],
+      "evidence": [
+        "Fresh testm10 and testm10routes passed. Both packaged night/time/favour/benefit restart processes passed."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M10 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The accelerated routine-cycle checks do not replace a natural full-day 24-minute playthrough; QA-04 (#4) remains open.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/19",
+      "updatedAt": "2026-10-17T19:54:43Z",
+      "order": 100,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M11",
+      "number": 20,
+      "title": "Second region and travel",
+      "category": "game",
+      "summary": "Add a distinct woodland region and explicit travel while preserving world state across regions, saves, reloads, and recovery.",
+      "scope": [
+        "Add a distinct woodland region and explicit travel while preserving world state across regions, saves, reloads, and recovery."
+      ],
+      "evidence": [
+        "Fresh testm11 and testm11route passed. Three packaged region/return/Continue processes passed."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M11 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The original single-loaded-region/fade design was intentionally superseded by the documented 2026-10-15 continuous world. All districts now stay resident and normal crossing is on foot; the older explicit-travel API remains covered.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/20",
+      "updatedAt": "2026-10-17T19:54:44Z",
+      "order": 110,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M12a",
+      "number": 21,
+      "title": "Property",
+      "category": "game",
+      "summary": "Add one purchasable cottage with a single gold debit, ownership sign, usable bed, safe rest/heal, and personal checkpoint.",
+      "scope": [
+        "Add one purchasable cottage with a single gold debit, ownership sign, usable bed, safe rest/heal, and personal checkpoint."
+      ],
+      "evidence": [
+        "Fresh testm12a and testm12route passed. Packaged guard/cooperative runs included cottage Continue/restoration and persisted ownership."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M12a has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The prior user-confirmed manual M12 acceptance remains the manual evidence; this was a fresh automated recheck.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/21",
+      "updatedAt": "2026-10-17T19:54:45Z",
+      "order": 121,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M12b",
+      "number": 22,
+      "title": "Local faction control",
+      "category": "game",
+      "summary": "Add one mill-control decision between a guard charter and local cooperative, with one canonical controller reflected in dialogue, banners, occupants, and saved/restarted presentation.",
+      "scope": [
+        "Add one mill-control decision between a guard charter and local cooperative, with one canonical controller reflected in dialogue, banners, occupants, and saved/restarted presentation."
+      ],
+      "evidence": [
+        "Fresh testm12b and testm12route passed. Both charter branches passed their three-process packaged restart sequences."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M12b has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "This is the authored two-charter prototype scope; territorial warfare/economy simulation is deferred.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/22",
+      "updatedAt": "2026-10-17T19:54:45Z",
+      "order": 122,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-M12c",
+      "number": 23,
+      "title": "Regional transformation",
+      "category": "game",
+      "summary": "Restore the mill through one authored contribution and show controller-specific patrol/trading activity that matches after travel and restart.",
+      "scope": [
+        "Restore the mill through one authored contribution and show controller-specific patrol/trading activity that matches after travel and restart."
+      ],
+      "evidence": [
+        "Fresh testm12c and testm12route passed. Six packaged processes verified both branches through woodland/cottage Continue and return."
+      ],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "M12c has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
+        },
+        {
+          "done": true,
+          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
+        }
+      ],
+      "status": "Done",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "The prior user-confirmed M12 manual acceptance remains. Final art acceptance and broader production simulation are outside this milestone.",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/23",
+      "updatedAt": "2026-10-17T19:54:46Z",
+      "order": 123,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-02",
+      "number": 24,
+      "title": "Repair validation launcher defaults and timeout cleanup",
+      "category": "ops",
+      "summary": "Make the checked-in validation commands usable against the retained campaign launcher and ensure failed checks cannot leave headless Godot jobs running.",
+      "scope": [
+        "Make the checked-in validation commands usable against the retained campaign launcher and ensure failed checks cannot leave headless Godot jobs running."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "All six helpers default to the sole campaign launcher, with explicit executable selection where useful and a clear missing-file error."
+        },
+        {
+          "done": false,
+          "text": "Test deadlines and script-error handling terminate only the owned process tree and return without hanging on inherited stdout handles."
+        },
+        {
+          "done": false,
+          "text": "A deliberately timed-out test proves cleanup leaves no child Godot process running."
+        },
+        {
+          "done": false,
+          "text": "Normal source checks and relevant packaged restart checks still pass with isolated test slots; the player's normal save is preserved."
+        },
+        {
+          "done": false,
+          "text": "README/PLAN validation instructions and the corresponding issue reflect the actual commands and results."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Production tooling",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/24",
+      "updatedAt": "2026-10-17T19:52:14Z",
+      "order": 24,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-03",
+      "number": 25,
+      "title": "Implement guided Blender and image asset pipeline pilot",
+      "category": "ops",
+      "summary": "The guided Blender/image asset workflow and isolated pilot are implemented locally. tools/asset-pipeline.ps1 provides inspect, plan, prepare and validate. Per-asset manifests bind source selection, dimensions, editable derivatives, GLB outputs and hash-bound evidence. Existing sources are preserved; gameplay scenes survive…",
+      "scope": [
+        "Alex's character-art hold and campaign cast remain unchanged. The main export preset now applies the existing gore-review exclusion list for broken, unused vendor VFX demo scenes. The previous sole launcher is preserved as an ignored non-launcher backup before rebuilding."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Barrel prepared from existing Blender source, grounded at 1 metre with static Godot collision."
+        },
+        {
+          "done": true,
+          "text": "Shared-rig guard prepared with all twelve clips; optional validated HumanoidPresentation model override and sword/bow attachments."
+        },
+        {
+          "done": true,
+          "text": "Potion interaction staging uses the existing healthpotion catalog, consumption and isolated save/reopen path; duplicate grants prevented."
+        },
+        {
+          "done": true,
+          "text": "Four Python boundary checks and five focused Godot suites pass; affected M3/art regressions rerun after startup isolation changes."
+        },
+        {
+          "done": true,
+          "text": "Project import/parser/startup checks and Windows release export pass. Exported Forward+ overview/close-up captures inspected; final process exited 0 with empty stderr. Launcher SHA-256: C86B173ED1EA8AA8B55B572D7ABCBA3609C25EAB4C2F837E2CBF07F3E72BC385."
+        },
+        {
+          "done": true,
+          "text": "Barrel/guard re-export preserves gameplay scene hashes."
+        },
+        {
+          "done": false,
+          "text": "User approves exact generated potion concept and one 30-credit Tripo conversion (model tripo-v3.1 / v3.1-20260211); no paid calls submitted. Verified balance 1,035, zero frozen; keep 500-credit floor."
+        },
+        {
+          "done": false,
+          "text": "Prepare final potion model, repeat import/export/gameplay checks with final art."
+        },
+        {
+          "done": false,
+          "text": "Human visual/deformation/equipment approval and hands-on exported gameplay acceptance for all three demonstrations."
+        }
+      ],
+      "status": "Review",
+      "priority": "Now",
+      "area": "Art",
+      "maturity": "Prototype",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
+      "updatedAt": "2026-10-17T20:05:33Z",
+      "order": 25,
+      "statusSource": "project"
+    }
+  ]
+}

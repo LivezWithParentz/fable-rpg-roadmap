@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163b32">
+  <meta name="description" content="Follow the gameplay milestones, art production and acceptance reviews shaping a Fable-inspired action RPG.">
+  <title>Greyhaven · Development Roadmap</title>
+  <link rel="icon" href="./mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#roadmap">Skip to roadmap</a>
+  <header class="masthead"><a class="brand" href="./"><img src="./mark.svg" alt="" width="37" height="37"><span>GREYHAVEN<small>A FABLE-INSPIRED RPG</small></span></a><nav aria-label="Main"><a href="#roadmap">Roadmap</a><a href="#about">How we build</a><a href="https://github.com/LivezWithParentz/fable-rpg-roadmap" target="_blank" rel="noopener">On GitHub <span aria-hidden="true">↗</span></a></nav></header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow"><i></i> THE DEVELOPMENT JOURNAL</span><h1>A world<br>in the making<span>.</span></h1><p>From a first sword swing to a village that remembers.<br>Follow the work bringing our reactive RPG to life.</p><a class="hero-link" href="#roadmap">Explore the roadmap <span aria-hidden="true">↓</span></a></div>
+      <svg class="landscape" viewBox="0 0 680 430" role="img" aria-label="An illustrated woodland path leading to a hilltop village">
+        <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#234c40"/><stop offset="1" stop-color="#163b32"/></linearGradient><linearGradient id="hill" x2="0" y2="1"><stop stop-color="#476551"/><stop offset="1" stop-color="#1d4335"/></linearGradient></defs>
+        <circle cx="456" cy="125" r="81" fill="#c5a66d" opacity=".19"/><circle cx="456" cy="125" r="57" fill="none" stroke="#c5a66d" opacity=".3"/>
+        <path d="M15 259 159 115 269 231 367 155 526 275 682 215V430H0Z" fill="#2b5143"/><path d="m79 269 80-154 49 112-43-32-30 43-9-12Z" fill="#55715a" opacity=".48"/>
+        <path d="M0 332Q179 206 346 270T680 265V430H0Z" fill="url(#hill)"/><path d="M287 430q-11-87 108-115t45-87q91 54-2 102t-34 100" fill="#c8b17f" opacity=".57"/>
+        <g fill="#102e27" stroke="#9a9c70" stroke-width="1"><path d="M384 246v-52h32v52m7 0v-73h35v73m8 0v-48h34v48"/><path d="m378 194 22-26 22 26m-7-21 26-32 26 32m-9 25 25-25 25 25" fill="#b09663"/><path d="M437 142v-35m0 0 24 10-24 8" fill="#b09663"/><path d="M399 245v-20h10v20m28 0v-24h11v24" fill="#c7a76a"/></g>
+        <g fill="#122f28"><path d="m90 393 27-63H100l26-62h-15l30-74 30 74h-15l26 62h-17l27 63Zm399 27 28-66h-16l25-63h-14l31-84 31 84h-14l25 63h-16l28 66Z"/><path d="m-6 430 35-82H9l32-78H25l38-94 38 94H85l32 78H97l35 82Zm569 0 27-65h-15l26-63h-14l34-91 34 91h-14l26 63h-15l27 65Z"/></g>
+        <path d="M0 416q116-43 244-8t436-24v46H0Z" fill="#102f27"/><g fill="#d4bd83"><circle cx="266" cy="301" r="2"/><circle cx="303" cy="285" r="1.5"/><circle cx="351" cy="345" r="2"/><circle cx="503" cy="166" r="1.5"/></g>
+        <text x="396" y="275" fill="#d3be91" font-family="Georgia,serif" font-size="12" letter-spacing="3">GREYHAVEN</text>
+      </svg>
+      <div class="hero-footer"><span><strong id="completed-count">—</strong> gameplay milestones delivered</span><span><strong id="active-count">—</strong> work items ahead</span><span class="sync-state" id="sync-state">Connecting to the journal…</span></div>
+    </section>
+    <section id="roadmap" class="roadmap wrap">
+      <div class="section-heading"><div><span class="eyebrow dark">THE ROAD AHEAD</span><h2>Small slices. Lasting consequences.</h2></div><p>Explore what’s being worked on,<br>what comes next, and how far we’ve come.</p></div>
+      <div class="roadmap-layout"><aside aria-label="Roadmap categories"><span class="sidebar-label">EXPLORE BY CATEGORY</span><div id="categories" class="categories"></div><div class="aside-note"><span class="tiny-star">✦</span><h3>Art takes its time.</h3><p>Character art remains on hold while Alex prepares models. Delivery begins a review; it doesn’t imply approval.</p></div></aside>
+        <div class="work-area"><div class="toolbar"><div class="views" role="tablist" aria-label="Roadmap horizon"><button role="tab" data-view="now" aria-selected="true">Now</button><button role="tab" data-view="next" aria-selected="false">Next</button><button role="tab" data-view="later" aria-selected="false">Later</button><button role="tab" data-view="completed" aria-selected="false">Completed</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a milestone or topic…" aria-label="Search roadmap"></label></div>
+          <div class="results-heading"><div><h3 id="view-title">In focus</h3><p id="view-description">The work closest to the next playable improvement.</p></div><span id="result-count" aria-live="polite"></span></div>
+          <div id="cards" class="cards" role="tabpanel" aria-label="Roadmap items"><p class="loading">Opening the development journal…</p></div>
+          <p class="status-note">Delivery and acceptance are different milestones. Open any item for its scope, evidence and remaining review.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about wrap"><div><span class="eyebrow dark">HOW WE BUILD</span><h2>A playable loop,<br>one chapter at a time.</h2></div><div class="about-content"><p>Explore. Meet people. Fight or investigate. Make a choice. Return to a world that remembers it.</p><p>We build focused, playable slices around that loop. The roadmap shows execution status; acceptance evidence explains what has been checked and what still needs a human playtest.</p><div class="principles"><span>01 <strong>Playable first</strong></span><span>02 <strong>Evidence over assumptions</strong></span><span>03 <strong>Room for the craft</strong></span></div></div></section>
+  </main>
+  <footer class="wrap"><span>GREYHAVEN <small>Development in the open.</small></span><p>Selected roadmap details are public. The game source remains private.</p><a href="https://github.com/LivezWithParentz/fable-rpg-roadmap/actions/workflows/roadmap.yml">Publishing history ↗</a></footer>
+  <dialog id="detail"><button class="dialog-close" aria-label="Close details">×</button><div id="detail-content"></div></dialog>
+  <noscript><p class="wrap">Enable JavaScript to explore this roadmap, or <a href="./roadmap.json">read the public roadmap data</a>.</p></noscript>
+</body>
+</html>

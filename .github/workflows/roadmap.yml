@@ -1,0 +1,71 @@
+name: Refresh and publish roadmap
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+  push:
+    branches: [main]
+    paths: ['docs/**', 'scripts/**', 'project-map.json', '.github/workflows/roadmap.yml']
+permissions:
+  contents: read
+concurrency:
+  group: public-roadmap
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: read
+    outputs:
+      deploy: ${{ steps.deploy-needed.outputs.value }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Read roadmap source and publish selected fields
+        id: sync
+        env:
+          ISSUE_READ_TOKEN: ${{ secrets.ISSUE_READ_TOKEN }}
+          PROJECT_READ_TOKEN: ${{ secrets.PROJECT_READ_TOKEN }}
+        run: python3 scripts/sync.py
+      - name: Save the public snapshot
+        run: |
+          git add docs/roadmap.json project-map.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh public roadmap from GitHub'
+            git push
+          fi
+      - name: Decide whether to deploy
+        id: deploy-needed
+        env:
+          CHANGED: ${{ steps.sync.outputs.changed }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$CHANGED" = 'true' ] || [ "$EVENT" != 'schedule' ]; then
+            echo 'value=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'value=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Configure Pages
+        if: steps.deploy-needed.outputs.value == 'true'
+        uses: actions/configure-pages@v5
+      - name: Upload public site only
+        if: steps.deploy-needed.outputs.value == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+  deploy:
+    if: needs.refresh.outputs.deploy == 'true'
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish site
+        id: deployment
+        uses: actions/deploy-pages@v4
