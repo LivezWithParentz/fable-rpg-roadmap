@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "6dfc6da2679a752d83b8fe95ed67bf77ba21441a320d4fd2987efb7e94846ca7",
-  "syncedAt": "2026-10-17T23:30:28.453749+00:00",
+  "contentVersion": "37c2c0a3959fa07b692ccfe52db86f05f1e0a6c5fad390a900b90c492415428b",
+  "syncedAt": "2026-10-18T00:15:43.716797+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -973,50 +973,74 @@
       "number": 25,
       "title": "Implement guided Blender and image asset pipeline pilot",
       "category": "ops",
-      "summary": "The guided Blender/image asset workflow and isolated pilot are implemented locally. tools/asset-pipeline.ps1 provides inspect, plan, prepare and validate. Per-asset manifests bind source selection, dimensions, editable derivatives, GLB outputs and hash-bound evidence. Existing sources are preserved; gameplay scenes survive…",
+      "summary": "Provide a guided Blender/image asset workshop for Alex and Jason, preserving original sources, immutable revisions and hash-bound technical, visual and gameplay review before repository delivery.",
       "scope": [
-        "Alex's character-art hold and campaign cast remain unchanged. The main export preset now applies the existing gore-review exclusion list for broken, unused vendor VFX demo scenes. The previous sole launcher is preserved as an ignored non-launcher backup before rebuilding.",
-        "Asset Workshop follow-up (2026-10-17): private deployed app, implementation/evidence issue. Separate repository commit bac04d9 contains the prototype. Original barrel/guard adapter smokes and negative rig/texture checks passed; restricted Windows runner installation, potion reconciliation, scoped GitHub App setup, human review and one real asset PR remain open. Final release stays locked. Game pipeline and PLAN changes are now committed; no art acceptance or hold change is implied.",
-        "Asset Workshop multi-input follow-up: c1a027d in the separate app repo adds image/model/mixed entry routes and stage-to-stage revision handoff. A real uploaded image+GLB barrel completed restricted-runner preparation, Godot collision/import checks and three captures; image quote remained unapproved and no paid generation occurred. 17 API tests, two Python checks and five local/live browser flows pass. The potion's prior uncertain submission, human art/gameplay acceptance and GitHub App delivery remain open. See Workshop issue #1 for exact evidence and limits.",
-        "Repository consolidation (2026-10-17): Workshop source and its complete commit history through c1a027d now live in tools/asset-workshop in this game repository. The former sibling checkout is an ignored .local/legacy-checkout backup. Canonical Workshop tracking is this issue; previous separate-repository evidence remains historical. Godot excludes the web tooling via .gdignore. Private onboarding/dev credentials remain ignored and ACL-protected; installed ProgramData runner, Cloudflare resources, uploads and reviews retain their paths/identities. Build, 17 API tests, two Python tests, three local and two live Playwright tests, and npm 10 lockfile dry-run passed from the new location. Restricted runner remained running. No paid call or approval change."
+        "The game pipeline is committed in 606a2c0. Workshop source and its original history through c1a027d are integrated under tools/asset-workshop in this repository. The private hosted app is https://assets.portcallhq.ca. Previous separate-repository Workshop evidence is historical; this issue is canonical.",
+        "Windows inspect/plan/prepare/validate commands preserve editable sources and existing gameplay scene hashes. Original barrel and shared-rig guard passed Blender preparation, Godot collision/rig/twelve-clip/attachment checks and captures; negative rig/texture cases reject correctly.",
+        "Potion interaction staging uses the existing healthpotion catalog, consumption and isolated save/reopen path, preventing duplicate grants. Final potion art remains pending.",
+        "Image, model and mixed entry routes support one processing input plus up to eight supporting files, immutable revisions and output handoffs. A real image+GLB barrel completed restricted-runner preparation, Godot import/collision validation and three captures. Its retained image quote remained unapproved.",
+        "Separate contributor/admin sign-in, resumable uploads, durable jobs, private model previews and hash-bound reviews work. The restricted Windows runner is installed; readiness covered Blender, Godot 4.7.2, Node, Git LFS and a free Tripo balance check.",
+        "Jason approved the exact potion concept and one 30-credit Tripo call. A wrapper encoding failure interrupted execution without a recorded task ID; the journal is needsreconciliation. Last recorded balance was 1,035 credits / zero frozen. Preserve the 500-credit floor; never automatically resubmit an uncertain task.",
+        "Runner 0.2.1 interruption follow-up: downloads use temporary files and atomic completion; partial legacy inputs are downloaded again. Game workspace copies use staging directories; incomplete legacy copies are preserved and rebuilt. Six Python checks pass on Python 3.12 and under the actual restricted Windows runner identity on Python 3.14.6, including killing a real download process and restarting against a local HTTP fixture. All 17 D1/R2 cases and the TypeScript/Vite production build pass. Expanded API coverage rejects old-lease source reads, upload tickets and results after reclamation, and preserves paid-submission reconciliation.",
+        "Before applying 0.2.1, the hosted queue was verified idle and the runner stopped gracefully. Installed modules were backed up, updated and restarted. Live status confirms 0.2.1 online with processing enabled. These latest recovery source changes are currently uncommitted; no Worker deployment was required."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Barrel prepared from existing Blender source, grounded at 1 metre with static Godot collision."
+          "text": "Prepare original barrel and shared-rig guard with technical evidence."
         },
         {
           "done": true,
-          "text": "Shared-rig guard prepared with all twelve clips; optional validated HumanoidPresentation model override and sword/bow attachments."
+          "text": "Validate collectible interaction staging and persistence using existing gameplay contracts."
         },
         {
           "done": true,
-          "text": "Potion interaction staging uses the existing healthpotion catalog, consumption and isolated save/reopen path; duplicate grants prevented."
+          "text": "Integrate Workshop source/history into the game repository while preserving private local and hosted state."
         },
         {
           "done": true,
-          "text": "Four Python boundary checks and five focused Godot suites pass; affected M3/art regressions rerun after startup isolation changes."
+          "text": "Exercise image/model/mixed inputs and restricted-runner barrel processing."
         },
         {
           "done": true,
-          "text": "Project import/parser/startup checks and Windows release export pass. Exported Forward+ overview/close-up captures inspected; final process exited 0 with empty stderr. Launcher SHA-256: C86B173ED1EA8AA8B55B572D7ABCBA3609C25EAB4C2F837E2CBF07F3E72BC385."
+          "text": "Validate partial-download/process interruption and incomplete-workspace recovery with trusted fixtures under the actual restricted account."
         },
         {
           "done": true,
-          "text": "Barrel/guard re-export preserves gameplay scene hashes."
+          "text": "Verify stale lease rejection for source reads, upload tickets and job results, and no automatic paid resubmission."
         },
         {
           "done": true,
-          "text": "Jason explicitly approved the exact potion concept and one 30-credit Tripo conversion (tripo-v3.1 / v3.1-20260211). Wrapper encoding failure interrupted execution; no task ID was captured. Journal is needsreconciliation, verified balance remains 1,035/0 frozen, and no automatic resubmission is allowed. Keep the 500-credit floor."
+          "text": "Exercise isolated real Blender/Godot interruption under the restricted account; verify child cleanup and subsequent preparation/validation."
+        },
+        {
+          "done": true,
+          "text": "Exercise multipart interruption, renewed leases and lost completion in local HTTP and D1/R2 integration checks."
+        },
+        {
+          "done": true,
+          "text": "Complete the controlled live artifact retry under the restricted account: preserved first part, new lease, stale-lease rejection, lost completion recovery and verified downloaded hash."
+        },
+        {
+          "done": true,
+          "text": "Record the isolated cold-import access violation and verify successful warm-workspace and fresh-cache reruns; retain the crash as a monitoring limitation."
         },
         {
           "done": false,
-          "text": "Prepare final potion model, repeat import/export/gameplay checks with final art."
+          "text": "Reconcile the uncertain potion submission and prepare final potion art; repeat import/export/gameplay checks."
         },
         {
           "done": false,
-          "text": "Human visual/deformation/equipment approval and hands-on exported gameplay acceptance for all three demonstrations."
+          "text": "Complete human visual/deformation/equipment and exported gameplay acceptance for all three demonstrations, including correction and renewed approval."
+        },
+        {
+          "done": false,
+          "text": "Configure the dedicated GitHub App installed only on this game repository."
+        },
+        {
+          "done": false,
+          "text": "Complete one real human-reviewed asset PR through the scoped App."
         }
       ],
       "status": "Review",
@@ -1025,7 +1049,7 @@
       "maturity": "Prototype",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
-      "updatedAt": "2026-10-17T23:25:47Z",
+      "updatedAt": "2026-10-17T23:53:26Z",
       "order": 25,
       "statusSource": "project"
     },
