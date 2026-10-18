@@ -1,62 +1,24 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "d52c79c8ff16d0b28be97ef0ce95da62ada346206aa0f296c00174f39e0a947b",
-  "syncedAt": "2026-10-18T21:06:42.677508+00:00",
+  "contentVersion": "fb1ee6691c4792175c4f5385134df4242862b18d061b7fa22986c05d4858c319",
+  "syncedAt": "2026-10-18T23:03:20.754895+00:00",
   "items": [
     {
       "key": "QA-01",
       "number": 1,
       "title": "Complete campaign combat review and merge gate",
       "category": "qa",
-      "summary": "Complete hands-on combat acceptance in the current campaign build and merge only accepted source changes into the sole campaign launcher.",
-      "scope": [
-        "Reproduce the heavy-attack visual issue using the assigned Whirlwind snapshot; preserve the accepted Whirlwind behavior.",
-        "Review movement commitment and recovery, camera comfort, attack transitions, target feedback, guard/parry response, and special-move readability in the campaign context.",
-        "Fix only issues confirmed in the review; run relevant focused checks and package a fresh campaign build after source changes.",
-        "No prior review executable or export proves that the current source has been integrated into the campaign launcher."
-      ],
+      "summary": "Complete campaign combat review and merge gate.",
+      "scope": [],
       "evidence": [],
-      "acceptance": [
-        {
-          "done": false,
-          "text": "Reproduce and resolve, or document an explicit disposition for, the heavy-attack visual issue."
-        },
-        {
-          "done": false,
-          "text": "Review movement, camera comfort, remaining combos, target feedback, guard/parry, and special moves in the fresh campaign build."
-        },
-        {
-          "done": false,
-          "text": "Confirm successful melee contacts do not show unintended cosmetic effects and interruptions do not leave queued attacks or stuck combat states."
-        },
-        {
-          "done": false,
-          "text": "Run relevant focused checks after source changes and record their exact results."
-        },
-        {
-          "done": false,
-          "text": "Export the campaign launcher from the reviewed source; record the build date, source revision, and SHA-256 in PLAN.md."
-        },
-        {
-          "done": false,
-          "text": "Record manual observations, failures, and any remaining gates in PLAN.md."
-        },
-        {
-          "done": false,
-          "text": "Merge/re-export only after the review gate passes; builds/fableopenworld.exe remains the sole campaign launcher."
-        },
-        {
-          "done": false,
-          "text": "Keep manual feel acceptance distinct from automated checks and feature maturity."
-        }
-      ],
+      "acceptance": [],
       "status": "Backlog",
-      "priority": "Now",
+      "priority": "Later",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
-      "updatedAt": "2026-10-17T19:56:17Z",
+      "updatedAt": "2026-10-18T23:01:17Z",
       "order": 1,
       "statusSource": "project"
     },
@@ -217,50 +179,17 @@
       "number": 5,
       "title": "Complete campaign gore acceptance and performance review",
       "category": "qa",
-      "summary": "Close the campaign gore review only after settings, lethal/nonlethal/fallback behavior, rewards and recovery, presentation, and performance have evidence.",
-      "scope": [
-        "Close the campaign gore review only after settings, lethal/nonlethal/fallback behavior, rewards and recovery, presentation, and performance have evidence."
-      ],
-      "evidence": [
-        "The revised prepared Raider package was visually approved for the exact delivered asset. This does not accept every character model or the complete gameplay/performance slice. Focused and packaged checks are recorded in PLAN.md and the review manifest. The remaining gate combines campaign-context behavior, settings/fallbacks, save/recovery, and a measured worst-case combat review."
-      ],
-      "acceptance": [
-        {
-          "done": false,
-          "text": "Verify Off/Blood/Full settings, lethal/nonlethal behavior, and blood-only fallback for unsupported models in the campaign."
-        },
-        {
-          "done": false,
-          "text": "Verify quest rewards are issued once and save/recovery integrity and normal campaign behavior are preserved after gore events."
-        },
-        {
-          "done": false,
-          "text": "Inspect the prepared Raider and general gore presentation in campaign context; record the exact accepted asset/source revision and captures."
-        },
-        {
-          "done": false,
-          "text": "Measure worst-case combat performance on the target setup; record resolution, settings, observed frame rate, and scenario; resolve or explicitly retain open gates."
-        },
-        {
-          "done": false,
-          "text": "Rerun relevant focused and packaged checks after changes; update PLAN.md and the review package manifest with exact results."
-        },
-        {
-          "done": false,
-          "text": "Keep the user-approved Raider art scope specific to that package; do not treat it as universal character-art approval."
-        },
-        {
-          "done": false,
-          "text": "Do not mark the broader slice Validated from focused automation or visual review alone."
-        }
-      ],
+      "summary": "Complete campaign gore acceptance and performance review.",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [],
       "status": "Backlog",
       "priority": "Next",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
-      "updatedAt": "2026-10-17T19:34:57Z",
+      "updatedAt": "2026-10-18T23:01:18Z",
       "order": 5,
       "statusSource": "project"
     },
@@ -679,34 +608,19 @@
       "number": 17,
       "title": "Combat feel, animation, and specialization",
       "category": "game",
-      "summary": "Provide combat styles, animation presentation, training/specialization, follow-ups, and persistence while preserving the established combat contracts.",
-      "scope": [
-        "Provide combat styles, animation presentation, training/specialization, follow-ups, and persistence while preserving the established combat contracts."
-      ],
+      "summary": "Combat feel, animation, and specialization.",
+      "scope": [],
       "evidence": [
         "Fresh testm8, testtraining, testleaderescape, testdodgeroll and testcombatprototype passed."
       ],
-      "acceptance": [
-        {
-          "done": true,
-          "text": "M8 has its own Completed tracking card and its scope/evidence summary is linked to PLAN.md."
-        },
-        {
-          "done": true,
-          "text": "The user's Completed tracking directive is preserved without changing the milestone's documented maturity."
-        },
-        {
-          "done": true,
-          "text": "Historical follow-ups and manual gates remain separate; this issue does not imply they passed."
-        }
-      ],
+      "acceptance": [],
       "status": "Done",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "The current heavy-attack visual/feel follow-up remains QA-01 (#1). Headless checks do not accept final animation feel.",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/17",
-      "updatedAt": "2026-10-17T19:54:40Z",
+      "updatedAt": "2026-10-18T23:01:22Z",
       "order": 80,
       "statusSource": "project"
     },
@@ -975,17 +889,18 @@
       "category": "ops",
       "summary": "Implement a guided Blender/image-to-Godot asset pipeline with hash-bound technical evidence, human review and repository-scoped PR delivery.",
       "scope": [
+        "Latest guard correction addresses Jason's further grip and fast-breathing feedback: the handle seats nearer the guard within the fist, finger-opening clips retain the sword-fist pose, and idle breathing runs on a guard-specific four-second cycle. Bow poses, campaign defaults and accepted sword bytes are unchanged. Anatomical grip/contact checks, actual idle playback timing, guard/potion/M4/fluid-combat regressions and fifteen rendered views pass. Human reapproval remains pending; the earlier palm-centroid fit is superseded.",
+        "Guard correction is ready for re-review: rejected shoulder blocks removed in a retained-source derivative, and the approved sword is seated within the closed-fist cavity with the shaft aligned across the knuckles. Anatomical grip/contact checks cover all twelve clips; shared-rig, review-control, potion, M4 and fluid-combat checks and the latest fifteen rendered views pass. Correction hashes/captures are recorded in the game evidence folder. Barrel stays excluded; human guard reapproval and real reviewed-PR delivery remain open.",
+        "Jason selected the guard as the next gate and excluded barrel acceptance from closure. The guard-only source review now covers all twelve clips, sword/bow switching, motion pause, rotation and close-up/walk-around. Focused input/equipment/save-isolation checks, existing potion regression, project import and Forward+ render pass. Human guard review remains pending.",
+        "Jason accepted the 75 cm soft-platinum sword's appearance, scale and review presentation (\"Love that\", \"looks good\"). The scoped acceptance receipt binds verified unchanged source/master/runtime and exact hosted review package for revision eddd76f6-7163-4002-8eea-4365852e2ca0. Equipping/hand alignment, combat/hitboxes, campaign pickups/saves and cold-import stability remain open. This does not clear other art gates or final delivery.",
+        "Jason requested a smaller soft-platinum sword. A new editable source is 0.75 m long with neutral metal targeting the supplied #D9D9D9 swatch, preserved leather/detail and corrected OpenGL normals. Hosted technical/Godot checks, authenticated review download/hash checks, fresh extracted-project smoke and desktop/mobile download links pass. Neutral sky reflections are installed in review/capture templates, with a real rendered-metal regression check covering both templates; sampled metal albedo matches #D9D9D9 and leather remains unchanged. Revised hosted source: eddd76f6-7163-4002-8eea-4365852e2ca0. Human acceptance and weapon integration remain open; original inputs and historical packages are preserved.",
         "Playable review ZIPs are now pipeline outputs with an app download link. Each contains only the exact model, standalone Godot review project, launcher/instructions and revision/hash record. Older validated revisions can create the output via an unpaid review job. The sword's live package completed; authenticated download/hash verification, fresh extracted-project import/smoke, desktop/mobile UI, ten runner checks, 18 D1/R2 integration checks and production build pass. Visual/scale review is supported; campaign collision, pickups/equipping, save and combat acceptance remain separate.",
-        "Latest sword revision passes hosted technical/Godot checks. Its exact GLB is staged in a separate playable source review scene with walk-around and overview controls; Godot 4.7.2 Forward+ rendered smoke passes. Human review, scale/orientation correction (current output is 8.52 m long), and weapon integration remain open. This display does not replace campaign assets or grant art approval.",
-        "Sword intake exposed two pipeline defects: a legacy shader silently lost textures, and normalization changed Mirror modifier planes. Static geometry now evaluates before normalization; the explicit legacy PBR interface is translated to Principled BSDF, and texture loss blocks processing. Eight Blender regression cases pass, and every evaluated sword vertex matches after normalization within 0.000001 m. The corrected export retains base color, metallic/roughness, normal and AO. The backed-up runner baseline override is installed for new revisions; fresh hosted processing and human sword review remain pending. This grants no art approval.",
-        "Workshop source/history lives in tools/asset-workshop inside the game repository. Hosted app: https://assets.portcallhq.ca. Private runner 0.2.2 operates under the restricted Windows account; delivery remains locked with PILOTREADY=false.",
-        "Download/workspace interruption recovery, real Blender/Godot descendant cleanup, multipart reservation/lease recovery and lost completion response recovery passed. Nine Python checks, 18 D1/R2 integration cases, production build and live browser checks passed at the recorded recovery checkpoint. The controlled live retry resumed one artifact and verified the downloaded hash. The isolated cold Godot import access violation did not recur in warm/fresh-cache checks; retain it as a monitoring limitation.",
+        "Historical pre-refinement sword revision passed hosted technical/Godot checks. Its exact GLB is staged in a separate playable source review scene with walk-around and overview controls; Godot 4.7.2 Forward+ rendered smoke passes. That historical output was 8.52 m long; the current refinement corrects it to 0.75 m. Human review and weapon integration remain open. This display does not replace campaign assets or grant art approval.",
+        "Sword intake exposed two pipeline defects: a legacy shader silently lost textures, and normalization changed Mirror modifier planes. Static geometry now evaluates before normalization; the explicit legacy PBR interface is translated to Principled BSDF, and texture loss blocks processing. Eight Blender regression cases pass, and every evaluated sword vertex matches after normalization within 0.000001 m. The corrected export retains base color, metallic/roughness, normal and AO. The backed-up runner baseline override is installed for new revisions; fresh hosted processing subsequently passed; human sword review remains pending. This grants no art approval.",
+        "Workshop source/history lives in tools/asset-workshop inside the game repository. Hosted app: https://assets.portcallhq.ca. Private runner 0.2.3 operates under the restricted Windows account; delivery remains locked with PILOTREADY=false.",
+        "Download/workspace interruption recovery, real Blender/Godot descendant cleanup, multipart reservation/lease recovery and lost completion response recovery passed. Nine Python checks, 18 D1/R2 integration cases, production build and live browser checks passed at the recorded recovery checkpoint. The controlled live retry resumed one artifact and verified the downloaded hash. The cold Godot import access violation recurred during platinum-sword validation after importing assets; one warm-cache retry passed. Engine-import stability remains an open limitation.",
         "GitHub App creation/installation is complete. The helper verified only this game repository; authentication under AssetWorkshopRunner passed with one accessible private repository.",
-        "Potion reconciliation found no original provider task/charge. The subsequently authorized single conversion succeeded as d3e4b4af-8435-431e-9b22-bde8aa4b2b1d, billed 30 credits, with 1,005 remaining / zero frozen at verification. Original records and geometry are retained; no additional paid processing occurred.",
-        "At Jason's request, local Blender material/silhouette refinement added bronze rims, cork binding, a leather neck loop and distinct baked material finishes. Authored source, previous master and provider original are preserved. Grounded height remains 0.24 m; the revised runtime has 1,432,830 triangles, eight meshes, four materials and seven embedded images.",
-        "The stand originally blocked pickup targeting. The review-only target origin was corrected; a real E-key regression now covers four-sided targeting, collection, duplicate rejection, healing and save/load. Jason confirmed pickup works as expected.",
-        "Visible exported 720p/1080p audits and dated captures passed on the RTX 3050 / Forward+. Refined-potion 1080p P95 is 1.295–1.416 ms in the measured warm-cache pilot views. This does not establish campaign, crowd, cold-load or minimum-spec acceptance.",
-        "Jason preferred the refined image but found the world-size bottle hard to inspect. V now opens a lit close-up, A/D rotates and V restores gameplay. It works after collection without changing inventory or world size. Input/state-restoration regression, import/startup, release export and final rendered capture passed."
+        "Potion reconciliation found no original provider task/charge. The subsequently authorized single conversion succeeded as d3e4b4af-8435-431e-9b22-bde8aa4b2b1d, billed 30 credits, with 1,005 remaining / zero frozen at verification. Original records and geometry are retained; no additional paid processing occurred."
       ],
       "evidence": [],
       "acceptance": [
@@ -1043,7 +958,7 @@
         },
         {
           "done": false,
-          "text": "Complete remaining barrel/guard visual, deformation/equipment and human pilot correction/reapproval gates when the art hold is lifted."
+          "text": "Complete the guard visual, continuous deformation/equipment and human correction/reapproval gate. Barrel is excluded by Jason."
         },
         {
           "done": false,
@@ -1056,7 +971,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
-      "updatedAt": "2026-10-18T20:30:41Z",
+      "updatedAt": "2026-10-18T23:01:53Z",
       "order": 25,
       "statusSource": "project"
     },
@@ -1156,53 +1071,186 @@
       "number": 28,
       "title": "Onboard external humanoid mocap intake",
       "category": "art",
-      "summary": "The current intake is source-only and contains one CrouchStrafeStarTake001 recording in FBX, BVH, and C3D variants. The work covers provenance, selection of the appropriate FBX source, Blender retargeting to the gameplay skeleton, and a deliberately mapped runtime animation-only GLB. It does not authorize a combat-system…",
-      "scope": [
-        "The current intake is source-only and contains one CrouchStrafeStarTake001 recording in FBX, BVH, and C3D variants. The work covers provenance, selection of the appropriate FBX source, Blender retargeting to the gameplay skeleton, and a deliberately mapped runtime animation-only GLB. It does not authorize a combat-system rewrite, automatic replacement of existing clips, or a claim of accepted animation feel."
-      ],
+      "summary": "Onboard external humanoid mocap intake.",
+      "scope": [],
       "evidence": [],
-      "acceptance": [
-        {
-          "done": false,
-          "text": "Add a source record with vendor, product URL, download date, selected source variant, license snapshot, intended use, root-motion status, and any props."
-        },
-        {
-          "done": false,
-          "text": "Inspect all FBX variants and select the appropriate source; do not process C3D without an explicit marker-solving need."
-        },
-        {
-          "done": false,
-          "text": "Retarget the selected source in Blender to the actual gameplay skeleton; verify rest pose, bone mapping, scale, feet, root behaviour, and frame range."
-        },
-        {
-          "done": false,
-          "text": "Trim or extract a gameplay-appropriate segment and decide in-place versus root-motion behaviour without changing existing movement/combat ownership."
-        },
-        {
-          "done": false,
-          "text": "Export a named animation-only GLB to assets/combat/mocap/ and import it as an Animation Library."
-        },
-        {
-          "done": false,
-          "text": "Wire the clip deliberately through the current animation resource/AnimationTree, preserving existing combat contracts and clips."
-        },
-        {
-          "done": false,
-          "text": "Run focused import and gameplay checks; inspect crouch-strafe loop/contact, camera readability, and combat/movement feel in a Windows build."
-        },
-        {
-          "done": false,
-          "text": "Update PLAN.md with implemented evidence and any remaining manual acceptance gate. Do not close this issue merely because files were downloaded or a GLB imports."
-        }
-      ],
+      "acceptance": [],
       "status": "In progress",
       "priority": "Next",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
-      "updatedAt": "2026-10-18T18:32:22Z",
+      "updatedAt": "2026-10-18T23:01:20Z",
       "order": 28,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-01",
+      "number": 29,
+      "title": "Combat and movement workstream - start here",
+      "category": "game",
+      "summary": "Start here for combat and movement. Work order: GAME-02 audit baseline -> GAME-03 reference rig/socket/calibration -> GAME-04 grounded locomotion -> GAME-05 sword contact and heavy-attack fix -> GAME-06 existing combat set -> GAME-07 second-humanoid reuse -> GAME-08 conditional contact polish -> QA-01 final campaign…",
+      "scope": [
+        "Start here for combat and movement. Work order: GAME-02 audit baseline -> GAME-03 reference rig/socket/calibration -> GAME-04 grounded locomotion -> GAME-05 sword contact and heavy-attack fix -> GAME-06 existing combat set -> GAME-07 second-humanoid reuse -> GAME-08 conditional contact polish -> QA-01 final campaign acceptance. ART-03 supplies reviewed mocap; QA-05 retains gore/performance acceptance. Stage 0 is the next executable task. New implementation is Planned / Backlog. Existing M8 completion, accepted Whirlwind and Alex's art hold remain unchanged."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Now",
+      "area": "Combat",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
+      "updatedAt": "2026-10-18T23:03:09Z",
+      "order": 29,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-02",
+      "number": 30,
+      "title": "Audit current movement, combat and animation baseline",
+      "category": "game",
+      "summary": "Stage 0 - Audit current movement, combat and animation baseline. Record what already works and the exact gaps before choosing or changing a character setup. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "scope": [
+        "Stage 0 - Audit current movement, combat and animation baseline. Record what already works and the exact gaps before choosing or changing a character setup. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Now",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/30",
+      "updatedAt": "2026-10-18T23:02:55Z",
+      "order": 30,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-03",
+      "number": 31,
+      "title": "Prove reference humanoid, sword socket and calibration scene",
+      "category": "game",
+      "summary": "Stage 1 - Prove reference humanoid, sword socket and calibration scene. A reusable visual setup and calibration scene demonstrate clean deformation and stable sword attachment. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "scope": [
+        "Stage 1 - Prove reference humanoid, sword socket and calibration scene. A reusable visual setup and calibration scene demonstrate clean deformation and stable sword attachment. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/31",
+      "updatedAt": "2026-10-18T23:02:57Z",
+      "order": 31,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-04",
+      "number": 32,
+      "title": "Tune grounded locomotion, turning, jump and dodge presentation",
+      "category": "game",
+      "summary": "Stage 2 - Tune grounded locomotion, turning, jump and dodge presentation. Responsive movement and visible footwork agree on flat ground, walls and slopes. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "scope": [
+        "Stage 2 - Tune grounded locomotion, turning, jump and dodge presentation. Responsive movement and visible footwork agree on flat ground, walls and slopes. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
+      "updatedAt": "2026-10-18T23:02:59Z",
+      "order": 32,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-05",
+      "number": 33,
+      "title": "Align sword contact and resolve heavy-attack presentation",
+      "category": "game",
+      "summary": "Stage 3 - Align sword contact and resolve heavy-attack presentation. One proven sword strike matches visible contact and gameplay timing; the known heavy-attack visual issue has an evidenced fix or explicit disposition. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned.…",
+      "scope": [
+        "Stage 3 - Align sword contact and resolve heavy-attack presentation. One proven sword strike matches visible contact and gameplay timing; the known heavy-attack visual issue has an evidenced fix or explicit disposition. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
+      "updatedAt": "2026-10-18T23:03:01Z",
+      "order": 33,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-06",
+      "number": 34,
+      "title": "Verify the complete existing combat set on the proven presentation",
+      "category": "game",
+      "summary": "Stage 4 - Verify the complete existing combat set on the proven presentation. Current sword, defensive actions, bow, fireball and Force Push remain coherent after movement/presentation changes. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "scope": [
+        "Stage 4 - Verify the complete existing combat set on the proven presentation. Current sword, defensive actions, bow, fireball and Force Push remain coherent after movement/presentation changes. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/34",
+      "updatedAt": "2026-10-18T23:03:04Z",
+      "order": 34,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-07",
+      "number": 35,
+      "title": "Prove humanoid reuse and document character onboarding",
+      "category": "game",
+      "summary": "Stage 5 - Prove humanoid reuse and document character onboarding. A differently proportioned second humanoid uses the same controllers and clip roles with explicit asset/profile tuning. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "scope": [
+        "Stage 5 - Prove humanoid reuse and document character onboarding. A differently proportioned second humanoid uses the same controllers and clip roles with explicit asset/profile tuning. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/35",
+      "updatedAt": "2026-10-18T23:03:06Z",
+      "order": 35,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-08",
+      "number": 36,
+      "title": "Evaluate measured foot, grip and impact polish",
+      "category": "game",
+      "summary": "Stage 6 - Evaluate measured foot, grip and impact polish. Resolve remaining demonstrated contact issues, or record why no procedural correction is needed. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "scope": [
+        "Stage 6 - Evaluate measured foot, grip and impact polish. Resolve remaining demonstrated contact issues, or record why no procedural correction is needed. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/36",
+      "updatedAt": "2026-10-18T23:03:07Z",
+      "order": 36,
       "statusSource": "project"
     }
   ]
