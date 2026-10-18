@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "abed4736554c71cad2a6ab18d8c9cc9ba932962375b12c140633fa9aba9431dd",
-  "syncedAt": "2026-10-18T18:51:23.545092+00:00",
+  "contentVersion": "d52c79c8ff16d0b28be97ef0ce95da62ada346206aa0f296c00174f39e0a947b",
+  "syncedAt": "2026-10-18T21:06:42.677508+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -975,6 +975,9 @@
       "category": "ops",
       "summary": "Implement a guided Blender/image-to-Godot asset pipeline with hash-bound technical evidence, human review and repository-scoped PR delivery.",
       "scope": [
+        "Playable review ZIPs are now pipeline outputs with an app download link. Each contains only the exact model, standalone Godot review project, launcher/instructions and revision/hash record. Older validated revisions can create the output via an unpaid review job. The sword's live package completed; authenticated download/hash verification, fresh extracted-project import/smoke, desktop/mobile UI, ten runner checks, 18 D1/R2 integration checks and production build pass. Visual/scale review is supported; campaign collision, pickups/equipping, save and combat acceptance remain separate.",
+        "Latest sword revision passes hosted technical/Godot checks. Its exact GLB is staged in a separate playable source review scene with walk-around and overview controls; Godot 4.7.2 Forward+ rendered smoke passes. Human review, scale/orientation correction (current output is 8.52 m long), and weapon integration remain open. This display does not replace campaign assets or grant art approval.",
+        "Sword intake exposed two pipeline defects: a legacy shader silently lost textures, and normalization changed Mirror modifier planes. Static geometry now evaluates before normalization; the explicit legacy PBR interface is translated to Principled BSDF, and texture loss blocks processing. Eight Blender regression cases pass, and every evaluated sword vertex matches after normalization within 0.000001 m. The corrected export retains base color, metallic/roughness, normal and AO. The backed-up runner baseline override is installed for new revisions; fresh hosted processing and human sword review remain pending. This grants no art approval.",
         "Workshop source/history lives in tools/asset-workshop inside the game repository. Hosted app: https://assets.portcallhq.ca. Private runner 0.2.2 operates under the restricted Windows account; delivery remains locked with PILOTREADY=false.",
         "Download/workspace interruption recovery, real Blender/Godot descendant cleanup, multipart reservation/lease recovery and lost completion response recovery passed. Nine Python checks, 18 D1/R2 integration cases, production build and live browser checks passed at the recorded recovery checkpoint. The controlled live retry resumed one artifact and verified the downloaded hash. The isolated cold Godot import access violation did not recur in warm/fresh-cache checks; retain it as a monitoring limitation.",
         "GitHub App creation/installation is complete. The helper verified only this game repository; authentication under AssetWorkshopRunner passed with one accessible private repository.",
@@ -1053,7 +1056,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
-      "updatedAt": "2026-10-18T18:43:28Z",
+      "updatedAt": "2026-10-18T20:30:41Z",
       "order": 25,
       "statusSource": "project"
     },
