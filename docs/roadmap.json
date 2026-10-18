@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "37c2c0a3959fa07b692ccfe52db86f05f1e0a6c5fad390a900b90c492415428b",
-  "syncedAt": "2026-10-18T00:15:43.716797+00:00",
+  "contentVersion": "abed4736554c71cad2a6ab18d8c9cc9ba932962375b12c140633fa9aba9431dd",
+  "syncedAt": "2026-10-18T18:51:23.545092+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -973,16 +973,16 @@
       "number": 25,
       "title": "Implement guided Blender and image asset pipeline pilot",
       "category": "ops",
-      "summary": "Provide a guided Blender/image asset workshop for Alex and Jason, preserving original sources, immutable revisions and hash-bound technical, visual and gameplay review before repository delivery.",
+      "summary": "Implement a guided Blender/image-to-Godot asset pipeline with hash-bound technical evidence, human review and repository-scoped PR delivery.",
       "scope": [
-        "The game pipeline is committed in 606a2c0. Workshop source and its original history through c1a027d are integrated under tools/asset-workshop in this repository. The private hosted app is https://assets.portcallhq.ca. Previous separate-repository Workshop evidence is historical; this issue is canonical.",
-        "Windows inspect/plan/prepare/validate commands preserve editable sources and existing gameplay scene hashes. Original barrel and shared-rig guard passed Blender preparation, Godot collision/rig/twelve-clip/attachment checks and captures; negative rig/texture cases reject correctly.",
-        "Potion interaction staging uses the existing healthpotion catalog, consumption and isolated save/reopen path, preventing duplicate grants. Final potion art remains pending.",
-        "Image, model and mixed entry routes support one processing input plus up to eight supporting files, immutable revisions and output handoffs. A real image+GLB barrel completed restricted-runner preparation, Godot import/collision validation and three captures. Its retained image quote remained unapproved.",
-        "Separate contributor/admin sign-in, resumable uploads, durable jobs, private model previews and hash-bound reviews work. The restricted Windows runner is installed; readiness covered Blender, Godot 4.7.2, Node, Git LFS and a free Tripo balance check.",
-        "Jason approved the exact potion concept and one 30-credit Tripo call. A wrapper encoding failure interrupted execution without a recorded task ID; the journal is needsreconciliation. Last recorded balance was 1,035 credits / zero frozen. Preserve the 500-credit floor; never automatically resubmit an uncertain task.",
-        "Runner 0.2.1 interruption follow-up: downloads use temporary files and atomic completion; partial legacy inputs are downloaded again. Game workspace copies use staging directories; incomplete legacy copies are preserved and rebuilt. Six Python checks pass on Python 3.12 and under the actual restricted Windows runner identity on Python 3.14.6, including killing a real download process and restarting against a local HTTP fixture. All 17 D1/R2 cases and the TypeScript/Vite production build pass. Expanded API coverage rejects old-lease source reads, upload tickets and results after reclamation, and preserves paid-submission reconciliation.",
-        "Before applying 0.2.1, the hosted queue was verified idle and the runner stopped gracefully. Installed modules were backed up, updated and restarted. Live status confirms 0.2.1 online with processing enabled. These latest recovery source changes are currently uncommitted; no Worker deployment was required."
+        "Workshop source/history lives in tools/asset-workshop inside the game repository. Hosted app: https://assets.portcallhq.ca. Private runner 0.2.2 operates under the restricted Windows account; delivery remains locked with PILOTREADY=false.",
+        "Download/workspace interruption recovery, real Blender/Godot descendant cleanup, multipart reservation/lease recovery and lost completion response recovery passed. Nine Python checks, 18 D1/R2 integration cases, production build and live browser checks passed at the recorded recovery checkpoint. The controlled live retry resumed one artifact and verified the downloaded hash. The isolated cold Godot import access violation did not recur in warm/fresh-cache checks; retain it as a monitoring limitation.",
+        "GitHub App creation/installation is complete. The helper verified only this game repository; authentication under AssetWorkshopRunner passed with one accessible private repository.",
+        "Potion reconciliation found no original provider task/charge. The subsequently authorized single conversion succeeded as d3e4b4af-8435-431e-9b22-bde8aa4b2b1d, billed 30 credits, with 1,005 remaining / zero frozen at verification. Original records and geometry are retained; no additional paid processing occurred.",
+        "At Jason's request, local Blender material/silhouette refinement added bronze rims, cork binding, a leather neck loop and distinct baked material finishes. Authored source, previous master and provider original are preserved. Grounded height remains 0.24 m; the revised runtime has 1,432,830 triangles, eight meshes, four materials and seven embedded images.",
+        "The stand originally blocked pickup targeting. The review-only target origin was corrected; a real E-key regression now covers four-sided targeting, collection, duplicate rejection, healing and save/load. Jason confirmed pickup works as expected.",
+        "Visible exported 720p/1080p audits and dated captures passed on the RTX 3050 / Forward+. Refined-potion 1080p P95 is 1.295–1.416 ms in the measured warm-cache pilot views. This does not establish campaign, crowd, cold-load or minimum-spec acceptance.",
+        "Jason preferred the refined image but found the world-size bottle hard to inspect. V now opens a lit close-up, A/D rotates and V restores gameplay. It works after collection without changing inventory or world size. Input/state-restoration regression, import/startup, release export and final rendered capture passed."
       ],
       "evidence": [],
       "acceptance": [
@@ -992,51 +992,55 @@
         },
         {
           "done": true,
-          "text": "Validate collectible interaction staging and persistence using existing gameplay contracts."
+          "text": "Validate image/model/mixed inputs and restricted-runner processing."
         },
         {
           "done": true,
-          "text": "Integrate Workshop source/history into the game repository while preserving private local and hosted state."
+          "text": "Integrate Workshop source/history into the game repository while preserving private state."
         },
         {
           "done": true,
-          "text": "Exercise image/model/mixed inputs and restricted-runner barrel processing."
+          "text": "Validate partial-download and incomplete-workspace recovery under the restricted account."
         },
         {
           "done": true,
-          "text": "Validate partial-download/process interruption and incomplete-workspace recovery with trusted fixtures under the actual restricted account."
+          "text": "Verify stale-lease rejection and preservation of paid-submission reconciliation."
         },
         {
           "done": true,
-          "text": "Verify stale lease rejection for source reads, upload tickets and job results, and no automatic paid resubmission."
+          "text": "Exercise real Blender/Godot interruption, descendant cleanup and subsequent validation."
         },
         {
           "done": true,
-          "text": "Exercise isolated real Blender/Godot interruption under the restricted account; verify child cleanup and subsequent preparation/validation."
+          "text": "Exercise live multipart interruption, renewed lease, lost completion recovery and downloaded hash verification."
         },
         {
           "done": true,
-          "text": "Exercise multipart interruption, renewed leases and lost completion in local HTTP and D1/R2 integration checks."
+          "text": "Record the cold-import crash limitation and successful warm/fresh-cache reruns."
         },
         {
           "done": true,
-          "text": "Complete the controlled live artifact retry under the restricted account: preserved first part, new lease, stale-lease rejection, lost completion recovery and verified downloaded hash."
+          "text": "Configure the dedicated GitHub App installed only on the game repository."
         },
         {
           "done": true,
-          "text": "Record the isolated cold-import access violation and verify successful warm-workspace and fresh-cache reruns; retain the crash as a monitoring limitation."
+          "text": "Reconcile the uncertain potion attempt and complete the single approved conversion with actual billing records."
+        },
+        {
+          "done": true,
+          "text": "Complete requested local potion material/silhouette refinement and technical export/gameplay checks."
+        },
+        {
+          "done": true,
+          "text": "Capture exported pilot performance and dated asset/guard pose evidence with explicit limits."
+        },
+        {
+          "done": true,
+          "text": "Obtain Jason's acceptance of the refined potion and close-up presentation for the pilot."
         },
         {
           "done": false,
-          "text": "Reconcile the uncertain potion submission and prepare final potion art; repeat import/export/gameplay checks."
-        },
-        {
-          "done": false,
-          "text": "Complete human visual/deformation/equipment and exported gameplay acceptance for all three demonstrations, including correction and renewed approval."
-        },
-        {
-          "done": false,
-          "text": "Configure the dedicated GitHub App installed only on this game repository."
+          "text": "Complete remaining barrel/guard visual, deformation/equipment and human pilot correction/reapproval gates when the art hold is lifted."
         },
         {
           "done": false,
@@ -1046,10 +1050,10 @@
       "status": "Review",
       "priority": "Now",
       "area": "Art",
-      "maturity": "Prototype",
+      "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
-      "updatedAt": "2026-10-17T23:53:26Z",
+      "updatedAt": "2026-10-18T18:43:28Z",
       "order": 25,
       "statusSource": "project"
     },
@@ -1142,6 +1146,60 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/27",
       "updatedAt": "2026-10-17T22:54:14Z",
       "order": 27,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-03",
+      "number": 28,
+      "title": "Onboard external humanoid mocap intake",
+      "category": "art",
+      "summary": "The current intake is source-only and contains one CrouchStrafeStarTake001 recording in FBX, BVH, and C3D variants. The work covers provenance, selection of the appropriate FBX source, Blender retargeting to the gameplay skeleton, and a deliberately mapped runtime animation-only GLB. It does not authorize a combat-system…",
+      "scope": [
+        "The current intake is source-only and contains one CrouchStrafeStarTake001 recording in FBX, BVH, and C3D variants. The work covers provenance, selection of the appropriate FBX source, Blender retargeting to the gameplay skeleton, and a deliberately mapped runtime animation-only GLB. It does not authorize a combat-system rewrite, automatic replacement of existing clips, or a claim of accepted animation feel."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Add a source record with vendor, product URL, download date, selected source variant, license snapshot, intended use, root-motion status, and any props."
+        },
+        {
+          "done": false,
+          "text": "Inspect all FBX variants and select the appropriate source; do not process C3D without an explicit marker-solving need."
+        },
+        {
+          "done": false,
+          "text": "Retarget the selected source in Blender to the actual gameplay skeleton; verify rest pose, bone mapping, scale, feet, root behaviour, and frame range."
+        },
+        {
+          "done": false,
+          "text": "Trim or extract a gameplay-appropriate segment and decide in-place versus root-motion behaviour without changing existing movement/combat ownership."
+        },
+        {
+          "done": false,
+          "text": "Export a named animation-only GLB to assets/combat/mocap/ and import it as an Animation Library."
+        },
+        {
+          "done": false,
+          "text": "Wire the clip deliberately through the current animation resource/AnimationTree, preserving existing combat contracts and clips."
+        },
+        {
+          "done": false,
+          "text": "Run focused import and gameplay checks; inspect crouch-strafe loop/contact, camera readability, and combat/movement feel in a Windows build."
+        },
+        {
+          "done": false,
+          "text": "Update PLAN.md with implemented evidence and any remaining manual acceptance gate. Do not close this issue merely because files were downloaded or a GLB imports."
+        }
+      ],
+      "status": "In progress",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
+      "updatedAt": "2026-10-18T18:32:22Z",
+      "order": 28,
       "statusSource": "project"
     }
   ]
