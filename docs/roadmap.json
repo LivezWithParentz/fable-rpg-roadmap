@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "bb08917dde35a01f11fef6c7509a8cd6e6c4f3171936120e2664727fb6cb4f44",
-  "syncedAt": "2026-10-19T06:06:47.774634+00:00",
+  "contentVersion": "19cd43bf9243883313e7c6963e18b6d266f1d05590519b93cbae60fc900dbb6d",
+  "syncedAt": "2026-10-19T19:11:24.522078+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1210,7 +1210,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
-      "updatedAt": "2026-10-19T04:37:14Z",
+      "updatedAt": "2026-10-19T16:36:54Z",
       "order": 28,
       "statusSource": "project"
     },
@@ -1260,7 +1260,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-10-19T04:37:18Z",
+      "updatedAt": "2026-10-19T16:36:56Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1344,7 +1344,7 @@
       "maturity": "Implemented",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/31",
-      "updatedAt": "2026-10-19T04:37:16Z",
+      "updatedAt": "2026-10-19T16:36:59Z",
       "order": 31,
       "statusSource": "project"
     },
@@ -1353,40 +1353,44 @@
       "number": 32,
       "title": "Tune grounded locomotion, turning, jump and dodge presentation",
       "category": "game",
-      "summary": "Stage 2 - Tune grounded locomotion, turning, jump and dodge presentation. Responsive movement and visible footwork agree on flat ground, walls and slopes. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "summary": "A bounded jump-presentation slice is implemented for review following the user's report that the old jump looked too much like Spider-Man. The Hero now uses lower arms, modest forward knee flexion and a non-looping airborne hold. Jump physics and collision are unchanged. The complete 43-clip UAL2 Standard collection is…",
       "scope": [
-        "Stage 2 - Tune grounded locomotion, turning, jump and dodge presentation. Responsive movement and visible footwork agree on flat ground, walls and slopes. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+        "A bounded jump-presentation slice is implemented for review following the user's report that the old jump looked too much like Spider-Man. The Hero now uses lower arms, modest forward knee flexion and a non-looping airborne hold. Jump physics and collision are unchanged. The complete 43-clip UAL2 Standard collection is available in calibration; its more acrobatic NinjaJump is not the default. Broader locomotion/landing/camera acceptance remains open."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
-          "text": "Reuse PlayerMovement and collision-aware in-place movement; preserve current input, sprint, jump, dodge, guard/aim and camera behavior, without adding stamina."
+          "done": true,
+          "text": "Preserve PlayerMovement and collision-aware in-place movement contracts in this jump-only slice; no stamina or root-motion controller introduced."
+        },
+        {
+          "done": true,
+          "text": "Implement a restrained Hero jump and expose the full UAL2 source collection for isolated comparison, without substituting NinjaJump as default."
         },
         {
           "done": false,
-          "text": "Measure source clip speeds and actual movement; tune bounded playback/blends, acceleration, braking and turning only against observed issues."
+          "text": "Measure source clip speeds and actual movement; tune broader playback/blends, acceleration, braking and turning against observed issues."
         },
         {
           "done": false,
-          "text": "Inspect idle/start/travel/stop, sharp turns, wall pushing, slopes, edges, obstacles and transitions into aiming/guarding; record systemic sliding and missing directional clips."
+          "text": "Inspect idle/start/travel/stop, turns, wall pushing, slopes, edges, obstacles and aim/guard transitions; record systemic sliding and directional gaps."
         },
         {
           "done": false,
-          "text": "Verify jumps, landing, dodge protection, menus/pause and camera comfort with existing regressions and normal-speed/slow-motion review."
+          "text": "Complete human normal-speed/slow-motion jump/landing, dodge protection, menus/pause and camera-comfort acceptance. Automated jump/coyote/buffer/combat regression is evidence, not final feel approval."
         },
         {
-          "done": false,
-          "text": "Record exact changed data/source, comparisons and remaining visual/manual gates in PLAN.md. Mocap provenance/retarget/export remains owned by ART-03 (#28)."
+          "done": true,
+          "text": "Record changed resources, source hashes, comparisons, tests and remaining gates in PLAN.md."
         }
       ],
-      "status": "Backlog",
-      "priority": "Next",
+      "status": "In progress",
+      "priority": "Now",
       "area": "Combat",
-      "maturity": "Planned",
+      "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
-      "updatedAt": "2026-10-18T23:04:33Z",
+      "updatedAt": "2026-10-19T16:36:49Z",
       "order": 32,
       "statusSource": "project"
     },
