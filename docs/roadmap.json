@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0706976aeb871219bb7a1dec55399b167fb315e2bea3a34cdb66aebdcac5aab0",
-  "syncedAt": "2026-10-20T11:29:38.403770+00:00",
+  "contentVersion": "99d598c708feed2ad4f5b14713d60efde9ea6dbdd27b0f174ce5c7c60cd0ffef",
+  "syncedAt": "2026-10-20T19:39:28.594544+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -56,7 +56,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
-      "updatedAt": "2026-10-20T08:17:06Z",
+      "updatedAt": "2026-10-20T18:21:45Z",
       "order": 1,
       "statusSource": "project"
     },
@@ -260,7 +260,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
-      "updatedAt": "2026-10-20T04:18:14Z",
+      "updatedAt": "2026-10-20T19:22:26Z",
       "order": 5,
       "statusSource": "project"
     },
@@ -1219,9 +1219,9 @@
       "number": 29,
       "title": "Combat and movement workstream - start here",
       "category": "game",
-      "summary": "GAME-04 is complete: jump, movement and dodge are accepted, and the final wall-camera fault is fixed with rendered and packaged verification. GAME-05 sword contact/heavy presentation remains active; GAME-03 garment/reference and final campaign/gore acceptance remain separate.",
+      "summary": "GAME-04 is complete following Jason's explicit acceptance of the corrected wall-contact jump camera, together with prior movement, dodge and jump acceptance. GAME-05 remains active; reference garment, campaign and gore gates stay separate.",
       "scope": [
-        "GAME-04 is complete: jump, movement and dodge are accepted, and the final wall-camera fault is fixed with rendered and packaged verification. GAME-05 sword contact/heavy presentation remains active; GAME-03 garment/reference and final campaign/gore acceptance remain separate."
+        "GAME-04 is complete following Jason's explicit acceptance of the corrected wall-contact jump camera, together with prior movement, dodge and jump acceptance. GAME-05 remains active; reference garment, campaign and gore gates stay separate."
       ],
       "evidence": [],
       "acceptance": [
@@ -1235,7 +1235,7 @@
         },
         {
           "done": true,
-          "text": "Stage 2 movement is accepted for the current scope; the final wall-camera issue is fixed and verified (GAME-04)."
+          "text": "Stage 2 movement and corrected wall-contact jump camera accepted; GAME-04 complete (2026-10-20)."
         },
         {
           "done": false,
@@ -1264,7 +1264,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-10-20T08:17:04Z",
+      "updatedAt": "2026-10-20T18:21:42Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1357,52 +1357,52 @@
       "number": 32,
       "title": "Tune grounded locomotion, turning, jump and dodge presentation",
       "category": "game",
-      "summary": "GAME-04 is complete for the agreed movement slice. Jason accepted the jump, movement and dodge, and camera behavior except crossing to the wrong side of a wall. That final fault is reproduced and fixed, with source, rendered gameplay and packaged checks passing. All three retained EXEs include the correction. Broader…",
+      "summary": "GAME-04 is complete. Jason accepted the corrected wall-contact jump camera on 2026-10-20: \"Looks good. Mark it as complete.\" Jump, movement, dodge and the corrected camera are Validated for the agreed scope. Broader campaign, sword-contact, garment and gore/performance acceptance remain separate.",
       "scope": [
-        "GAME-04 is complete for the agreed movement slice. Jason accepted the jump, movement and dodge, and camera behavior except crossing to the wrong side of a wall. That final fault is reproduced and fixed, with source, rendered gameplay and packaged checks passing. All three retained EXEs include the correction. Broader campaign, sword-contact and art review remain separate."
+        "GAME-04 is complete. Jason accepted the corrected wall-contact jump camera on 2026-10-20: \"Looks good. Mark it as complete.\" Jump, movement, dodge and the corrected camera are Validated for the agreed scope. Broader campaign, sword-contact, garment and gore/performance acceptance remain separate."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Preserve in-place collision-aware movement, existing physics/input/combat/save contracts; no stamina or root-motion controller added."
+          "text": "Preserve existing collision-aware movement, jump/dodge/combat/input/save contracts; no stamina or root-motion controller added."
         },
         {
           "done": true,
-          "text": "Replace the rejected jump hold with the supplied HBM male Begin/Fall/Land phases; Jason explicitly accepted the revised jump as complete."
+          "text": "Record flat/wall/slope measurements and the bounded actual-travel blend correction."
         },
         {
           "done": true,
-          "text": "Measure flat/wall/slope travel and blend behavior; correct the demonstrated mismatch. Further acceleration/braking/turning retuning is unnecessary for the user's accepted current scope."
+          "text": "Record user acceptance of HBM jump, ordinary movement and dodge for the current scope."
         },
         {
           "done": true,
-          "text": "Record movement and dodge acceptance: \"good for now\" on 2026-10-20, supported by existing locomotion/dodge regression evidence."
+          "text": "Reproduce and fix same-render-frame camera wall crossing, including orbit, pitch, edge/corner, lock-on, aiming, impact and reset checks."
         },
         {
           "done": true,
-          "text": "Reproduce the remaining wall-camera crossing and verify same-frame orbit, pitch limits, edges/corners, impact, lock-on, aiming and reset."
+          "text": "Reproduce wall-contact jump occlusion below the high pivot; add a body-height sweep and nine real-jump regression cases."
         },
         {
           "done": true,
-          "text": "Verify the close-player fade and restoration in rendered gameplay; movement/pause, jump, dodge and combat regressions pass."
+          "text": "Inspect rendered wall-jump captures and refresh all three retained EXEs with packaged verification."
         },
         {
           "done": true,
-          "text": "Refresh retained EXEs and pass packaged startup, save/reload/combat and camera checks."
+          "text": "Jason confirms the reported wall-contact jump case is resolved in the revised shipped build: \"Looks good. Mark it as complete.\" (2026-10-20)."
         },
         {
           "done": true,
-          "text": "Record exact source/build evidence and scoped user acceptance in PLAN.md; keep unrelated art, sword-contact and campaign gates separate."
+          "text": "Record scope, exact build evidence and the superseded premature closure in PLAN.md."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Now",
       "area": "Combat",
-      "maturity": "Validated",
+      "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
-      "updatedAt": "2026-10-20T08:24:47Z",
+      "updatedAt": "2026-10-20T18:21:48Z",
       "order": 32,
       "statusSource": "project"
     },
@@ -1593,7 +1593,7 @@
       "category": "game",
       "summary": "Build Alex's spatial inventory with gear-dependent character capacity and a fixed personal stash in the purchased cottage, using the supplied equipment/grid references as the visual direction.",
       "scope": [
-        "Campaign source now uses equipment slots, original item icons and spatial storage grids. Pockets start at nine cells. Equipped clothing, travel backpack, courier bag and waist bag each open independent storage and change total carried capacity. The cottage chest stays fixed at 80 cells regardless of gear. Mira sells the first storage gear; capacities and prices remain provisional review values.",
+        "Campaign source now uses equipment slots, original item icons and spatial storage grids. Pockets start at nine cells. Storage-class bags have individual capacities; one primary bag is worn at a time. Ordinary clothing has no container. The cottage chest stays fixed at 80 cells regardless of gear. Mira sells the first bag types; capacities and prices remain provisional review values.",
         "Whole-stack drag/drop, item footprints, stack limits, equipment/potion/trading integration, atomic full-inventory rewards and lossless historical-inventory migration are implemented. Saves persist item IDs, quantities, positions, gear and stash contents. Nonempty storage gear cannot be removed. One active container per gear slot is supported; droppable bag instances and NPC ownership remain future work.",
         "Seven focused checks pass in an isolated Godot 4.7.2 copy, including inventory, trading, relationships and cottage/mill paths. Rendered engine mouse-drag tests and layout review pass. The latest shared-checkout campaign-inventory, M4 and cottage checks also pass. A dedicated inventory review build opens an owned-house demonstration with separate review saves; packaged startup and fresh-process save/reload pass. Existing campaign EXEs were not replaced. No user acceptance or full-system maturity promotion is claimed."
       ],
@@ -1609,7 +1609,7 @@
         },
         {
           "done": true,
-          "text": "Support independently equipped clothing and all three player bag types; gear changes character capacity."
+          "text": "Support all three player bag types with individual capacities; only one bag is worn at a time, and ordinary gear has no storage."
         },
         {
           "done": true,
@@ -1646,7 +1646,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/37",
-      "updatedAt": "2026-10-20T08:21:55Z",
+      "updatedAt": "2026-10-20T19:19:31Z",
       "order": 37,
       "statusSource": "project"
     },
@@ -1655,23 +1655,23 @@
       "number": 38,
       "title": "Reputation, relationships and living NPCs - staged village delivery",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from feature maturity. Remains open pending acceptance. Implementation is local; a scoped implementation PR is not yet published.",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from feature maturity. Remains open pending acceptance. Implementation is local; a scoped implementation PR is not yet published."
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded state operations."
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": true,
+          "text": "Record final automated, rendered and packaged verification."
         },
         {
           "done": false,
-          "text": "Complete and record final automated, rendered and packaged verification."
-        },
-        {
-          "done": false,
-          "text": "Play several village days and accept readable social changes, indirect news and recovery."
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
         },
         {
           "done": false,
@@ -1684,7 +1684,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/38",
-      "updatedAt": "2026-10-20T08:26:41Z",
+      "updatedAt": "2026-10-20T19:08:29Z",
       "order": 38,
       "statusSource": "project"
     },
@@ -1704,7 +1704,7 @@
           "text": "Deliver the bounded local prototype and guarded operations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record final automated, rendered and packaged verification."
         },
         {
@@ -1722,7 +1722,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/39",
-      "updatedAt": "2026-10-20T08:27:28Z",
+      "updatedAt": "2026-10-20T17:05:11Z",
       "order": 39,
       "statusSource": "project"
     },
@@ -1742,7 +1742,7 @@
           "text": "Deliver the bounded local prototype and guarded operations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record final automated, rendered and packaged verification."
         },
         {
@@ -1760,7 +1760,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/40",
-      "updatedAt": "2026-10-20T08:27:38Z",
+      "updatedAt": "2026-10-20T17:05:12Z",
       "order": 40,
       "statusSource": "project"
     },
@@ -1780,7 +1780,7 @@
           "text": "Deliver the bounded local prototype and guarded operations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record final automated, rendered and packaged verification."
         },
         {
@@ -1798,7 +1798,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/41",
-      "updatedAt": "2026-10-20T08:27:49Z",
+      "updatedAt": "2026-10-20T19:08:31Z",
       "order": 41,
       "statusSource": "project"
     },
@@ -1818,7 +1818,7 @@
           "text": "Deliver the bounded local prototype and guarded operations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record final automated, rendered and packaged verification."
         },
         {
@@ -1836,7 +1836,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/42",
-      "updatedAt": "2026-10-20T08:27:59Z",
+      "updatedAt": "2026-10-20T19:08:33Z",
       "order": 42,
       "statusSource": "project"
     },
@@ -1856,7 +1856,7 @@
           "text": "Deliver the bounded local prototype and guarded operations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record final automated, rendered and packaged verification."
         },
         {
@@ -1874,7 +1874,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/43",
-      "updatedAt": "2026-10-20T08:28:10Z",
+      "updatedAt": "2026-10-20T17:05:17Z",
       "order": 43,
       "statusSource": "project"
     },
@@ -1894,7 +1894,7 @@
           "text": "Deliver the bounded local prototype and guarded operations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record final automated, rendered and packaged verification."
         },
         {
@@ -1912,7 +1912,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/44",
-      "updatedAt": "2026-10-20T08:28:21Z",
+      "updatedAt": "2026-10-20T17:05:23Z",
       "order": 44,
       "statusSource": "project"
     }
