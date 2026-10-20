@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "19cd43bf9243883313e7c6963e18b6d266f1d05590519b93cbae60fc900dbb6d",
-  "syncedAt": "2026-10-19T19:11:24.522078+00:00",
+  "contentVersion": "6256aa1ef4086e3a3cf96854725b01eb3c350c6f1536857f329223e82cd81c99",
+  "syncedAt": "2026-10-20T06:09:09.063776+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -56,7 +56,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
-      "updatedAt": "2026-10-18T23:04:54Z",
+      "updatedAt": "2026-10-20T04:18:13Z",
       "order": 1,
       "statusSource": "project"
     },
@@ -260,7 +260,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
-      "updatedAt": "2026-10-18T23:04:55Z",
+      "updatedAt": "2026-10-20T04:18:14Z",
       "order": 5,
       "statusSource": "project"
     },
@@ -1157,9 +1157,9 @@
       "number": 28,
       "title": "Evaluate and retarget mocap for archery and combat motion",
       "category": "art",
-      "summary": "A first private bow mocap candidate is available in the calibration scene: draw, aim, release and a full 6.2-second cycle at native timing. Source/archive matching, retarget preparation and focused technical checks pass. The user approves the observed motion feel. Equipment fit, feet, final contact/blends and campaign…",
+      "summary": "The observed bow motion is approved and the user prefers the full UAL2 collection; all 43 clips are retained, including Zombie variants for future roles. A separate smooth bow derivative with flexing limbs and explicit nocks now corrects the prop plane/string problem in calibration. Technical source/geometry/contact checks…",
       "scope": [
-        "A first private bow mocap candidate is available in the calibration scene: draw, aim, release and a full 6.2-second cycle at native timing. Source/archive matching, retarget preparation and focused technical checks pass. The user approves the observed motion feel. Equipment fit, feet, final contact/blends and campaign acceptance remain open. No vendor clip is promoted to campaign assets."
+        "The observed bow motion is approved and the user prefers the full UAL2 collection; all 43 clips are retained, including Zombie variants for future roles. A separate smooth bow derivative with flexing limbs and explicit nocks now corrects the prop plane/string problem in calibration. Technical source/geometry/contact checks and packaged calibration pass; human prop fit/feet/blends and final gameplay integration remain open. No vendor clip or new bow art is accepted by publication."
       ],
       "evidence": [],
       "acceptance": [
@@ -1210,7 +1210,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
-      "updatedAt": "2026-10-19T16:36:54Z",
+      "updatedAt": "2026-10-20T03:54:41Z",
       "order": 28,
       "statusSource": "project"
     },
@@ -1219,9 +1219,9 @@
       "number": 29,
       "title": "Combat and movement workstream - start here",
       "category": "game",
-      "summary": "Start here for combat and movement. Work order: GAME-02 audit baseline -> GAME-03 reference rig/socket/calibration -> GAME-04 grounded locomotion -> GAME-05 sword contact and heavy-attack fix -> GAME-06 existing combat set -> GAME-07 second-humanoid reuse -> GAME-08 conditional contact polish -> QA-01 final campaign…",
+      "summary": "Jason accepted the new UAL2 animation feel in calibration and authorized rebuilding the three retained Windows executables. GAME-04 grounded movement is the active next task, with a measured slope-blend correction implemented. GAME-05 has live sword replacements and bounded feel acceptance; broader contact/campaign/stress…",
       "scope": [
-        "Start here for combat and movement. Work order: GAME-02 audit baseline -> GAME-03 reference rig/socket/calibration -> GAME-04 grounded locomotion -> GAME-05 sword contact and heavy-attack fix -> GAME-06 existing combat set -> GAME-07 second-humanoid reuse -> GAME-08 conditional contact polish -> QA-01 final campaign acceptance. ART-03 supplies reviewed mocap; QA-05 retains gore/performance acceptance. Stage 0 is in Review with a fresh source audit, six passing focused suites and fourteen rendered baseline captures. GAME-03 calibration is implemented locally and in Review with its reference/deformation gate open; later delivery remains Planned / Backlog. Existing M8 completion, accepted Whirlwind and Alex's art hold remain unchanged."
+        "Jason accepted the new UAL2 animation feel in calibration and authorized rebuilding the three retained Windows executables. GAME-04 grounded movement is the active next task, with a measured slope-blend correction implemented. GAME-05 has live sword replacements and bounded feel acceptance; broader contact/campaign/stress gates stay open. GAME-03 reference garment review remains separate."
       ],
       "evidence": [],
       "acceptance": [
@@ -1260,7 +1260,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-10-19T16:36:56Z",
+      "updatedAt": "2026-10-20T04:18:11Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1311,9 +1311,9 @@
       "number": 31,
       "title": "Prove reference humanoid, sword socket and calibration scene",
       "category": "game",
-      "summary": "GAME-03 calibration is implemented locally and in Review. It provides a playable guard reference on the existing Hero role, an independent Hero control/second guard, diagnostic poses, orbit/fixed views, terrain/target fixtures and debug overlays. Seven focused source suites, fresh-process reimport comparison and…",
+      "summary": "Calibration remains in Review with improved bow mocap, full UAL2 browsing, corrected diagnostic knees and a separate smooth bow derivative. The latest prop correction aligns the bow plane with the draw and attaches the string to explicit flexing-limb nocks. Technical source/geometry/contact and packaged calibration checks…",
       "scope": [
-        "GAME-03 calibration is implemented locally and in Review. It provides a playable guard reference on the existing Hero role, an independent Hero control/second guard, diagnostic poses, orbit/fixed views, terrain/target fixtures and debug overlays. Seven focused source suites, fresh-process reimport comparison and packed-resource calibration checks pass; forty-five rendered images provide review evidence. Garment/deformation and normal-speed human review remain open. No canonical cast replacement or campaign executable rebuild occurred. The later private bow preview is described below."
+        "Calibration remains in Review with improved bow mocap, full UAL2 browsing, corrected diagnostic knees and a separate smooth bow derivative. The latest prop correction aligns the bow plane with the draw and attaches the string to explicit flexing-limb nocks. Technical source/geometry/contact and packaged calibration checks pass. New bow art/fit and existing garment/reference acceptance remain open."
       ],
       "evidence": [],
       "acceptance": [
@@ -1344,7 +1344,7 @@
       "maturity": "Implemented",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/31",
-      "updatedAt": "2026-10-19T16:36:59Z",
+      "updatedAt": "2026-10-20T04:18:10Z",
       "order": 31,
       "statusSource": "project"
     },
@@ -1353,9 +1353,9 @@
       "number": 32,
       "title": "Tune grounded locomotion, turning, jump and dodge presentation",
       "category": "game",
-      "summary": "A bounded jump-presentation slice is implemented for review following the user's report that the old jump looked too much like Spider-Man. The Hero now uses lower arms, modest forward knee flexion and a non-looping airborne hold. Jump physics and collision are unchanged. The complete 43-clip UAL2 Standard collection is…",
+      "summary": "Jason accepted the smooth UAL2 animation feel and requested the next roadmap task. GAME-04 is the active next slice. Flat start/stop, sprint, wall pushing and 20/50-degree slope measurements are recorded. A demonstrated uphill presentation mismatch is corrected: normal/guard locomotion blends now use actual post-collision…",
       "scope": [
-        "A bounded jump-presentation slice is implemented for review following the user's report that the old jump looked too much like Spider-Man. The Hero now uses lower arms, modest forward knee flexion and a non-looping airborne hold. Jump physics and collision are unchanged. The complete 43-clip UAL2 Standard collection is available in calibration; its more acrobatic NinjaJump is not the default. Broader locomotion/landing/camera acceptance remains open."
+        "Jason accepted the smooth UAL2 animation feel and requested the next roadmap task. GAME-04 is the active next slice. Flat start/stop, sprint, wall pushing and 20/50-degree slope measurements are recorded. A demonstrated uphill presentation mismatch is corrected: normal/guard locomotion blends now use actual post-collision travel, with movement trajectories and physics tuning unchanged. Broader stride, turning, landing, camera and human slope acceptance remain open."
       ],
       "evidence": [],
       "acceptance": [
@@ -1390,7 +1390,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
-      "updatedAt": "2026-10-19T16:36:49Z",
+      "updatedAt": "2026-10-20T04:18:07Z",
       "order": 32,
       "statusSource": "project"
     },
@@ -1399,15 +1399,15 @@
       "number": 33,
       "title": "Align sword contact and resolve heavy-attack presentation",
       "category": "game",
-      "summary": "Stage 3 - Align sword contact and resolve heavy-attack presentation. One proven sword strike matches visible contact and gameplay timing; the known heavy-attack visual issue has an evidenced fix or explicit disposition. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned.…",
+      "summary": "Stage 3 - Live UAL2 sword replacement is implemented following Jason's explicit request to replace the existing combos. Native forward full-body A/B/C, heavy segments, sword riposte and held sword block are wired into Hero and shared NPC presentation. Focused checks pass; normal-speed feel, heavy/foot/blade contact and broad…",
       "scope": [
-        "Stage 3 - Align sword contact and resolve heavy-attack presentation. One proven sword strike matches visible contact and gameplay timing; the known heavy-attack visual issue has an evidenced fix or explicit disposition. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+        "Stage 3 - Live UAL2 sword replacement is implemented following Jason's explicit request to replace the existing combos. Native forward full-body A/B/C, heavy segments, sword riposte and held sword block are wired into Hero and shared NPC presentation. Focused checks pass; normal-speed feel, heavy/foot/blade contact and broad stress acceptance remain open. Execution: In progress; maturity: Implemented for the bounded replacement, not Validated."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": false,
-          "text": "Reproduce the heavy visual issue from QA-01 (#1) and preserve the user-accepted light-light-whirlwind timing/facing and lack of unwanted melee cosmetic effects."
+          "text": "Reproduce the heavy visual issue from QA-01 (#1) and review the user-requested native UAL2 replacement timing/facing and preserve the lack of unwanted melee cosmetic effects."
         },
         {
           "done": false,
@@ -1428,15 +1428,23 @@
         {
           "done": false,
           "text": "Record focused checks, rendered contact evidence and heavy-issue disposition for QA-01; successful automation alone does not accept combat feel."
+        },
+        {
+          "done": true,
+          "text": "User reviewed and accepted the smooth new UAL2 animation feel in calibration."
+        },
+        {
+          "done": false,
+          "text": "Complete heavy contact, campaign-wide and stress/remaining checklist gates."
         }
       ],
-      "status": "Backlog",
-      "priority": "Next",
+      "status": "In progress",
+      "priority": "Now",
       "area": "Combat",
-      "maturity": "Planned",
+      "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
-      "updatedAt": "2026-10-18T23:04:34Z",
+      "updatedAt": "2026-10-20T04:18:08Z",
       "order": 33,
       "statusSource": "project"
     },
