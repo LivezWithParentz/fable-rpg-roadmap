@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "6256aa1ef4086e3a3cf96854725b01eb3c350c6f1536857f329223e82cd81c99",
-  "syncedAt": "2026-10-20T06:09:09.063776+00:00",
+  "contentVersion": "0706976aeb871219bb7a1dec55399b167fb315e2bea3a34cdb66aebdcac5aab0",
+  "syncedAt": "2026-10-20T11:29:38.403770+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -56,7 +56,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
-      "updatedAt": "2026-10-20T04:18:13Z",
+      "updatedAt": "2026-10-20T08:17:06Z",
       "order": 1,
       "statusSource": "project"
     },
@@ -1157,9 +1157,9 @@
       "number": 28,
       "title": "Evaluate and retarget mocap for archery and combat motion",
       "category": "art",
-      "summary": "The observed bow motion is approved and the user prefers the full UAL2 collection; all 43 clips are retained, including Zombie variants for future roles. A separate smooth bow derivative with flexing limbs and explicit nocks now corrects the prop plane/string problem in calibration. Technical source/geometry/contact checks…",
+      "summary": "Male HBM jump Begin/Fall/Land sources are now retargeted and integrated for review after the user rejected the previous jump. Source originals, RM comparisons and editable master are preserved. Technical source/gameplay and embedded-pack checks pass; human jump feel was subsequently accepted as complete on 2026-10-20.…",
       "scope": [
-        "The observed bow motion is approved and the user prefers the full UAL2 collection; all 43 clips are retained, including Zombie variants for future roles. A separate smooth bow derivative with flexing limbs and explicit nocks now corrects the prop plane/string problem in calibration. Technical source/geometry/contact checks and packaged calibration pass; human prop fit/feet/blends and final gameplay integration remain open. No vendor clip or new bow art is accepted by publication."
+        "Male HBM jump Begin/Fall/Land sources are now retargeted and integrated for review after the user rejected the previous jump. Source originals, RM comparisons and editable master are preserved. Technical source/gameplay and embedded-pack checks pass; human jump feel was subsequently accepted as complete on 2026-10-20. Existing bow motion approval and prop/garment review boundaries remain unchanged."
       ],
       "evidence": [],
       "acceptance": [
@@ -1210,7 +1210,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
-      "updatedAt": "2026-10-20T03:54:41Z",
+      "updatedAt": "2026-10-20T07:47:00Z",
       "order": 28,
       "statusSource": "project"
     },
@@ -1219,9 +1219,9 @@
       "number": 29,
       "title": "Combat and movement workstream - start here",
       "category": "game",
-      "summary": "Jason accepted the new UAL2 animation feel in calibration and authorized rebuilding the three retained Windows executables. GAME-04 grounded movement is the active next task, with a measured slope-blend correction implemented. GAME-05 has live sword replacements and bounded feel acceptance; broader contact/campaign/stress…",
+      "summary": "GAME-04 is complete: jump, movement and dodge are accepted, and the final wall-camera fault is fixed with rendered and packaged verification. GAME-05 sword contact/heavy presentation remains active; GAME-03 garment/reference and final campaign/gore acceptance remain separate.",
       "scope": [
-        "Jason accepted the new UAL2 animation feel in calibration and authorized rebuilding the three retained Windows executables. GAME-04 grounded movement is the active next task, with a measured slope-blend correction implemented. GAME-05 has live sword replacements and bounded feel acceptance; broader contact/campaign/stress gates stay open. GAME-03 reference garment review remains separate."
+        "GAME-04 is complete: jump, movement and dodge are accepted, and the final wall-camera fault is fixed with rendered and packaged verification. GAME-05 sword contact/heavy presentation remains active; GAME-03 garment/reference and final campaign/gore acceptance remain separate."
       ],
       "evidence": [],
       "acceptance": [
@@ -1231,7 +1231,11 @@
         },
         {
           "done": false,
-          "text": "Stage 1 reference setup and Stage 2 movement pass their technical and visual gates."
+          "text": "Stage 1 reference setup passes its remaining garment/visual gates."
+        },
+        {
+          "done": true,
+          "text": "Stage 2 movement is accepted for the current scope; the final wall-camera issue is fixed and verified (GAME-04)."
         },
         {
           "done": false,
@@ -1260,7 +1264,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-10-20T04:18:11Z",
+      "updatedAt": "2026-10-20T08:17:04Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1344,7 +1348,7 @@
       "maturity": "Implemented",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/31",
-      "updatedAt": "2026-10-20T04:18:10Z",
+      "updatedAt": "2026-10-20T07:47:05Z",
       "order": 31,
       "statusSource": "project"
     },
@@ -1353,44 +1357,52 @@
       "number": 32,
       "title": "Tune grounded locomotion, turning, jump and dodge presentation",
       "category": "game",
-      "summary": "Jason accepted the smooth UAL2 animation feel and requested the next roadmap task. GAME-04 is the active next slice. Flat start/stop, sprint, wall pushing and 20/50-degree slope measurements are recorded. A demonstrated uphill presentation mismatch is corrected: normal/guard locomotion blends now use actual post-collision…",
+      "summary": "GAME-04 is complete for the agreed movement slice. Jason accepted the jump, movement and dodge, and camera behavior except crossing to the wrong side of a wall. That final fault is reproduced and fixed, with source, rendered gameplay and packaged checks passing. All three retained EXEs include the correction. Broader…",
       "scope": [
-        "Jason accepted the smooth UAL2 animation feel and requested the next roadmap task. GAME-04 is the active next slice. Flat start/stop, sprint, wall pushing and 20/50-degree slope measurements are recorded. A demonstrated uphill presentation mismatch is corrected: normal/guard locomotion blends now use actual post-collision travel, with movement trajectories and physics tuning unchanged. Broader stride, turning, landing, camera and human slope acceptance remain open."
+        "GAME-04 is complete for the agreed movement slice. Jason accepted the jump, movement and dodge, and camera behavior except crossing to the wrong side of a wall. That final fault is reproduced and fixed, with source, rendered gameplay and packaged checks passing. All three retained EXEs include the correction. Broader campaign, sword-contact and art review remain separate."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Preserve PlayerMovement and collision-aware in-place movement contracts in this jump-only slice; no stamina or root-motion controller introduced."
+          "text": "Preserve in-place collision-aware movement, existing physics/input/combat/save contracts; no stamina or root-motion controller added."
         },
         {
           "done": true,
-          "text": "Implement a restrained Hero jump and expose the full UAL2 source collection for isolated comparison, without substituting NinjaJump as default."
-        },
-        {
-          "done": false,
-          "text": "Measure source clip speeds and actual movement; tune broader playback/blends, acceleration, braking and turning against observed issues."
-        },
-        {
-          "done": false,
-          "text": "Inspect idle/start/travel/stop, turns, wall pushing, slopes, edges, obstacles and aim/guard transitions; record systemic sliding and directional gaps."
-        },
-        {
-          "done": false,
-          "text": "Complete human normal-speed/slow-motion jump/landing, dodge protection, menus/pause and camera-comfort acceptance. Automated jump/coyote/buffer/combat regression is evidence, not final feel approval."
+          "text": "Replace the rejected jump hold with the supplied HBM male Begin/Fall/Land phases; Jason explicitly accepted the revised jump as complete."
         },
         {
           "done": true,
-          "text": "Record changed resources, source hashes, comparisons, tests and remaining gates in PLAN.md."
+          "text": "Measure flat/wall/slope travel and blend behavior; correct the demonstrated mismatch. Further acceleration/braking/turning retuning is unnecessary for the user's accepted current scope."
+        },
+        {
+          "done": true,
+          "text": "Record movement and dodge acceptance: \"good for now\" on 2026-10-20, supported by existing locomotion/dodge regression evidence."
+        },
+        {
+          "done": true,
+          "text": "Reproduce the remaining wall-camera crossing and verify same-frame orbit, pitch limits, edges/corners, impact, lock-on, aiming and reset."
+        },
+        {
+          "done": true,
+          "text": "Verify the close-player fade and restoration in rendered gameplay; movement/pause, jump, dodge and combat regressions pass."
+        },
+        {
+          "done": true,
+          "text": "Refresh retained EXEs and pass packaged startup, save/reload/combat and camera checks."
+        },
+        {
+          "done": true,
+          "text": "Record exact source/build evidence and scoped user acceptance in PLAN.md; keep unrelated art, sword-contact and campaign gates separate."
         }
       ],
       "status": "In progress",
       "priority": "Now",
       "area": "Combat",
-      "maturity": null,
+      "maturity": "Validated",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
-      "updatedAt": "2026-10-20T04:18:07Z",
+      "updatedAt": "2026-10-20T08:24:47Z",
       "order": 32,
       "statusSource": "project"
     },
@@ -1572,6 +1584,336 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/36",
       "updatedAt": "2026-10-18T23:04:40Z",
       "order": 36,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-09",
+      "number": 37,
+      "title": "Implement gear-based inventory and fixed cottage stash",
+      "category": "game",
+      "summary": "Build Alex's spatial inventory with gear-dependent character capacity and a fixed personal stash in the purchased cottage, using the supplied equipment/grid references as the visual direction.",
+      "scope": [
+        "Campaign source now uses equipment slots, original item icons and spatial storage grids. Pockets start at nine cells. Equipped clothing, travel backpack, courier bag and waist bag each open independent storage and change total carried capacity. The cottage chest stays fixed at 80 cells regardless of gear. Mira sells the first storage gear; capacities and prices remain provisional review values.",
+        "Whole-stack drag/drop, item footprints, stack limits, equipment/potion/trading integration, atomic full-inventory rewards and lossless historical-inventory migration are implemented. Saves persist item IDs, quantities, positions, gear and stash contents. Nonempty storage gear cannot be removed. One active container per gear slot is supported; droppable bag instances and NPC ownership remain future work.",
+        "Seven focused checks pass in an isolated Godot 4.7.2 copy, including inventory, trading, relationships and cottage/mill paths. Rendered engine mouse-drag tests and layout review pass. The latest shared-checkout campaign-inventory, M4 and cottage checks also pass. A dedicated inventory review build opens an owned-house demonstration with separate review saves; packaged startup and fresh-process save/reload pass. Existing campaign EXEs were not replaced. No user acceptance or full-system maturity promotion is claimed."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Implement and test spatial storage, bounded stacks and atomic transfers."
+        },
+        {
+          "done": true,
+          "text": "Integrate campaign equipment/grid UI, item use/trading and historical-save migration."
+        },
+        {
+          "done": true,
+          "text": "Support independently equipped clothing and all three player bag types; gear changes character capacity."
+        },
+        {
+          "done": true,
+          "text": "Add an ownership/proximity-gated house chest with fixed capacity and persistent contents."
+        },
+        {
+          "done": true,
+          "text": "Produce a separate review build and verify packaged startup plus fresh-process save/reload."
+        },
+        {
+          "done": false,
+          "text": "Jason/Alex accept layout, dragging, capacity, pricing and gameplay use in the campaign."
+        },
+        {
+          "done": false,
+          "text": "Support persistent droppable/retrievable bag instances, abandonment/loss and NPC bag owners."
+        },
+        {
+          "done": false,
+          "text": "Add per-bag upgrades and crafted/unlocked mining/lumberjack Bags of Holding; ordinary ore/wood stacks cap at 12."
+        },
+        {
+          "done": false,
+          "text": "Integrate bulky-bag NOISY -10% sneak/pickpocket during stealth and garment bonus tradeoffs when those mechanics exist."
+        },
+        {
+          "done": false,
+          "text": "Accept the complete gameplay and save/restart loop without item loss or duplication."
+        }
+      ],
+      "status": "In progress",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/37",
+      "updatedAt": "2026-10-20T08:21:55Z",
+      "order": 37,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-10",
+      "number": 38,
+      "title": "Reputation, relationships and living NPCs - staged village delivery",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from feature maturity. Remains open pending acceptance. Implementation is local; a scoped implementation PR is not yet published.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from feature maturity. Remains open pending acceptance. Implementation is local; a scoped implementation PR is not yet published."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded state operations."
+        },
+        {
+          "done": false,
+          "text": "Complete and record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept readable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/38",
+      "updatedAt": "2026-10-20T08:26:41Z",
+      "order": 38,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-11",
+      "number": 39,
+      "title": "Connected village social profiles and family journal",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": false,
+          "text": "Record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/39",
+      "updatedAt": "2026-10-20T08:27:28Z",
+      "order": 39,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-12",
+      "number": 40,
+      "title": "Recoverable reputation and witnessed consequences",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": false,
+          "text": "Record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/40",
+      "updatedAt": "2026-10-20T08:27:38Z",
+      "order": 40,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-13",
+      "number": 41,
+      "title": "Autonomous meetings, gossip and saved social time",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": false,
+          "text": "Record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/41",
+      "updatedAt": "2026-10-20T08:27:49Z",
+      "order": 41,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-14",
+      "number": 42,
+      "title": "Adult relationship agency and household transitions",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": false,
+          "text": "Record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/42",
+      "updatedAt": "2026-10-20T08:27:59Z",
+      "order": 42,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-15",
+      "number": 43,
+      "title": "Bounded family formation and story-based growth",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": false,
+          "text": "Record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/43",
+      "updatedAt": "2026-10-20T08:28:10Z",
+      "order": 43,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-16",
+      "number": 44,
+      "title": "Settlement opportunities through existing gameplay",
+      "category": "game",
+      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "scope": [
+        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Deliver the bounded local prototype and guarded operations."
+        },
+        {
+          "done": false,
+          "text": "Record final automated, rendered and packaged verification."
+        },
+        {
+          "done": false,
+          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+        },
+        {
+          "done": false,
+          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/44",
+      "updatedAt": "2026-10-20T08:28:21Z",
+      "order": 44,
       "statusSource": "project"
     }
   ]
