@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "99d598c708feed2ad4f5b14713d60efde9ea6dbdd27b0f174ce5c7c60cd0ffef",
-  "syncedAt": "2026-10-20T19:39:28.594544+00:00",
+  "contentVersion": "8a2ca7bd5091dcea87262041774f3dc39b809418a08d3f722b9f89c2b734f53a",
+  "syncedAt": "2026-10-20T22:39:10.752564+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -254,13 +254,13 @@
           "text": "Do not mark the broader slice Validated from focused automation or visual review alone."
         }
       ],
-      "status": "Backlog",
+      "status": "In progress",
       "priority": "Next",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
-      "updatedAt": "2026-10-20T19:22:26Z",
+      "updatedAt": "2026-10-20T22:38:10Z",
       "order": 5,
       "statusSource": "project"
     },
@@ -1684,7 +1684,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/38",
-      "updatedAt": "2026-10-20T19:08:29Z",
+      "updatedAt": "2026-10-20T22:15:02Z",
       "order": 38,
       "statusSource": "project"
     },
@@ -1914,6 +1914,102 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/44",
       "updatedAt": "2026-10-20T17:05:23Z",
       "order": 44,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-17",
+      "number": 45,
+      "title": "Approved dialogue and story content pipeline",
+      "category": "game",
+      "summary": "Bounded post-M12 content plumbing under #38. Existing quest/save authority remains. Mira's Winter Supplies commitment and one relief follow-up prove the route. This does not create new actors, quests, activity gameplay or a universal cutscene system. Jason accepted the bounded pipeline and delivered example as complete on…",
+      "scope": [
+        "Bounded post-M12 content plumbing under #38. Existing quest/save authority remains. Mira's Winter Supplies commitment and one relief follow-up prove the route. This does not create new actors, quests, activity gameplay or a universal cutscene system. Jason accepted the bounded pipeline and delivered example as complete on 2026-10-20. Further content and natural-pacing refinement is deferred to story, dialogue and NPC personality expansion."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Discover and validate approved content without a hand-maintained registry list."
+        },
+        {
+          "done": true,
+          "text": "Gate offers and choices by existing story/social facts."
+        },
+        {
+          "done": true,
+          "text": "Apply declared consequences through existing domain operations with stable replay protection."
+        },
+        {
+          "done": true,
+          "text": "Preserve existing Mira quest/shop/personal behavior and historical completion facts."
+        },
+        {
+          "done": true,
+          "text": "Document authoring, promotion, validation, build and save compatibility boundaries."
+        },
+        {
+          "done": true,
+          "text": "Record final source, rendered and packaged restart evidence in PLAN.md."
+        },
+        {
+          "done": true,
+          "text": "Obtain user acceptance of the bounded pipeline and delivered example (Jason, 2026-10-20)."
+        }
+      ],
+      "status": "Done",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/45",
+      "updatedAt": "2026-10-20T22:15:06Z",
+      "order": 45,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-18",
+      "number": 46,
+      "title": "Implement storybook fantasy HUD and menus",
+      "category": "game",
+      "summary": "Implemented interface presentation is ready for review. Manual acceptance and measured campaign performance remain open. Publication and issue/project status do not establish visual acceptance; Alex's character-art hold remains separate.",
+      "scope": [
+        "Implemented interface presentation is ready for review. Manual acceptance and measured campaign performance remain open. Publication and issue/project status do not establish visual acceptance; Alex's character-art hold remains separate."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Functional themed HUD and existing menu flows implemented."
+        },
+        {
+          "done": true,
+          "text": "Original editable assets and font licenses recorded."
+        },
+        {
+          "done": true,
+          "text": "Rendered screenshots inspected at 720p, 1080p and 1440p."
+        },
+        {
+          "done": true,
+          "text": "Focused input, long-text, inventory, merchant, dialogue and pause checks pass."
+        },
+        {
+          "done": true,
+          "text": "Focused regression, project validation and distinct review export pass."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts visuals and hands-on gameplay; remaining gates recorded in PLAN.md."
+        }
+      ],
+      "status": "Review",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/46",
+      "updatedAt": "2026-10-20T22:38:37Z",
+      "order": 46,
       "statusSource": "project"
     }
   ]
