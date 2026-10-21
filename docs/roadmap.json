@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "e65f578a7d2024f4910998bf1bd10782bfe5727254b17f951f3a66e685a4c25d",
-  "syncedAt": "2026-10-21T00:55:22.652694+00:00",
+  "contentVersion": "3c4c6df0720b877d821ce412cea238f105295b8f5b09e36b32e0e84fabeb75ff",
+  "syncedAt": "2026-10-21T05:36:56.276277+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -226,41 +226,41 @@
       ],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Verify Off/Blood/Full settings, lethal/nonlethal behavior, and blood-only fallback for unsupported models in the campaign."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify quest rewards are issued once and save/recovery integrity and normal campaign behavior are preserved after gore events."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Inspect the prepared Raider and general gore presentation in campaign context; record the exact accepted asset/source revision and captures."
         },
         {
-          "done": false,
-          "text": "Measure worst-case combat performance on the target setup; record resolution, settings, observed frame rate, and scenario; resolve or explicitly retain open gates."
+          "done": true,
+          "text": "Record targeted performance evidence and explicitly retain the unpassed worst-case campaign review in QA-06 #47. This transfer does not claim worst-case acceptance."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Rerun relevant focused and packaged checks after changes; update PLAN.md and the review package manifest with exact results."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep the user-approved Raider art scope specific to that package; do not treat it as universal character-art approval."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Do not mark the broader slice Validated from focused automation or visual review alone."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Next",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
-      "updatedAt": "2026-10-20T23:46:58Z",
+      "updatedAt": "2026-10-21T04:13:25Z",
       "order": 5,
       "statusSource": "project"
     },
@@ -1971,9 +1971,9 @@
       "number": 46,
       "title": "Implement storybook fantasy HUD and menus",
       "category": "game",
-      "summary": "Implemented interface presentation is ready for review. Manual acceptance and measured campaign performance remain open. Publication and issue/project status do not establish visual acceptance; Alex's character-art hold remains separate.",
+      "summary": "UI design complete and accepted by Jason on 2026-10-20. Campaign export promotion and measured campaign performance remain separate follow-ups. Alex's character-art hold remains separate.",
       "scope": [
-        "Implemented interface presentation is ready for review. Manual acceptance and measured campaign performance remain open. Publication and issue/project status do not establish visual acceptance; Alex's character-art hold remains separate."
+        "UI design complete and accepted by Jason on 2026-10-20. Campaign export promotion and measured campaign performance remain separate follow-ups. Alex's character-art hold remains separate."
       ],
       "evidence": [],
       "acceptance": [
@@ -1998,18 +1998,60 @@
           "text": "Focused regression, project validation and distinct review export pass."
         },
         {
-          "done": false,
-          "text": "Jason accepts visuals and hands-on gameplay; remaining gates recorded in PLAN.md."
+          "done": true,
+          "text": "Jason accepts the UI design and presentation; explicit completion recorded in PLAN.md on 2026-10-20."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/46",
-      "updatedAt": "2026-10-21T00:53:38Z",
+      "updatedAt": "2026-10-21T00:58:37Z",
       "order": 46,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-06",
+      "number": 47,
+      "title": "Polish corpse falls and verify campaign gore performance",
+      "category": "qa",
+      "summary": "Post-M12 polish. Owner: @LivezWithParentz. Area: Combat. Category: QA. Execution: Backlog.",
+      "scope": [
+        "Post-M12 polish. Owner: @LivezWithParentz. Area: Combat. Category: QA. Execution: Backlog."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Reproduce and capture the awkward corpse fall in the accepted campaign package; compare head and forearm cuts from representative poses/terrain."
+        },
+        {
+          "done": false,
+          "text": "Tune the smallest relevant physics/transition parameters; preserve normal death, damage, rewards, equipment and cleanup behavior."
+        },
+        {
+          "done": false,
+          "text": "Record target setup, identical before/after scenarios, frame-time percentiles and worst-case simultaneous combat/effect loads; investigate material regressions."
+        },
+        {
+          "done": false,
+          "text": "Recheck gore settings, unsupported-model fallback and save/recovery in the polished package."
+        },
+        {
+          "done": false,
+          "text": "Pass relevant focused/rendered/packaged checks and obtain hands-on acceptance of corpse falls."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Combat",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/47",
+      "updatedAt": "2026-10-21T04:09:44Z",
+      "order": 47,
       "statusSource": "project"
     }
   ]
