@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "8a2ca7bd5091dcea87262041774f3dc39b809418a08d3f722b9f89c2b734f53a",
-  "syncedAt": "2026-10-20T22:39:10.752564+00:00",
+  "contentVersion": "e65f578a7d2024f4910998bf1bd10782bfe5727254b17f951f3a66e685a4c25d",
+  "syncedAt": "2026-10-21T00:55:22.652694+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -260,7 +260,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
-      "updatedAt": "2026-10-20T22:38:10Z",
+      "updatedAt": "2026-10-20T23:46:58Z",
       "order": 5,
       "statusSource": "project"
     },
@@ -2008,7 +2008,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/46",
-      "updatedAt": "2026-10-20T22:38:37Z",
+      "updatedAt": "2026-10-21T00:53:38Z",
       "order": 46,
       "statusSource": "project"
     }
