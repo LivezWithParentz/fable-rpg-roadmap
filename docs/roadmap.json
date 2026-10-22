@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "dddc7bdb13d811d323fc83b53e1cef4ae028981d0016ff52de549814f90592d8",
-  "syncedAt": "2026-10-22T19:26:36.798495+00:00",
+  "contentVersion": "1a73c907d3398c40996d4e8848c4aa2fa2a9289b01f66a74958ad116e4e79d68",
+  "syncedAt": "2026-10-22T22:35:44.643288+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2261,15 +2261,15 @@
           "text": "Exact review package receives human acceptance."
         }
       ],
-      "status": "In progress",
+      "status": "Backlog",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/55",
       "updatedAt": "2026-10-22T16:31:24Z",
-      "order": 55,
-      "statusSource": "issue"
+      "order": 52,
+      "statusSource": "project"
     }
   ]
 }
