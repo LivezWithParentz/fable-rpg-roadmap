@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "c64867dbcb32cae5a8efaf938b7af0ed5c855dd2ea7e9de946540e5aa74feb78",
-  "syncedAt": "2026-10-22T05:34:12.380549+00:00",
+  "contentVersion": "570b590f17fa08d691cff2d3f803bcf8b41b80531499a1d2a2de9ac4ca32a701",
+  "syncedAt": "2026-10-22T10:35:19.346203+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2059,63 +2059,41 @@
       "number": 50,
       "title": "Review Character Factory shared-rig pilot (CF-02)",
       "category": "art",
-      "summary": "Produce and review one source-derived shared-rig Character Factory pilot before CF-03. Prototype / Review; Jason has not accepted the pilot.",
+      "summary": "Complete. Jason accepted the revised CF-02 neck result on 2026-10-21 and explicitly requested closure and merge of PR #51.",
       "scope": [
-        "The rejected 4 cm head/neck correction has been replaced with a new review candidate. The complete head/hair now sits 2.5 cm lower again (6.5 cm total correction). A local throat sculpt relaxes front/back depth by at most 4 mm across 374 vertices below the jaw. Coincident imported vertices move together and garment boundaries remain pinned. Facial shape, original source, canonical 65-bone rest/bind, skin weights, UVs and exported morph deltas are preserved. Skin textures were not repainted.",
-        "Current GLB SHA-256: cc39477dcbf77dab2d72c3ce6c2df68ce372c79b3985325503cf2d698de8d078.",
-        "Structural audit, three clothing regressions and four Godot suites pass (pilot, guard presentation, asset pipeline, M8). Final import and 168 captures complete without script/resource errors: 44 standard, 96 body-state and 28 head-turn/nod samples. Neutral textured front/profile and clay renders plus selected Godot turn/body views were inspected. Sampled images do not establish continuous collision-free deformation or visual acceptance.",
-        "The review scene adds H for a continuous head-turn/nod sweep, using converted bone-local axes. Full evidence, retained logs and previous rejected portrait/receipt are bound in the current receipt."
+        "The isolated source-derived herbalist pilot preserves the original source and canonical shared rig, weights, UVs and morph deltas. Accepted model SHA-256: cc39477dcbf77dab2d72c3ce6c2df68ce372c79b3985325503cf2d698de8d078.",
+        "Structural audit, three clothing regressions and four Godot suites pass. Final import and 168 standard/body-state/head-turn captures completed without script/resource errors. PLAN.md, PILOT.md and the hash-bound review receipt retain the exact evidence and scoped acceptance."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Recover and inspect real LFS source payloads."
+          "text": "Inspect real sources and produce a reproducible derivative shared-rig pilot."
         },
         {
           "done": true,
-          "text": "Produce reproducible derivative master and shared-rig candidate with provenance."
+          "text": "Preserve source assets, rig contracts and readiness evidence."
         },
         {
           "done": true,
-          "text": "Preserve originals, canonical rig and readiness gates."
+          "text": "Address wardrobe and neck feedback and retain current rendered evidence."
         },
         {
           "done": true,
-          "text": "Correct wardrobe binding and provide a revised neck candidate after the previous rejection."
+          "text": "Pass structural, clothing and four-suite Godot checks."
         },
         {
           "done": true,
-          "text": "Complete current-candidate structural, clothing and four-suite Godot checks."
-        },
-        {
-          "done": true,
-          "text": "Retain current hash-bound source/model, neutral renders, 168 captures and validation logs."
-        },
-        {
-          "done": false,
-          "text": "Jason accepts current neck/skin proportions and finish."
-        },
-        {
-          "done": false,
-          "text": "Jason accepts continuous head-turn, shoulder/clothing contact and overall deformation."
-        },
-        {
-          "done": false,
-          "text": "Resolve inherited bow-pose/contact acceptance."
-        },
-        {
-          "done": false,
-          "text": "Jason accepts exact pilot appearance before CF-03."
+          "text": "Record Jason's acceptance of the revised neck and explicit instruction to complete this scoped item."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "NPC production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/50",
-      "updatedAt": "2026-10-22T05:28:29Z",
+      "updatedAt": "2026-10-22T05:34:47Z",
       "order": 48,
       "statusSource": "project"
     },
@@ -2213,6 +2191,46 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/53",
       "updatedAt": "2026-10-22T04:55:36Z",
       "order": 50,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-06",
+      "number": 54,
+      "title": "Refine Terrain3D grass material for natural gameplay views",
+      "category": "art",
+      "summary": "Refine Terrain3D grass material for natural gameplay views.",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Compare candidate grass materials at close, player, and distant gameplay views under the review scene lighting."
+        },
+        {
+          "done": false,
+          "text": "Author a grounded grass surface with appropriate scale and natural color/roughness variation; avoid the current oversized repeated-blade appearance."
+        },
+        {
+          "done": false,
+          "text": "Capture the updated slope and flat clearing, and confirm texture transitions remain coherent across both."
+        },
+        {
+          "done": false,
+          "text": "Preserve terrain walkability, obstacle behavior, shared NPC navigation, campaign startup/layout, and save compatibility."
+        },
+        {
+          "done": false,
+          "text": "Record the chosen source/material and visual review evidence in PLAN.md."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Art",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/54",
+      "updatedAt": "2026-10-22T07:32:33Z",
+      "order": 51,
       "statusSource": "project"
     }
   ]
