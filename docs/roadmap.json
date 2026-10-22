@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "49d79a81d36c4c847126c0a6efba4e556ac0d380c3de51cb77a2558ac2d5c295",
-  "syncedAt": "2026-10-22T15:36:03.551757+00:00",
+  "contentVersion": "dddc7bdb13d811d323fc83b53e1cef4ae028981d0016ff52de549814f90592d8",
+  "syncedAt": "2026-10-22T19:26:36.798495+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -51,14 +51,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Acceptance",
+      "priority": "Later",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
       "updatedAt": "2026-10-20T18:21:45Z",
       "order": 1,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "QA-02",
@@ -103,14 +103,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Acceptance",
+      "priority": "Next",
+      "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/2",
       "updatedAt": "2026-10-17T19:56:18Z",
       "order": 2,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "QA-03",
@@ -153,14 +153,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Acceptance",
+      "priority": "Next",
+      "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/3",
       "updatedAt": "2026-10-17T19:56:19Z",
       "order": 3,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "QA-04",
@@ -203,14 +203,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Acceptance",
+      "priority": "Next",
+      "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/4",
       "updatedAt": "2026-10-17T19:56:20Z",
       "order": 4,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "QA-05",
@@ -255,14 +255,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
-      "area": "Acceptance",
+      "priority": "Next",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/5",
       "updatedAt": "2026-10-21T04:13:25Z",
       "order": 5,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "ART-01",
@@ -301,14 +301,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Now",
+      "area": "NPC production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/6",
       "updatedAt": "2026-10-17T19:35:10Z",
       "order": 6,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "ART-02",
@@ -347,14 +347,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Later",
+      "area": "Art",
       "maturity": null,
       "note": "Character art remains on hold pending Alex’s models and the relevant review. Delivery and technical checks do not imply visual approval.",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/7",
       "updatedAt": "2026-10-17T19:35:18Z",
       "order": 7,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M0",
@@ -394,7 +394,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/8",
       "updatedAt": "2026-10-17T19:54:33Z",
       "order": 0,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "OPS-01",
@@ -420,7 +420,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/9",
       "updatedAt": "2026-10-17T19:35:30Z",
       "order": 9,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M1",
@@ -456,7 +456,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/10",
       "updatedAt": "2026-10-17T19:54:34Z",
       "order": 10,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M2",
@@ -492,7 +492,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/11",
       "updatedAt": "2026-10-17T19:54:34Z",
       "order": 20,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M3",
@@ -528,7 +528,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/12",
       "updatedAt": "2026-10-17T19:54:36Z",
       "order": 30,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M4",
@@ -564,7 +564,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/13",
       "updatedAt": "2026-10-17T19:54:37Z",
       "order": 40,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M5",
@@ -600,7 +600,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/14",
       "updatedAt": "2026-10-17T19:54:38Z",
       "order": 50,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M6",
@@ -636,7 +636,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/15",
       "updatedAt": "2026-10-17T19:54:39Z",
       "order": 60,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M7",
@@ -672,7 +672,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/16",
       "updatedAt": "2026-10-17T19:54:40Z",
       "order": 70,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M8",
@@ -708,7 +708,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/17",
       "updatedAt": "2026-10-18T23:04:57Z",
       "order": 80,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M9",
@@ -744,7 +744,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/18",
       "updatedAt": "2026-10-17T19:54:42Z",
       "order": 90,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M10",
@@ -780,7 +780,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/19",
       "updatedAt": "2026-10-17T19:54:43Z",
       "order": 100,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M11",
@@ -816,7 +816,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/20",
       "updatedAt": "2026-10-17T19:54:44Z",
       "order": 110,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M12a",
@@ -852,7 +852,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/21",
       "updatedAt": "2026-10-17T19:54:45Z",
       "order": 121,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M12b",
@@ -888,7 +888,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/22",
       "updatedAt": "2026-10-17T19:54:45Z",
       "order": 122,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-M12c",
@@ -924,7 +924,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/23",
       "updatedAt": "2026-10-17T19:54:46Z",
       "order": 123,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "OPS-02",
@@ -966,7 +966,7 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/24",
       "updatedAt": "2026-10-17T19:52:14Z",
       "order": 24,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "OPS-03",
@@ -1052,14 +1052,14 @@
         }
       ],
       "status": "Review",
-      "priority": null,
-      "area": "Production tooling",
+      "priority": "Now",
+      "area": "Art",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/25",
       "updatedAt": "2026-10-19T01:14:44Z",
       "order": 25,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "OPS-04",
@@ -1103,14 +1103,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
+      "priority": "Now",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/26",
       "updatedAt": "2026-10-17T22:56:07Z",
       "order": 26,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "OPS-05",
@@ -1143,14 +1143,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
+      "priority": "Next",
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/27",
       "updatedAt": "2026-10-17T22:54:14Z",
       "order": 27,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "ART-03",
@@ -1205,14 +1205,14 @@
         }
       ],
       "status": "In progress",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Now",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
       "updatedAt": "2026-10-20T07:47:00Z",
       "order": 28,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-01",
@@ -1259,14 +1259,14 @@
         }
       ],
       "status": "In progress",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Now",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
       "updatedAt": "2026-10-20T18:21:42Z",
       "order": 29,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-02",
@@ -1301,14 +1301,14 @@
         }
       ],
       "status": "Review",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Now",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/30",
       "updatedAt": "2026-10-19T01:34:53Z",
       "order": 30,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-03",
@@ -1343,14 +1343,14 @@
         }
       ],
       "status": "Review",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Now",
+      "area": "Combat",
       "maturity": "Implemented",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/31",
       "updatedAt": "2026-10-20T07:47:05Z",
       "order": 31,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-04",
@@ -1397,14 +1397,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Now",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
       "updatedAt": "2026-10-20T18:21:48Z",
       "order": 32,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-05",
@@ -1451,14 +1451,14 @@
         }
       ],
       "status": "In progress",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Now",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
       "updatedAt": "2026-10-20T04:18:08Z",
       "order": 33,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-06",
@@ -1493,14 +1493,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Next",
+      "area": "Combat",
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/34",
       "updatedAt": "2026-10-18T23:04:36Z",
       "order": 34,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-07",
@@ -1535,14 +1535,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Next",
+      "area": "Combat",
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/35",
       "updatedAt": "2026-10-18T23:04:38Z",
       "order": 35,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-08",
@@ -1577,14 +1577,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Gameplay",
+      "priority": "Later",
+      "area": "Combat",
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/36",
       "updatedAt": "2026-10-18T23:04:40Z",
       "order": 36,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-09",
@@ -1640,15 +1640,15 @@
           "text": "Accept the complete gameplay and save/restart loop without item loss or duplication."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "In progress",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/37",
       "updatedAt": "2026-10-20T19:19:31Z",
       "order": 37,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-10",
@@ -1678,15 +1678,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/38",
       "updatedAt": "2026-10-20T22:15:02Z",
       "order": 38,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-11",
@@ -1716,15 +1716,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/39",
       "updatedAt": "2026-10-20T17:05:11Z",
       "order": 39,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-12",
@@ -1754,15 +1754,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/40",
       "updatedAt": "2026-10-20T17:05:12Z",
       "order": 40,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-13",
@@ -1792,15 +1792,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/41",
       "updatedAt": "2026-10-20T19:08:31Z",
       "order": 41,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-14",
@@ -1830,15 +1830,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/42",
       "updatedAt": "2026-10-20T19:08:33Z",
       "order": 42,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-15",
@@ -1868,15 +1868,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/43",
       "updatedAt": "2026-10-20T17:05:17Z",
       "order": 43,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-16",
@@ -1906,15 +1906,15 @@
           "text": "Review final presentation separately; technical delivery does not grant art acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
+      "status": "Review",
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/44",
       "updatedAt": "2026-10-20T17:05:23Z",
       "order": 44,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-17",
@@ -1957,14 +1957,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
+      "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/45",
       "updatedAt": "2026-10-20T22:15:06Z",
       "order": 45,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "GAME-18",
@@ -2003,14 +2003,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/46",
       "updatedAt": "2026-10-21T00:58:37Z",
       "order": 46,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "QA-06",
@@ -2045,14 +2045,14 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Acceptance",
+      "priority": "Later",
+      "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/47",
       "updatedAt": "2026-10-21T04:09:44Z",
       "order": 47,
-      "statusSource": "issue"
+      "statusSource": "project"
     },
     {
       "key": "ART-04",
@@ -2088,14 +2088,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Now",
+      "area": "NPC production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/50",
       "updatedAt": "2026-10-22T05:34:47Z",
-      "order": 50,
-      "statusSource": "issue"
+      "order": 48,
+      "statusSource": "project"
     },
     {
       "key": "GAME-19",
@@ -2142,14 +2142,14 @@
         }
       ],
       "status": "In progress",
-      "priority": null,
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/52",
       "updatedAt": "2026-10-22T03:14:01Z",
-      "order": 52,
-      "statusSource": "issue"
+      "order": 49,
+      "statusSource": "project"
     },
     {
       "key": "ART-05",
@@ -2184,14 +2184,14 @@
         }
       ],
       "status": "Done",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Next",
+      "area": "Art",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/53",
       "updatedAt": "2026-10-22T04:55:36Z",
-      "order": 53,
-      "statusSource": "issue"
+      "order": 50,
+      "statusSource": "project"
     },
     {
       "key": "ART-06",
@@ -2224,13 +2224,51 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Later",
+      "area": "Art",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/54",
       "updatedAt": "2026-10-22T07:32:33Z",
-      "order": 54,
+      "order": 51,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-20",
+      "number": 55,
+      "title": "Add bounded ledge mantle and controlled descent",
+      "category": "game",
+      "summary": "Context jump mantles reachable ledges; moveback plus jump descends to a clear supported landing.",
+      "scope": [
+        "User authorized implementation of GAME-02 follow-up plan. Reuse PlayerMovement and shared presentation. No free wall climbing or save schema change. Execution status: In progress."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Reach, height, slope and capsule clearance bounds enforced."
+        },
+        {
+          "done": false,
+          "text": "Mantle and descent use collision checks; blocked/invalid ledges reject safely."
+        },
+        {
+          "done": false,
+          "text": "Combat, death, jump and camera regressions pass."
+        },
+        {
+          "done": false,
+          "text": "Exact review package receives human acceptance."
+        }
+      ],
+      "status": "In progress",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/55",
+      "updatedAt": "2026-10-22T16:31:24Z",
+      "order": 55,
       "statusSource": "issue"
     }
   ]
