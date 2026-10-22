@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "3c4c6df0720b877d821ce412cea238f105295b8f5b09e36b32e0e84fabeb75ff",
-  "syncedAt": "2026-10-21T05:36:56.276277+00:00",
+  "contentVersion": "c64867dbcb32cae5a8efaf938b7af0ed5c855dd2ea7e9de946540e5aa74feb78",
+  "syncedAt": "2026-10-22T05:34:12.380549+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2052,6 +2052,167 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/47",
       "updatedAt": "2026-10-21T04:09:44Z",
       "order": 47,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-04",
+      "number": 50,
+      "title": "Review Character Factory shared-rig pilot (CF-02)",
+      "category": "art",
+      "summary": "Produce and review one source-derived shared-rig Character Factory pilot before CF-03. Prototype / Review; Jason has not accepted the pilot.",
+      "scope": [
+        "The rejected 4 cm head/neck correction has been replaced with a new review candidate. The complete head/hair now sits 2.5 cm lower again (6.5 cm total correction). A local throat sculpt relaxes front/back depth by at most 4 mm across 374 vertices below the jaw. Coincident imported vertices move together and garment boundaries remain pinned. Facial shape, original source, canonical 65-bone rest/bind, skin weights, UVs and exported morph deltas are preserved. Skin textures were not repainted.",
+        "Current GLB SHA-256: cc39477dcbf77dab2d72c3ce6c2df68ce372c79b3985325503cf2d698de8d078.",
+        "Structural audit, three clothing regressions and four Godot suites pass (pilot, guard presentation, asset pipeline, M8). Final import and 168 captures complete without script/resource errors: 44 standard, 96 body-state and 28 head-turn/nod samples. Neutral textured front/profile and clay renders plus selected Godot turn/body views were inspected. Sampled images do not establish continuous collision-free deformation or visual acceptance.",
+        "The review scene adds H for a continuous head-turn/nod sweep, using converted bone-local axes. Full evidence, retained logs and previous rejected portrait/receipt are bound in the current receipt."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Recover and inspect real LFS source payloads."
+        },
+        {
+          "done": true,
+          "text": "Produce reproducible derivative master and shared-rig candidate with provenance."
+        },
+        {
+          "done": true,
+          "text": "Preserve originals, canonical rig and readiness gates."
+        },
+        {
+          "done": true,
+          "text": "Correct wardrobe binding and provide a revised neck candidate after the previous rejection."
+        },
+        {
+          "done": true,
+          "text": "Complete current-candidate structural, clothing and four-suite Godot checks."
+        },
+        {
+          "done": true,
+          "text": "Retain current hash-bound source/model, neutral renders, 168 captures and validation logs."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts current neck/skin proportions and finish."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts continuous head-turn, shoulder/clothing contact and overall deformation."
+        },
+        {
+          "done": false,
+          "text": "Resolve inherited bow-pose/contact acceptance."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts exact pilot appearance before CF-03."
+        }
+      ],
+      "status": "Review",
+      "priority": "Now",
+      "area": "NPC production",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/50",
+      "updatedAt": "2026-10-22T05:28:29Z",
+      "order": 48,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-19",
+      "number": 52,
+      "title": "Implement isolated LimboAI guard-alert pilot",
+      "category": "game",
+      "summary": "Prototype / Review. A single optional guard-alert review uses LimboAI 1.8.1 in a dedicated scene. The normal campaign remains on its existing NPC routine.",
+      "scope": [
+        "Prototype / Review. A single optional guard-alert review uses LimboAI 1.8.1 in a dedicated scene. The normal campaign remains on its existing NPC routine."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Pin official LimboAI 1.8.1 GDExtension and retain upstream notices."
+        },
+        {
+          "done": true,
+          "text": "Add an isolated review scene and a simulated F9 stimulus."
+        },
+        {
+          "done": true,
+          "text": "Keep NPCRoutine as the sole mover; preserve schedule, interaction pause and fallback behavior."
+        },
+        {
+          "done": true,
+          "text": "Focused headless checks pass for alert/warn/resume, unreachable target, interaction interruption and no-teleport movement."
+        },
+        {
+          "done": true,
+          "text": "Existing M10 route and social-village regression checks pass."
+        },
+        {
+          "done": true,
+          "text": "Godot 4.7.2 Windows release export and packaged review startup pass; the Windows release extension DLL is included."
+        },
+        {
+          "done": false,
+          "text": "Review the authored tree in the GUI editor and perform a hands-on exported review with F9."
+        },
+        {
+          "done": false,
+          "text": "Record visual/interactive acceptance; keep performance and broader NPC integration separate."
+        }
+      ],
+      "status": "In progress",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/52",
+      "updatedAt": "2026-10-22T03:14:01Z",
+      "order": 49,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-05",
+      "number": 53,
+      "title": "Review anatomy-enhanced forearm inserts",
+      "category": "art",
+      "summary": "Post-M12 art prototype. Owner: @LivezWithParentz. Area: Art. Category: Art. Execution: Review.",
+      "scope": [
+        "Post-M12 art prototype. Owner: @LivezWithParentz. Area: Art. Category: Art. Execution: Review."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Preserve original donors with hashes and user-provided licensing declaration."
+        },
+        {
+          "done": true,
+          "text": "Produce editable fitted bone/muscle inserts and matching closed cut surfaces in a separate derivative."
+        },
+        {
+          "done": true,
+          "text": "Verify unchanged shared rig, intact mesh/grip, skin containment, closed cuts and source hashes."
+        },
+        {
+          "done": true,
+          "text": "Inspect Blender and Godot cut/interior/pose views; run relevant detach/reset/mode checks."
+        },
+        {
+          "done": true,
+          "text": "Deliver an isolated review launcher and record exact evidence in PLAN.md; retain user visual approval as a separate gate."
+        }
+      ],
+      "status": "Done",
+      "priority": "Next",
+      "area": "Art",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/53",
+      "updatedAt": "2026-10-22T04:55:36Z",
+      "order": 50,
       "statusSource": "project"
     }
   ]
