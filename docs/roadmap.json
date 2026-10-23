@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1a73c907d3398c40996d4e8848c4aa2fa2a9289b01f66a74958ad116e4e79d68",
-  "syncedAt": "2026-10-22T22:35:44.643288+00:00",
+  "contentVersion": "39a7e981759dac2b8c1896712f69ac4d73ba78bf395c810ac2b836d0ce51f0ed",
+  "syncedAt": "2026-10-23T05:35:02.742072+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1306,7 +1306,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/30",
-      "updatedAt": "2026-10-19T01:34:53Z",
+      "updatedAt": "2026-10-23T02:40:11Z",
       "order": 30,
       "statusSource": "project"
     },
@@ -1450,13 +1450,13 @@
           "text": "Complete heavy contact, campaign-wide and stress/remaining checklist gates."
         }
       ],
-      "status": "In progress",
+      "status": "Review",
       "priority": "Now",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
-      "updatedAt": "2026-10-20T04:18:08Z",
+      "updatedAt": "2026-10-23T02:40:09Z",
       "order": 33,
       "statusSource": "project"
     },
@@ -2261,13 +2261,13 @@
           "text": "Exact review package receives human acceptance."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/55",
-      "updatedAt": "2026-10-22T16:31:24Z",
+      "updatedAt": "2026-10-23T02:40:10Z",
       "order": 52,
       "statusSource": "project"
     }
