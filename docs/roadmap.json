@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "39a7e981759dac2b8c1896712f69ac4d73ba78bf395c810ac2b836d0ce51f0ed",
-  "syncedAt": "2026-10-23T05:35:02.742072+00:00",
+  "contentVersion": "47e9650f1dd1f268f2f363fff41ea0d7e81fdc56475faf9ea26a881ba3f5fbef",
+  "syncedAt": "2026-10-23T19:21:51.127245+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1451,12 +1451,12 @@
         }
       ],
       "status": "Review",
-      "priority": "Now",
+      "priority": "Later",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
-      "updatedAt": "2026-10-23T02:40:09Z",
+      "updatedAt": "2026-10-23T16:14:11Z",
       "order": 33,
       "statusSource": "project"
     },
@@ -2257,17 +2257,17 @@
           "text": "Combat, death, jump and camera regressions pass."
         },
         {
-          "done": false,
-          "text": "Exact review package receives human acceptance."
+          "done": true,
+          "text": "Exact review package receives human acceptance (2026-10-23)."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/55",
-      "updatedAt": "2026-10-23T02:40:10Z",
+      "updatedAt": "2026-10-23T16:14:14Z",
       "order": 52,
       "statusSource": "project"
     }
