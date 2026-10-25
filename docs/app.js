@@ -1,5 +1,5 @@
 'use strict';
-const categories={all:{name:'Everything',color:'#65735c'},game:{name:'Game development',color:'#477858'},art:{name:'Art & world building',color:'#aa794c'},qa:{name:'Quality & acceptance',color:'#687da4'},ops:{name:'Tools & production',color:'#92759b'}};
+const categories={all:{name:'Everything',color:'#65735c'},game:{name:'Game development',color:'#477858'},art:{name:'Art & world building',color:'#aa794c'},gfx:{name:'Graphics Overhaul',color:'#8c7365'},qa:{name:'Quality & acceptance',color:'#687da4'},ops:{name:'Tools & production',color:'#92759b'}};
 const views={now:['In focus','The work closest to the next playable improvement.'],next:['On the horizon','The next reviews, refinements and production tasks.'],later:['Further down the road','Held and unscheduled work, ready when its dependencies are.'],completed:['Chapters delivered','Individual milestones, with their evidence and remaining follow-ups.']};
 let data,view=new URLSearchParams(location.search).get('view')||'now',category=new URLSearchParams(location.search).get('category')||'all',query=new URLSearchParams(location.search).get('q')||'';
 if(!views[view])view='now';if(!categories[category])category='all';
