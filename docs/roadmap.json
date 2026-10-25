@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "47e9650f1dd1f268f2f363fff41ea0d7e81fdc56475faf9ea26a881ba3f5fbef",
-  "syncedAt": "2026-10-23T19:21:51.127245+00:00",
+  "contentVersion": "1aaf6c6ff3d8334e795a0204271a098b2f0287369fd34bcd4e0feac8f5a2c257",
+  "syncedAt": "2026-10-25T18:55:51.350208+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1402,7 +1402,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/32",
-      "updatedAt": "2026-10-20T18:21:48Z",
+      "updatedAt": "2026-10-25T18:47:54Z",
       "order": 32,
       "statusSource": "project"
     },
@@ -2269,6 +2269,58 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/55",
       "updatedAt": "2026-10-23T16:14:14Z",
       "order": 52,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-00",
+      "number": 56,
+      "title": "Graphics Overhaul — Greyhaven/Briarwood visual-fidelity proof",
+      "category": "art",
+      "summary": "Graphics Overhaul — a carefully scoped vertical slice to determine whether Godot Forward+ can meet the game's Fable-inspired, high-detail art direction without rewriting existing gameplay.",
+      "scope": [
+        "Graphics Overhaul — a carefully scoped vertical slice to determine whether Godot Forward+ can meet the game's Fable-inspired, high-detail art direction without rewriting existing gameplay."
+      ],
+      "evidence": [
+        "Record implementation and validation evidence only when run; creating an issue is not evidence of completion."
+      ],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Define fixed before/after camera locations for street, terrain, hero portrait, combat and day/night."
+        },
+        {
+          "done": false,
+          "text": "Establish baseline resolution, frame time, VRAM, shader/material/texture problems."
+        },
+        {
+          "done": false,
+          "text": "Implement and review the Graphics Overhaul subtasks GFX-01 through GFX-06."
+        },
+        {
+          "done": false,
+          "text": "Provide native 1080p screenshots and reproducible exported-build comparisons."
+        },
+        {
+          "done": false,
+          "text": "Confirm gameplay regression tests and seven-district traversal/navigation remain intact."
+        },
+        {
+          "done": false,
+          "text": "Record measured performance, visible gains, remaining art gaps and manual visual acceptance."
+        },
+        {
+          "done": false,
+          "text": "Decide: expand Godot visual work, run a bounded Unity HDRP comparative prototype, or defer the engine decision."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Art production",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
+      "updatedAt": "2026-10-25T18:55:02Z",
+      "order": 53,
       "statusSource": "project"
     }
   ]
