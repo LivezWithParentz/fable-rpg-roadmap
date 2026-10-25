@@ -127,7 +127,7 @@ def publish_item(issue: dict, project: dict, mapping: dict) -> dict | None:
     key, title = (match[1], match[2]) if match else (f'OPS-ISSUE{issue["number"]}', issue['title'])
     title = re.sub(r'\s*\(Completed\)\s*$', '', title)
     category = key.split('-')[0].lower()
-    if category not in ['game', 'art', 'qa', 'ops']:
+    if category not in ['game', 'art', 'qa', 'ops', 'gfx']:
         category = next((x for x in ['game', 'art', 'qa', 'ops'] if x in labels), 'ops')
     memberships = [entry['id'] for entry in issue.get('projectItems', {}).get('nodes', [])
                    if entry and entry.get('id')]
@@ -179,10 +179,16 @@ def publish_item(issue: dict, project: dict, mapping: dict) -> dict | None:
     order = int(milestone[1]) * 10 + (ord(milestone[2]) - 96 if milestone[2] else 0) if milestone else fields.get('position', issue['number'])
     if key == 'ART-02':
         note = 'Character art remains on hold pending Alex’s models and the relevant review. Delivery and technical checks do not imply visual approval.'
+    # GFX issues have a roadmap horizon before their Project priority is manually set.
+    # Project values still take precedence when supplied.
+    graphics_priority = re.search(r'(?im)^\s*[-*]?\s*Priority:\s*\*{0,2}(Now|Next|Later)\b', body) if category == 'gfx' else None
+    priority = fields.get('Priority') or (graphics_priority[1] if graphics_priority else None)
+    area = 'Graphics Overhaul' if category == 'gfx' else (
+        fields.get('Area') or {'game': 'Gameplay', 'art': 'Art production', 'qa': 'Acceptance', 'ops': 'Production tooling'}[category])
     return {'key': key, 'number': issue['number'], 'title': plain(title), 'category': category,
             'summary': summary, 'scope': scope[:12], 'evidence': evidence[:8], 'acceptance': acceptance,
-            'status': status, 'priority': fields.get('Priority') or None,
-            'area': fields.get('Area') or {'game': 'Gameplay', 'art': 'Art production', 'qa': 'Acceptance', 'ops': 'Production tooling'}[category],
+            'status': status, 'priority': priority,
+            'area': area,
             'maturity': explicit[1] if explicit else None, 'note': note,
             'url': issue['url'], 'updatedAt': issue['updatedAt'], 'order': order,
             'statusSource': 'project' if fields else 'issue'}
