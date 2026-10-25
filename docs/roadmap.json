@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "be2f98c90b1db5052dfbbd447e0f13afe3d329a759ada181919238ae00ad828f",
-  "syncedAt": "2026-10-25T18:58:30.216761+00:00",
+  "contentVersion": "123d5557c8fae0dd400bc93097ac026a608bb9cb3ef6450dbb4d1f83d79eeb2e",
+  "syncedAt": "2026-10-25T21:20:46.593903+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2102,9 +2102,9 @@
       "number": 52,
       "title": "Implement isolated LimboAI guard-alert pilot",
       "category": "game",
-      "summary": "Prototype / Review. A single optional guard-alert review uses LimboAI 1.8.1 in a dedicated scene. The normal campaign remains on its existing NPC routine.",
+      "summary": "Accepted / Done for the isolated pilot. A single optional guard-alert review uses LimboAI 1.8.1 in a dedicated scene. The normal campaign remains on its existing NPC routine.",
       "scope": [
-        "Prototype / Review. A single optional guard-alert review uses LimboAI 1.8.1 in a dedicated scene. The normal campaign remains on its existing NPC routine."
+        "Accepted / Done for the isolated pilot. A single optional guard-alert review uses LimboAI 1.8.1 in a dedicated scene. The normal campaign remains on its existing NPC routine."
       ],
       "evidence": [],
       "acceptance": [
@@ -2133,21 +2133,21 @@
           "text": "Godot 4.7.2 Windows release export and packaged review startup pass; the Windows release extension DLL is included."
         },
         {
-          "done": false,
-          "text": "Review the authored tree in the GUI editor and perform a hands-on exported review with F9."
+          "done": true,
+          "text": "User review accepted after the GUI/tree and exported F9 review instructions (2026-10-25); no independent assistant GUI inspection claimed."
         },
         {
-          "done": false,
-          "text": "Record visual/interactive acceptance; keep performance and broader NPC integration separate."
+          "done": true,
+          "text": "Record Jason's acceptance: \"Everything went as expected.\" Performance and broader NPC integration remain separate."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/52",
-      "updatedAt": "2026-10-22T03:14:01Z",
+      "updatedAt": "2026-10-25T19:17:15Z",
       "order": 49,
       "statusSource": "project"
     },
@@ -2229,7 +2229,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/54",
-      "updatedAt": "2026-10-22T07:32:33Z",
+      "updatedAt": "2026-10-25T20:07:20Z",
       "order": 51,
       "statusSource": "project"
     },
@@ -2313,13 +2313,13 @@
           "text": "Decide: expand Godot visual work, run a bounded Unity HDRP comparative prototype, or defer the engine decision."
         }
       ],
-      "status": "Backlog",
+      "status": "In progress",
       "priority": "Now",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-25T18:57:39Z",
+      "updatedAt": "2026-10-25T20:07:18Z",
       "order": 53,
       "statusSource": "project"
     },
@@ -2335,37 +2335,37 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
-          "text": "Record existing rendering configuration, native output resolution and internal 3D scale (not inferred from window dimensions)."
+          "done": true,
+          "text": "Record runtime rendering configuration, native 1080p output and 1.0 3D scale."
         },
         {
-          "done": false,
-          "text": "Capture fixed reproducible before screenshots at 1080p, including foliage/character closeups, interiors or night when possible."
+          "done": true,
+          "text": "Capture 18 reproducible packaged images across six views and three AA presets."
         },
         {
-          "done": false,
-          "text": "Compare anti-aliasing, upscaling/3D scale, texture filtering, mipmaps, anisotropy and import/LOD settings without image-quality regressions."
+          "done": true,
+          "text": "Record hardware, static frame intervals and engine rendering-memory measurements with limitations."
         },
         {
-          "done": false,
-          "text": "Record frame time, FPS, VRAM and hardware for each comparable preset, including a representative combat/NPC view."
+          "done": true,
+          "text": "Deliver reversible review presets and documented rollback."
         },
         {
-          "done": false,
-          "text": "Deliver a reversible high-quality graphics preset and document rollback."
+          "done": true,
+          "text": "Pass packaged startup and seven-district regression."
         },
         {
-          "done": false,
-          "text": "Run Godot project smoke checks and representative packaged campaign scene; acquire visual sign-off before promoting."
+          "done": true,
+          "text": "User review: movement/models look cleaner; explicit instruction to mark GFX-01 complete."
         }
       ],
-      "status": "Backlog",
+      "status": "Done",
       "priority": "Now",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/57",
-      "updatedAt": "2026-10-25T18:56:37Z",
+      "updatedAt": "2026-10-25T19:36:24Z",
       "order": 54,
       "statusSource": "project"
     },
@@ -2381,7 +2381,7 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Create reversible lighting presets for sunny day, dusk, night and woodland; provide identical camera captures."
         },
         {
@@ -2389,7 +2389,7 @@
           "text": "Show convincing lighting on stone, plaster, timber, foliage, character skin and metal under PBR conditions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Compare at least two plausible GI strategies or justify one with measured visual/performance tradeoffs."
         },
         {
@@ -2405,13 +2405,13 @@
           "text": "Record frame times and manual visual acceptance; do not promote effect-heavy settings if target hardware misses goals."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/58",
-      "updatedAt": "2026-10-25T18:56:39Z",
+      "updatedAt": "2026-10-25T20:07:08Z",
       "order": 55,
       "statusSource": "project"
     },
@@ -2427,7 +2427,7 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Document audited sources, license/provenance, sizes and missing PBR maps for priority materials."
         },
         {
@@ -2439,7 +2439,7 @@
           "text": "Show before/after under fixed neutral and cinematic lighting at hero-closeup and gameplay camera distances."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Demonstrate reversible semantic surface-slot overrides on one cottage plus environment props without mutating shared imported GLBs."
         },
         {
@@ -2447,17 +2447,17 @@
           "text": "Verify proper tiling, seamless transitions, weathering, no over-tessellation and VRAM/frame-time budgets."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep the 72-texture library intact as prototypes until replacements receive manual acceptance."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/59",
-      "updatedAt": "2026-10-25T18:56:41Z",
+      "updatedAt": "2026-10-25T20:07:10Z",
       "order": 56,
       "statusSource": "project"
     },
@@ -2497,13 +2497,13 @@
           "text": "Deliver before/after Greyhaven–Briarwood captures, measured performance and manual approval."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/60",
-      "updatedAt": "2026-10-25T18:56:43Z",
+      "updatedAt": "2026-10-25T20:07:12Z",
       "order": 57,
       "statusSource": "project"
     },
@@ -2597,6 +2597,56 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/62",
       "updatedAt": "2026-10-25T18:56:47Z",
       "order": 59,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-21",
+      "number": 63,
+      "title": "Improve in-world guard alert presentation",
+      "category": "game",
+      "summary": "Separate presentation follow-up to accepted GAME-19 (#52), initially in the isolated guard-alert review. Reuse existing NPC movement, presentation and UI ownership. Campaign integration, additional AI behaviors and walk/run animation polish retain their separate scope. Final art/audio requires its normal review gates.",
+      "scope": [
+        "Separate presentation follow-up to accepted GAME-19 (#52), initially in the isolated guard-alert review. Reuse existing NPC movement, presentation and UI ownership. Campaign integration, additional AI behaviors and walk/run animation polish retain their separate scope. Final art/audio requires its normal review gates."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Audit existing gesture, attention, audio and subtitle facilities and select a bounded presentation that fits them."
+        },
+        {
+          "done": false,
+          "text": "Make noticing, investigating, warning and returning to patrol readable at ordinary gameplay distance without generic HUD feedback."
+        },
+        {
+          "done": false,
+          "text": "Attribute any spoken warning/subtitle to the guard; retain an accessible alternative when audio is muted or unavailable."
+        },
+        {
+          "done": false,
+          "text": "Handle repeated alerts, interruptions and unreachable/timeout recovery without lingering cues or duplicate warnings."
+        },
+        {
+          "done": false,
+          "text": "Preserve the accepted alert/investigate/warn/resume behavior and sole NPCRoutine movement ownership."
+        },
+        {
+          "done": false,
+          "text": "Review the exported result in motion and obtain Jason's acceptance of clarity and tone."
+        },
+        {
+          "done": false,
+          "text": "Record exact evidence and maturity in PLAN.md."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/63",
+      "updatedAt": "2026-10-25T19:16:39Z",
+      "order": 60,
       "statusSource": "project"
     }
   ]
