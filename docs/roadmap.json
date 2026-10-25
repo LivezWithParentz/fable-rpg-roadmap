@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1aaf6c6ff3d8334e795a0204271a098b2f0287369fd34bcd4e0feac8f5a2c257",
-  "syncedAt": "2026-10-25T18:55:51.350208+00:00",
+  "contentVersion": "be2f98c90b1db5052dfbbd447e0f13afe3d329a759ada181919238ae00ad828f",
+  "syncedAt": "2026-10-25T18:58:30.216761+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2275,7 +2275,7 @@
       "key": "GFX-00",
       "number": 56,
       "title": "Graphics Overhaul — Greyhaven/Briarwood visual-fidelity proof",
-      "category": "art",
+      "category": "gfx",
       "summary": "Graphics Overhaul — a carefully scoped vertical slice to determine whether Godot Forward+ can meet the game's Fable-inspired, high-detail art direction without rewriting existing gameplay.",
       "scope": [
         "Graphics Overhaul — a carefully scoped vertical slice to determine whether Godot Forward+ can meet the game's Fable-inspired, high-detail art direction without rewriting existing gameplay."
@@ -2314,13 +2314,289 @@
         }
       ],
       "status": "Backlog",
-      "priority": null,
-      "area": "Art production",
+      "priority": "Now",
+      "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-25T18:55:02Z",
+      "updatedAt": "2026-10-25T18:57:39Z",
       "order": 53,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-01",
+      "number": 57,
+      "title": "Rendering resolution, clarity and performance baseline",
+      "category": "gfx",
+      "summary": "Graphics Overhaul / GFX-01. Establish a reproducible 1080p visual/performance baseline and eliminate avoidable low-resolution, blurry or poorly imported rendering before changing assets.",
+      "scope": [
+        "Graphics Overhaul / GFX-01. Establish a reproducible 1080p visual/performance baseline and eliminate avoidable low-resolution, blurry or poorly imported rendering before changing assets."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Record existing rendering configuration, native output resolution and internal 3D scale (not inferred from window dimensions)."
+        },
+        {
+          "done": false,
+          "text": "Capture fixed reproducible before screenshots at 1080p, including foliage/character closeups, interiors or night when possible."
+        },
+        {
+          "done": false,
+          "text": "Compare anti-aliasing, upscaling/3D scale, texture filtering, mipmaps, anisotropy and import/LOD settings without image-quality regressions."
+        },
+        {
+          "done": false,
+          "text": "Record frame time, FPS, VRAM and hardware for each comparable preset, including a representative combat/NPC view."
+        },
+        {
+          "done": false,
+          "text": "Deliver a reversible high-quality graphics preset and document rollback."
+        },
+        {
+          "done": false,
+          "text": "Run Godot project smoke checks and representative packaged campaign scene; acquire visual sign-off before promoting."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Now",
+      "area": "Graphics Overhaul",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/57",
+      "updatedAt": "2026-10-25T18:56:37Z",
+      "order": 54,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-02",
+      "number": 58,
+      "title": "Cinematic lighting, global illumination and atmospheric profiles",
+      "category": "gfx",
+      "summary": "Graphics Overhaul / GFX-02. Improve lighting depth, realistic bounce/shadows, sky, color response and district atmosphere without breaking the continuous day/night world.",
+      "scope": [
+        "Graphics Overhaul / GFX-02. Improve lighting depth, realistic bounce/shadows, sky, color response and district atmosphere without breaking the continuous day/night world."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Create reversible lighting presets for sunny day, dusk, night and woodland; provide identical camera captures."
+        },
+        {
+          "done": false,
+          "text": "Show convincing lighting on stone, plaster, timber, foliage, character skin and metal under PBR conditions."
+        },
+        {
+          "done": false,
+          "text": "Compare at least two plausible GI strategies or justify one with measured visual/performance tradeoffs."
+        },
+        {
+          "done": false,
+          "text": "Keep regional atmosphere blending, time-of-day, interiors, NPC schedules and combat visibility correct."
+        },
+        {
+          "done": false,
+          "text": "Check light leaking, overexposure, crushed blacks, shadow acne and pop-in in walkthrough."
+        },
+        {
+          "done": false,
+          "text": "Record frame times and manual visual acceptance; do not promote effect-heavy settings if target hardware misses goals."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Graphics Overhaul",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/58",
+      "updatedAt": "2026-10-25T18:56:39Z",
+      "order": 55,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-03",
+      "number": 59,
+      "title": "Production PBR textures, material mapping and weathering",
+      "category": "gfx",
+      "summary": "Graphics Overhaul / GFX-03. Replace flat/provisional appearance with physically plausible, close-up-capable materials, while maintaining reusability and legally documented sources.",
+      "scope": [
+        "Graphics Overhaul / GFX-03. Replace flat/provisional appearance with physically plausible, close-up-capable materials, while maintaining reusability and legally documented sources."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Document audited sources, license/provenance, sizes and missing PBR maps for priority materials."
+        },
+        {
+          "done": false,
+          "text": "Author or source ten representative coherent PBR material sets with UV/texel and normal/roughness validation."
+        },
+        {
+          "done": false,
+          "text": "Show before/after under fixed neutral and cinematic lighting at hero-closeup and gameplay camera distances."
+        },
+        {
+          "done": false,
+          "text": "Demonstrate reversible semantic surface-slot overrides on one cottage plus environment props without mutating shared imported GLBs."
+        },
+        {
+          "done": false,
+          "text": "Verify proper tiling, seamless transitions, weathering, no over-tessellation and VRAM/frame-time budgets."
+        },
+        {
+          "done": false,
+          "text": "Keep the 72-texture library intact as prototypes until replacements receive manual acceptance."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Graphics Overhaul",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/59",
+      "updatedAt": "2026-10-25T18:56:41Z",
+      "order": 56,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-04",
+      "number": 60,
+      "title": "Campaign Terrain3D integration, blended ground and vegetation",
+      "category": "gfx",
+      "summary": "Graphics Overhaul / GFX-04. Integrate true sculpted Terrain3D ground into a bounded portion of the actual campaign, replacing a visibly flat prototype approach with natural, playable terrain.",
+      "scope": [
+        "Graphics Overhaul / GFX-04. Integrate true sculpted Terrain3D ground into a bounded portion of the actual campaign, replacing a visibly flat prototype approach with natural, playable terrain."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Save editable Terrain3D assets, source heightfield and level files with reproducible locations and textures."
+        },
+        {
+          "done": false,
+          "text": "Maintain initial world origin, district bounds, authored roads, doorways, encounter pads, quest landmarks and save/checkpoint positions."
+        },
+        {
+          "done": false,
+          "text": "Validate terrain collision under the player, NPCs and enemies, including off-camera areas, projectiles and camera."
+        },
+        {
+          "done": false,
+          "text": "Integrate with existing VillageLife / NPCRoutine navigation baking; verify schedules, escorts, shop destinations and fallback goals."
+        },
+        {
+          "done": false,
+          "text": "Remove overlapping legacy floors only after demonstrating stable replacement terrain; verify slopes, roads, combat and district transitions."
+        },
+        {
+          "done": false,
+          "text": "Deliver before/after Greyhaven–Briarwood captures, measured performance and manual approval."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Graphics Overhaul",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/60",
+      "updatedAt": "2026-10-25T18:56:43Z",
+      "order": 57,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-05",
+      "number": 61,
+      "title": "High-fidelity cottage, vegetation and Hero presentation proof",
+      "category": "gfx",
+      "summary": "Graphics Overhaul / GFX-05. Demonstrate a coherent high-detail Fable-inspired world with one authored cottage, surrounding foliage/props and a character whose portrait and gameplay appearances meet the visual reference.",
+      "scope": [
+        "Graphics Overhaul / GFX-05. Demonstrate a coherent high-detail Fable-inspired world with one authored cottage, surrounding foliage/props and a character whose portrait and gameplay appearances meet the visual reference."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Use original Blender masters and semantic material mappings; keep imported GLB and gameplay collision non-destructive."
+        },
+        {
+          "done": false,
+          "text": "Produce clear close/medium/gameplay captures demonstrating architectural construction, surface relief and realistic materials."
+        },
+        {
+          "done": false,
+          "text": "Implement vegetation clusters and small props with intentional clearance and visible variation."
+        },
+        {
+          "done": false,
+          "text": "Validate Hero/guard hands, weapon grips, hair, skin, cloth and deformation in moving and close-up scenes against ARTPLAN.md."
+        },
+        {
+          "done": false,
+          "text": "Preserve the 65-bone skeleton, HumanoidPresentation, NPC identity contracts, animation timing, equipment and gore."
+        },
+        {
+          "done": false,
+          "text": "Measure performance/draw calls and require independent human visual acceptance; do not prematurely approve Hero foundation."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Graphics Overhaul",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/61",
+      "updatedAt": "2026-10-25T18:56:45Z",
+      "order": 58,
+      "statusSource": "project"
+    },
+    {
+      "key": "GFX-06",
+      "number": 62,
+      "title": "Visual acceptance, regression and Unity comparison decision",
+      "category": "gfx",
+      "summary": "Graphics Overhaul / GFX-06. Complete an evidence-backed go/no-go decision on a wider Godot graphics rollout versus a small Unity HDRP comparative prototype.",
+      "scope": [
+        "Graphics Overhaul / GFX-06. Complete an evidence-backed go/no-go decision on a wider Godot graphics rollout versus a small Unity HDRP comparative prototype."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Capture identical, native-resolution before/after scenes and provide a visually inspectable contact sheet."
+        },
+        {
+          "done": false,
+          "text": "Record graphics settings, target hardware, frame times/FPS lows, VRAM usage and stutter for representative village, forest and combat views."
+        },
+        {
+          "done": false,
+          "text": "Run game smoke and relevant full-route, NPC AI, save/reload, quest, collision, combat and character-attachment checks."
+        },
+        {
+          "done": false,
+          "text": "Complete manual character, architecture, materials, terrain, foliage and nighttime review; record unaccepted aspects."
+        },
+        {
+          "done": false,
+          "text": "Document remaining issues attributable to art/content/pipeline versus renderer/engine with supporting evidence."
+        },
+        {
+          "done": false,
+          "text": "Record explicit engine decision: keep/expand Godot; run bounded Unity HDRP comparison; or defer."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Graphics Overhaul",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/62",
+      "updatedAt": "2026-10-25T18:56:47Z",
+      "order": 59,
       "statusSource": "project"
     }
   ]
