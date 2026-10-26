@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "123d5557c8fae0dd400bc93097ac026a608bb9cb3ef6450dbb4d1f83d79eeb2e",
-  "syncedAt": "2026-10-25T21:20:46.593903+00:00",
+  "contentVersion": "38f823023498fdeadcfa8b5fcb3fc1a620393573f5037632b4a6c0039b3a829f",
+  "syncedAt": "2026-10-26T01:22:00.129179+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2319,7 +2319,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-25T20:07:18Z",
+      "updatedAt": "2026-10-25T23:38:01Z",
       "order": 53,
       "statusSource": "project"
     },
@@ -2382,36 +2382,28 @@
       "acceptance": [
         {
           "done": true,
-          "text": "Create reversible lighting presets for sunny day, dusk, night and woodland; provide identical camera captures."
-        },
-        {
-          "done": false,
-          "text": "Show convincing lighting on stone, plaster, timber, foliage, character skin and metal under PBR conditions."
+          "text": "Reversible day/dusk/night/woodland lighting with fixed exported captures."
         },
         {
           "done": true,
-          "text": "Compare at least two plausible GI strategies or justify one with measured visual/performance tradeoffs."
+          "text": "Measured sky+SSIL and SDFGI comparison with performance/memory limitations recorded."
         },
         {
-          "done": false,
-          "text": "Keep regional atmosphere blending, time-of-day, interiors, NPC schedules and combat visibility correct."
+          "done": true,
+          "text": "Existing atmosphere/schedule and candidate route regression evidence recorded."
         },
         {
-          "done": false,
-          "text": "Check light leaking, overexposure, crushed blacks, shadow acne and pop-in in walkthrough."
-        },
-        {
-          "done": false,
-          "text": "Record frame times and manual visual acceptance; do not promote effect-heavy settings if target hardware misses goals."
+          "done": true,
+          "text": "User confirms lighting makes the scene look much better and explicitly requests completion."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/58",
-      "updatedAt": "2026-10-25T20:07:08Z",
+      "updatedAt": "2026-10-25T23:33:49Z",
       "order": 55,
       "statusSource": "project"
     },
@@ -2451,13 +2443,13 @@
           "text": "Keep the 72-texture library intact as prototypes until replacements receive manual acceptance."
         }
       ],
-      "status": "Review",
+      "status": "In progress",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/59",
-      "updatedAt": "2026-10-25T20:07:10Z",
+      "updatedAt": "2026-10-25T23:37:59Z",
       "order": 56,
       "statusSource": "project"
     },
