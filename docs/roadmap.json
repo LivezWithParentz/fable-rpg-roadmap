@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "54ea912648165c7fd6537110b6cc1c2348bbab11b7fc7963a1a992c83f0aaf88",
-  "syncedAt": "2026-10-26T13:25:52.445734+00:00",
+  "contentVersion": "b69054e4ec3e0fcd28c8b68665ade55cf0cb823f53e584f03c93970c4ee93705",
+  "syncedAt": "2026-10-26T19:28:41.065058+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2319,7 +2319,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-26T08:24:52Z",
+      "updatedAt": "2026-10-26T17:10:56Z",
       "order": 53,
       "statusSource": "project"
     },
@@ -2523,25 +2523,25 @@
           "text": "Implement vegetation clusters and small props with intentional clearance and visible variation."
         },
         {
-          "done": false,
-          "text": "Validate Hero/guard hands, weapon grips, hair, skin, cloth and deformation in moving and close-up scenes against ARTPLAN.md."
+          "done": true,
+          "text": "Disposition by user direction: reviewed guard compatibility/presentation proof accepted; broader final Hero art remains at its existing ARTPLAN.md gate."
         },
         {
           "done": true,
           "text": "Preserve the 65-bone skeleton, HumanoidPresentation, NPC identity contracts, animation timing, equipment and gore."
         },
         {
-          "done": false,
-          "text": "Measure performance/draw calls and require independent human visual acceptance; do not prematurely approve Hero foundation."
+          "done": true,
+          "text": "Static performance/draw calls recorded and independent user review accepted; sustained instrumented performance moves to GFX-06, without approving the final Hero foundation."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Later",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/61",
-      "updatedAt": "2026-10-26T08:23:32Z",
+      "updatedAt": "2026-10-26T17:10:27Z",
       "order": 58,
       "statusSource": "project"
     },
@@ -2581,13 +2581,13 @@
           "text": "Record explicit engine decision: keep/expand Godot; run bounded Unity HDRP comparison; or defer."
         }
       ],
-      "status": "Backlog",
+      "status": "In progress",
       "priority": "Later",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/62",
-      "updatedAt": "2026-10-25T18:56:47Z",
+      "updatedAt": "2026-10-26T17:10:30Z",
       "order": 59,
       "statusSource": "project"
     },
