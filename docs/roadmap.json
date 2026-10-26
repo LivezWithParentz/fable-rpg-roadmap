@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "ea81239f538845955ceccc394ef9fb81a3a4672e407a9cee7071690825fe044a",
-  "syncedAt": "2026-10-26T06:27:23.976370+00:00",
+  "contentVersion": "54ea912648165c7fd6537110b6cc1c2348bbab11b7fc7963a1a992c83f0aaf88",
+  "syncedAt": "2026-10-26T13:25:52.445734+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2319,7 +2319,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-26T05:55:30Z",
+      "updatedAt": "2026-10-26T08:24:52Z",
       "order": 53,
       "statusSource": "project"
     },
@@ -2511,15 +2511,15 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Use original Blender masters and semantic material mappings; keep imported GLB and gameplay collision non-destructive."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Produce clear close/medium/gameplay captures demonstrating architectural construction, surface relief and realistic materials."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Implement vegetation clusters and small props with intentional clearance and visible variation."
         },
         {
@@ -2527,7 +2527,7 @@
           "text": "Validate Hero/guard hands, weapon grips, hair, skin, cloth and deformation in moving and close-up scenes against ARTPLAN.md."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve the 65-bone skeleton, HumanoidPresentation, NPC identity contracts, animation timing, equipment and gore."
         },
         {
@@ -2535,13 +2535,13 @@
           "text": "Measure performance/draw calls and require independent human visual acceptance; do not prematurely approve Hero foundation."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": "Later",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/61",
-      "updatedAt": "2026-10-25T18:56:45Z",
+      "updatedAt": "2026-10-26T08:23:32Z",
       "order": 58,
       "statusSource": "project"
     },
