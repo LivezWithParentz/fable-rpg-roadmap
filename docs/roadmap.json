@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "38f823023498fdeadcfa8b5fcb3fc1a620393573f5037632b4a6c0039b3a829f",
-  "syncedAt": "2026-10-26T01:22:00.129179+00:00",
+  "contentVersion": "ea81239f538845955ceccc394ef9fb81a3a4672e407a9cee7071690825fe044a",
+  "syncedAt": "2026-10-26T06:27:23.976370+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2319,7 +2319,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-25T23:38:01Z",
+      "updatedAt": "2026-10-26T05:55:30Z",
       "order": 53,
       "statusSource": "project"
     },
@@ -2423,11 +2423,11 @@
           "text": "Document audited sources, license/provenance, sizes and missing PBR maps for priority materials."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Author or source ten representative coherent PBR material sets with UV/texel and normal/roughness validation."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Show before/after under fixed neutral and cinematic lighting at hero-closeup and gameplay camera distances."
         },
         {
@@ -2435,7 +2435,7 @@
           "text": "Demonstrate reversible semantic surface-slot overrides on one cottage plus environment props without mutating shared imported GLBs."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify proper tiling, seamless transitions, weathering, no over-tessellation and VRAM/frame-time budgets."
         },
         {
@@ -2443,13 +2443,13 @@
           "text": "Keep the 72-texture library intact as prototypes until replacements receive manual acceptance."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/59",
-      "updatedAt": "2026-10-25T23:37:59Z",
+      "updatedAt": "2026-10-26T03:48:44Z",
       "order": 56,
       "statusSource": "project"
     },
@@ -2465,37 +2465,37 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Save editable Terrain3D assets, source heightfield and level files with reproducible locations and textures."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Maintain initial world origin, district bounds, authored roads, doorways, encounter pads, quest landmarks and save/checkpoint positions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Validate terrain collision under the player, NPCs and enemies, including off-camera areas, projectiles and camera."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Integrate with existing VillageLife / NPCRoutine navigation baking; verify schedules, escorts, shop destinations and fallback goals."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Remove overlapping legacy floors only after demonstrating stable replacement terrain; verify slopes, roads, combat and district transitions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Deliver before/after Greyhaven–Briarwood captures, measured performance and manual approval."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Next",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/60",
-      "updatedAt": "2026-10-25T20:07:12Z",
+      "updatedAt": "2026-10-26T05:55:28Z",
       "order": 57,
       "statusSource": "project"
     },
