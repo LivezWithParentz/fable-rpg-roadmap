@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "b69054e4ec3e0fcd28c8b68665ade55cf0cb823f53e584f03c93970c4ee93705",
-  "syncedAt": "2026-10-26T19:28:41.065058+00:00",
+  "contentVersion": "c2b616cf4b5e9c9e7ea2db62dd70f69dbe79453d49cfd9ea259d99ffd9ceb0e2",
+  "syncedAt": "2026-10-28T07:31:55.362642+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -50,13 +50,13 @@
           "text": "Keep manual feel acceptance distinct from automated checks and feature maturity."
         }
       ],
-      "status": "Backlog",
-      "priority": "Later",
+      "status": "In progress",
+      "priority": "Now",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
-      "updatedAt": "2026-10-20T18:21:45Z",
+      "updatedAt": "2026-10-28T06:55:49Z",
       "order": 1,
       "statusSource": "project"
     },
@@ -67,13 +67,7 @@
       "category": "qa",
       "summary": "Complete hands-on acceptance of the original bandit-dispute route and its persistent branches in the current campaign launcher.",
       "scope": [
-        "Start a fresh game and follow the actual player-facing route:",
-        "1. Speak with Elin and understand the missing-ledger investigation.",
-        "2. Enter Tomas's workshop and learn the relevant context.",
-        "3. Open the road gate; clear or bypass the road and camp raiders.",
-        "4. Find the hidden chest and collect the ledger.",
-        "5. Complete each first-quest outcome from a fresh start. For each branch, save, exit the executable, relaunch, and confirm the selected outcome, chest state, rewards, and world reactions persist.",
-        "Review route clarity and controls while playing, including inventory, merchant, dialogue/quest HUD, mouse capture, camera, sword reach, warnings, audio balance, and continuous-route performance."
+        "2026-10-27: Campaign route acceptance started. Rechecked the current campaign launcher against the accepted October 25 package: SHA-256 AE0763350268F824195F9B76B83686C7ED69F63E1DDAEECFA7E77BB58CC00221. Review uses normal campaign mode. Both fresh-game endings, full executable restarts, UI/audio and route performance remain pending hands-on observations. PLAN.md records the setup; M7 maturity is unchanged. No new campaign export was made."
       ],
       "evidence": [],
       "acceptance": [
@@ -102,13 +96,13 @@
           "text": "Use builds/fableopenworld.exe, the current campaign launcher."
         }
       ],
-      "status": "Backlog",
+      "status": "Done",
       "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/2",
-      "updatedAt": "2026-10-17T19:56:18Z",
+      "updatedAt": "2026-10-28T04:35:45Z",
       "order": 2,
       "statusSource": "project"
     },
@@ -119,7 +113,7 @@
       "category": "qa",
       "summary": "Accept Winter Supplies as a complete aftermath quest with two fair, persistent outcomes and correct reward delivery across both first-quest branches.",
       "scope": [
-        "Accept Winter Supplies as a complete aftermath quest with two fair, persistent outcomes and correct reward delivery across both first-quest branches."
+        "2026-10-27: Review started on branch qa/03-winter-supplies from combined main revision 0be7588a77e1341bb7eddcb1cbea7e6df04dd476. The current campaign package hash is 956BDE25BD8840903B2AAD02DCB242E1492AFB25B95E9CEFD31889DF27AC6191. PLAN.md records the review matrix and expected relief/trade consequences. No new export or hands-on matrix pass is claimed. First pass: continue after either first-quest ending, hear Elin/Mira/Tomas, recover the wagon shipment, then review one supply choice and its full save/exit/relaunch reconstruction."
       ],
       "evidence": [],
       "acceptance": [
@@ -152,13 +146,13 @@
           "text": "Keep the M0–M12 Completed tracking directive separate from this follow-up evidence."
         }
       ],
-      "status": "Backlog",
+      "status": "Done",
       "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/3",
-      "updatedAt": "2026-10-17T19:56:19Z",
+      "updatedAt": "2026-10-28T04:52:00Z",
       "order": 3,
       "statusSource": "project"
     },
@@ -2285,41 +2279,41 @@
       ],
       "acceptance": [
         {
-          "done": false,
-          "text": "Define fixed before/after camera locations for street, terrain, hero portrait, combat and day/night."
+          "done": true,
+          "text": "Define matched street/terrain/Hero/day-night comparison views; evaluate combat through controlled contact-heavy samples (no identical attack-pose comparison claimed)."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Establish baseline resolution, frame time, VRAM, shader/material/texture problems."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Implement and review the Graphics Overhaul subtasks GFX-01 through GFX-06."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Provide native 1080p screenshots and reproducible exported-build comparisons."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Confirm gameplay regression tests and seven-district traversal/navigation remain intact."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record measured performance, visible gains, remaining art gaps and manual visual acceptance."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Decide: expand Godot visual work, run a bounded Unity HDRP comparative prototype, or defer the engine decision."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Now",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/56",
-      "updatedAt": "2026-10-26T17:10:56Z",
+      "updatedAt": "2026-10-28T03:20:09Z",
       "order": 53,
       "statusSource": "project"
     },
@@ -2557,37 +2551,37 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Capture identical, native-resolution before/after scenes and provide a visually inspectable contact sheet."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record graphics settings, target hardware, frame times/FPS lows, VRAM usage and stutter for representative village, forest and combat views."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Run game smoke and relevant full-route, NPC AI, save/reload, quest, collision, combat and character-attachment checks."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Complete manual character, architecture, materials, terrain, foliage and nighttime review; record unaccepted aspects."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Document remaining issues attributable to art/content/pipeline versus renderer/engine with supporting evidence."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record explicit engine decision: keep/expand Godot; run bounded Unity HDRP comparison; or defer."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Later",
       "area": "Graphics Overhaul",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/62",
-      "updatedAt": "2026-10-26T17:10:30Z",
+      "updatedAt": "2026-10-28T03:20:07Z",
       "order": 59,
       "statusSource": "project"
     },
@@ -2639,6 +2633,156 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/63",
       "updatedAt": "2026-10-25T19:16:39Z",
       "order": 60,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-07",
+      "number": 64,
+      "title": "Optimize frame pacing and scene performance before project completion",
+      "category": "qa",
+      "summary": "Frame-rate and frame-pacing optimization is a separate final-project gate. Modest FPS reductions in demanding scenes are acceptable for high rendering quality; stable 60 FPS is not a blanket requirement.",
+      "scope": [
+        "Frame-rate and frame-pacing optimization is a separate final-project gate. Modest FPS reductions in demanding scenes are acceptable for high rendering quality; stable 60 FPS is not a blanket requirement."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Establish scene-appropriate FPS/frame-pacing expectations from playable final-content scenes and the approved quality balance; no automatic minimum or universal 60-FPS requirement."
+        },
+        {
+          "done": false,
+          "text": "Profile representative routes, dense scenes and combat/VFX; record hardware/settings, CPU/GPU times, lows, memory and repeat-run spikes."
+        },
+        {
+          "done": false,
+          "text": "Fix measured bottlenecks and disruptive stalls while preserving approved visual quality, gameplay, NPC navigation, saves and attachments."
+        },
+        {
+          "done": false,
+          "text": "Compare repeatable before/after measurements; document remaining tradeoffs and demanding-scene exceptions."
+        },
+        {
+          "done": false,
+          "text": "Complete hands-on exported-game acceptance of frame pacing and rendering-quality tradeoffs; record evidence in PLAN.md before overall project completion."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Performance",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/64",
+      "updatedAt": "2026-10-28T03:19:35Z",
+      "order": 61,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-22",
+      "number": 67,
+      "title": "Refine sword-combo choreography from LIMIAR reference",
+      "category": "game",
+      "summary": "Planned sword-combo presentation study inspired by LIMIAR. First prove one original strike on our hero rig in an isolated comparison, then extend accepted choreography through the existing combo. Current campaign review continues; no animation replacement, enemy-AI expansion or campaign promotion has started.",
+      "scope": [
+        "Planned sword-combo presentation study inspired by LIMIAR. First prove one original strike on our hero rig in an isolated comparison, then extend accepted choreography through the existing combo. Current campaign review continues; no animation replacement, enemy-AI expansion or campaign promotion has started."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "QA-01 baseline observations and GAME-05/GAME-06 ownership/dependencies recorded without holding current QA-01 completion for this optional enhancement."
+        },
+        {
+          "done": false,
+          "text": "Reference, original authorship, any actual reused material and its permission/attribution recorded; no archive code, models, audio or recovered trajectories copied by default."
+        },
+        {
+          "done": false,
+          "text": "First-strike A/B reviewed close-up and at gameplay distance; blade path, grip, feet and body follow-through accepted by Jason before chain expansion."
+        },
+        {
+          "done": false,
+          "text": "Existing three-light/Whirlwind and learned heavy/Breaker/Sweep/riposte behaviour preserved; no extra forced spin or root motion."
+        },
+        {
+          "done": false,
+          "text": "DamageData/Health, active windows, cover, per-strike deduplication, buffers, interruption, saves and rewards remain authoritative and pass relevant focused checks."
+        },
+        {
+          "done": false,
+          "text": "Full candidate chain reviewed at normal speed and slow motion with movement, lock-on and interruptions; no visible snaps, sliding or grip loss."
+        },
+        {
+          "done": false,
+          "text": "Windows candidate export, source revision/hash and packaged checks recorded; no claim that technical checks establish visual or hands-on acceptance."
+        },
+        {
+          "done": false,
+          "text": "Exact accepted scope promoted only after Jason's review; focused campaign QA-01 regression and PLAN.md evidence recorded."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Combat",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/67",
+      "updatedAt": "2026-10-28T05:41:01Z",
+      "order": 62,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-07",
+      "number": 68,
+      "title": "Evaluate DOM6543 tavern props and selected RPG assets",
+      "category": "art",
+      "summary": "Evaluate external tavern/interior props in a small isolated comparison after checking original permissions and existing assets. Cliff/foliage pieces are secondary candidates; goblin art is reference-only. No assets are approved or integrated, and current campaign QA continues.",
+      "scope": [
+        "Evaluate external tavern/interior props in a small isolated comparison after checking original permissions and existing assets. Cliff/foliage pieces are secondary candidates; goblin art is reference-only. No assets are approved or integrated, and current campaign QA continues."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Original sources, per-asset permissions and required attribution established before any production import."
+        },
+        {
+          "done": false,
+          "text": "Existing inventory comparison and bounded candidate selection recorded; no duplication without player-visible benefit."
+        },
+        {
+          "done": false,
+          "text": "One permitted tavern-prop vignette imported with intact source, materials, scale and reusable wrappers."
+        },
+        {
+          "done": false,
+          "text": "Close-up/gameplay visual comparison and relevant cost evidence recorded; Jason accepts or rejects the pilot before expansion."
+        },
+        {
+          "done": false,
+          "text": "Secondary candidates explicitly kept, deferred or rejected; goblin remains reference-only under existing character gates."
+        },
+        {
+          "done": false,
+          "text": "No gameplay-script replacement, graphics-baseline reset or campaign changes made through planning/review alone."
+        },
+        {
+          "done": false,
+          "text": "Accepted campaign placement, if separately selected, preserves collision/navigation/interactions/saves and has focused checks."
+        },
+        {
+          "done": false,
+          "text": "PLAN.md and issue/Project evidence updated; no maturity promotion from file presence, import or export alone."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Art",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/68",
+      "updatedAt": "2026-10-28T05:43:15Z",
+      "order": 63,
       "statusSource": "project"
     }
   ]
