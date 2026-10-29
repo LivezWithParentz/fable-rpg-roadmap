@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "c2b616cf4b5e9c9e7ea2db62dd70f69dbe79453d49cfd9ea259d99ffd9ceb0e2",
-  "syncedAt": "2026-10-28T07:31:55.362642+00:00",
+  "contentVersion": "bcd974c085b9bd03a2c7a02642c8d961969becb8a93c29d3c37acfd488335622",
+  "syncedAt": "2026-10-29T08:57:44.050818+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -50,13 +50,13 @@
           "text": "Keep manual feel acceptance distinct from automated checks and feature maturity."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Now",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/1",
-      "updatedAt": "2026-10-28T06:55:49Z",
+      "updatedAt": "2026-10-29T05:00:20Z",
       "order": 1,
       "statusSource": "project"
     },
@@ -1213,19 +1213,17 @@
       "number": 29,
       "title": "Combat and movement workstream - start here",
       "category": "game",
-      "summary": "GAME-04 is complete following Jason's explicit acceptance of the corrected wall-contact jump camera, together with prior movement, dodge and jump acceptance. GAME-05 remains active; reference garment, campaign and gore gates stay separate.",
-      "scope": [
-        "GAME-04 is complete following Jason's explicit acceptance of the corrected wall-contact jump camera, together with prior movement, dodge and jump acceptance. GAME-05 remains active; reference garment, campaign and gore gates stay separate."
-      ],
+      "summary": "Combat and movement workstream - start here.",
+      "scope": [],
       "evidence": [],
       "acceptance": [
         {
           "done": false,
-          "text": "Stage 0 audit records the existing baseline and selects a bounded next implementation task."
+          "text": "Record source-backed baseline and bounded implementation scope for each active stage."
         },
         {
           "done": false,
-          "text": "Stage 1 reference setup passes its remaining garment/visual gates."
+          "text": "Stage 1 reference setup passes remaining garment/visual gates."
         },
         {
           "done": true,
@@ -1233,7 +1231,7 @@
         },
         {
           "done": false,
-          "text": "Stage 3 sword contact/heavy presentation and Stage 4 complete existing combat set pass without losing accepted behavior."
+          "text": "Stage 3 sword contact/heavy presentation and Stage 4 complete combat set pass without losing accepted behavior."
         },
         {
           "done": false,
@@ -1241,15 +1239,15 @@
         },
         {
           "done": false,
-          "text": "Stage 6 records measured contact polish or an explicit evidence-backed no-change decision."
+          "text": "Stage 6 records measured contact polish or an evidence-backed no-change decision."
+        },
+        {
+          "done": true,
+          "text": "QA-01 campaign review completed at Jason's direction (2026-10-28); see PLAN.md and issue #1 for exact scope and remaining independent follow-ups."
         },
         {
           "done": false,
-          "text": "Existing QA-01 campaign review and QA-05 gore/performance gates pass in the exact fresh campaign package."
-        },
-        {
-          "done": false,
-          "text": "PLAN.md records actual validation and human decisions; no checklist is inferred from import, delivery or merge alone."
+          "text": "PLAN.md records actual validation and human decisions; import, delivery or merge alone does not establish acceptance."
         }
       ],
       "status": "In progress",
@@ -1258,7 +1256,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-10-20T18:21:42Z",
+      "updatedAt": "2026-10-29T05:00:55Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -2682,9 +2680,9 @@
       "number": 67,
       "title": "Refine sword-combo choreography from LIMIAR reference",
       "category": "game",
-      "summary": "Planned sword-combo presentation study inspired by LIMIAR. First prove one original strike on our hero rig in an isolated comparison, then extend accepted choreography through the existing combo. Current campaign review continues; no animation replacement, enemy-AI expansion or campaign promotion has started.",
+      "summary": "Planned sword-combo presentation study inspired by LIMIAR. First prove one original strike on our hero rig in an isolated comparison, then extend accepted choreography through the existing combo. Current campaign review is complete; no animation replacement, enemy-AI expansion or campaign promotion has started.",
       "scope": [
-        "Planned sword-combo presentation study inspired by LIMIAR. First prove one original strike on our hero rig in an isolated comparison, then extend accepted choreography through the existing combo. Current campaign review continues; no animation replacement, enemy-AI expansion or campaign promotion has started."
+        "Planned sword-combo presentation study inspired by LIMIAR. First prove one original strike on our hero rig in an isolated comparison, then extend accepted choreography through the existing combo. Current campaign review is complete; no animation replacement, enemy-AI expansion or campaign promotion has started."
       ],
       "evidence": [],
       "acceptance": [
@@ -2718,7 +2716,7 @@
         },
         {
           "done": false,
-          "text": "Exact accepted scope promoted only after Jason's review; focused campaign QA-01 regression and PLAN.md evidence recorded."
+          "text": "Exact accepted scope promoted only after Jason's review; focused campaign regression and PLAN.md evidence recorded."
         }
       ],
       "status": "Backlog",
@@ -2727,7 +2725,7 @@
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/67",
-      "updatedAt": "2026-10-28T05:41:01Z",
+      "updatedAt": "2026-10-29T05:00:29Z",
       "order": 62,
       "statusSource": "project"
     },
@@ -2783,6 +2781,31 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/68",
       "updatedAt": "2026-10-28T05:43:15Z",
       "order": 63,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-23",
+      "number": 69,
+      "title": "Smooth camera-driven bow aiming turns",
+      "category": "game",
+      "summary": "Smooth the visible snapping when the camera moves while the player holds bow aim, while retaining responsive aim and accurate shots.",
+      "scope": [
+        "Jason reported camera-driven bow-aim snapping during QA-01 and moved GAME-23 into active work after that review closed. Source inspection found the cause: bow aim directly assigned the player visual yaw to camera yaw every physics tick. Bow aim now applies framerate-independent exponential angular smoothing at 12 rad/s; lock-on, guard and other explicit facing paths retain their previous behavior.",
+        "Jason's 2026-10-28 gameplay recordings exposed the camera being pushed very close to the Hero by nearby obstacles. The per-mesh alpha fade made the separate shirt/body meshes sort through each other, exposing the base body; the fallback was changed to hide the whole player visual. A second recording narrows the remaining close-view symptom to bow aim plus A/D sideways movement beside the house. The hide/restore thresholds have now been raised to 1.6m/1.85m. This threshold adjustment still needs technical validation and a fresh normal-speed review.",
+        "The Godot 4.7.2 bow-presentation suite passes the camera-turn response/settling check plus four-direction aim movement, torso volume, grip, shot recovery, carry and sword restoration. The camera-gameplay suite passes wall/orbit, lock-on/aim, close hide, open-space restore and inspection restore. Isolated Windows package builds/fablegame23closecamerareview.exe, SHA-256 68AA7C2AD527EA536E43D7F2DE67680408F9A3FEBB2720433AFC111606154BAB, passes headless startup (exit 0). Export exits 0 with the existing MCP script-strip and shutdown resource/RID warnings. The campaign launcher was not replaced.",
+        "Priority: Next",
+        "Maturity: Prototype; hands-on acceptance pending"
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Combat",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/69",
+      "updatedAt": "2026-10-29T06:19:24Z",
+      "order": 64,
       "statusSource": "project"
     }
   ]
