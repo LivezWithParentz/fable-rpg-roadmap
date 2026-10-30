@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "5dfac61120a0c63c98050254d40cf0d18da28c1a0def27b6c53ca30842e70e50",
-  "syncedAt": "2026-10-30T06:07:06.354638+00:00",
+  "contentVersion": "63baaa85911e7d712d192d2698c6fec6ebc2d4adef442283517b3b174f814a7d",
+  "syncedAt": "2026-10-30T12:44:35.259593+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1573,62 +1573,48 @@
       "number": 37,
       "title": "Implement gear-based inventory and fixed cottage stash",
       "category": "game",
-      "summary": "Build Alex's spatial inventory with gear-dependent character capacity and a fixed personal stash in the purchased cottage, using the supplied equipment/grid references as the visual direction.",
+      "summary": "Accepted gear-based spatial inventory and fixed 80-cell cottage stash. GAME-09 is complete for this delivered slice; historical pending statements below are superseded.",
       "scope": [
-        "Campaign source now uses equipment slots, original item icons and spatial storage grids. Pockets start at nine cells. Storage-class bags have individual capacities; one primary bag is worn at a time. Ordinary clothing has no container. The cottage chest stays fixed at 80 cells regardless of gear. Mira sells the first bag types; capacities and prices remain provisional review values.",
-        "Whole-stack drag/drop, item footprints, stack limits, equipment/potion/trading integration, atomic full-inventory rewards and lossless historical-inventory migration are implemented. Saves persist item IDs, quantities, positions, gear and stash contents. Nonempty storage gear cannot be removed. One active container per gear slot is supported; droppable bag instances and NPC ownership remain future work.",
-        "Seven focused checks pass in an isolated Godot 4.7.2 copy, including inventory, trading, relationships and cottage/mill paths. Rendered engine mouse-drag tests and layout review pass. The latest shared-checkout campaign-inventory, M4 and cottage checks also pass. A dedicated inventory review build opens an owned-house demonstration with separate review saves; packaged startup and fresh-process save/reload pass. Existing campaign EXEs were not replaced. No user acceptance or full-system maturity promotion is claimed."
+        "Accepted gear-based spatial inventory and fixed 80-cell cottage stash. GAME-09 is complete for this delivered slice; historical pending statements below are superseded."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Implement and test spatial storage, bounded stacks and atomic transfers."
+          "text": "Spatial grids, bounded stacks and atomic transfers."
         },
         {
           "done": true,
-          "text": "Integrate campaign equipment/grid UI, item use/trading and historical-save migration."
+          "text": "Campaign equipment, use/trading integration and lossless historical-save migration."
         },
         {
           "done": true,
-          "text": "Support all three player bag types with individual capacities; only one bag is worn at a time, and ordinary gear has no storage."
+          "text": "One primary bag with individual per-type capacity; ordinary clothing has no storage."
         },
         {
           "done": true,
-          "text": "Add an ownership/proximity-gated house chest with fixed capacity and persistent contents."
+          "text": "Ownership/proximity-gated fixed cottage stash with persistent contents."
         },
         {
           "done": true,
-          "text": "Produce a separate review build and verify packaged startup plus fresh-process save/reload."
+          "text": "Equipment and direct stash dragging with full-storage/nonempty-bag safeguards."
         },
         {
-          "done": false,
-          "text": "Jason/Alex accept layout, dragging, capacity, pricing and gameplay use in the campaign."
+          "done": true,
+          "text": "Separate review package startup and fresh-process save/reload evidence."
         },
         {
-          "done": false,
-          "text": "Support persistent droppable/retrievable bag instances, abandonment/loss and NPC bag owners."
-        },
-        {
-          "done": false,
-          "text": "Add per-bag upgrades and crafted/unlocked mining/lumberjack Bags of Holding; ordinary ore/wood stacks cap at 12."
-        },
-        {
-          "done": false,
-          "text": "Integrate bulky-bag NOISY -10% sneak/pickpocket during stealth and garment bonus tradeoffs when those mechanics exist."
-        },
-        {
-          "done": false,
-          "text": "Accept the complete gameplay and save/restart loop without item loss or duplication."
+          "done": true,
+          "text": "User acceptance of the delivered inventory/stash UI and usability slice, as recorded in PLAN.md."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/37",
-      "updatedAt": "2026-10-30T05:58:55Z",
+      "updatedAt": "2026-10-30T06:17:50Z",
       "order": 37,
       "statusSource": "project"
     },
@@ -2814,6 +2800,172 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/69",
       "updatedAt": "2026-10-30T04:12:01Z",
       "order": 64,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-24",
+      "number": 71,
+      "title": "Persistent dropped bags and NPC bag ownership",
+      "category": "game",
+      "summary": "Persistent bag copies that can be dropped with contents and retrieved after restart, extending accepted GAME-09 without reopening it.",
+      "scope": [
+        "Implemented in current campaign source: stable per-copy IDs in loose grids/equipment, contents-preserving ground drop/retrieval, region/proximity guards, clear ground placement and voluntary NPC custody/reclaim (Mira UI; guarded methods support nearby known routine actors). Same-type bags can swap by drag or double-click and retain their own upgrades. Stale same-type drags are rejected. Ordinary nonempty removal remains blocked; no nested bags.",
+        "Left-behind bags persist indefinitely. Dropped/NPC contents are excluded from usable player quantities. No timed decay, automatic despawn, autonomous NPC theft or silent item destruction is introduced. Ground satchels are procedural placeholder geometry, not accepted production art."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Implement contents-preserving drop/retrieval and distinct same-type identities."
+        },
+        {
+          "done": true,
+          "text": "Persist identity, contents, owner, region and location through V15 save/reload, with V1-V14 migration."
+        },
+        {
+          "done": true,
+          "text": "Define abandonment/loss policy and voluntary NPC custody/reclaim."
+        },
+        {
+          "done": true,
+          "text": "Test invalid metadata, remote access, failed operations and ownership conservation."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts the world interaction, placeholder readability and save/restart loop in gameplay."
+        }
+      ],
+      "status": "Review",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/71",
+      "updatedAt": "2026-10-30T07:09:16Z",
+      "order": 65,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-25",
+      "number": 72,
+      "title": "Bag upgrades and profession Bags of Holding",
+      "category": "game",
+      "summary": "Per-instance bag upgrades and crafted mining/lumberjack Bags of Holding.",
+      "scope": [
+        "Implemented: Mira upgrades the worn bag twice for 40 then 80 gold, adding one row each. Levels follow the bag through same-type swaps, stash, world drop and NPC custody. Each profession bag is crafted near Mira's open shop for 12 matching ore/timber and 80 gold. It starts with six ordinary cells plus a matching-resource compartment without a cell limit (safe integer persistence bound applies). New matching resources route into that compartment; Stow/Withdraw controls move ordinary carried resource stacks. Ordinary ore and timber stacks cap at 12. Mira sells the initial resources; harvesting professions are not implemented by this task. Costs/capacities are provisional review values. Ore/timber SVG icons are original project artwork; bag icons reuse the project's existing original assets."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Implement two per-bag upgrades with persisted capacity and costs."
+        },
+        {
+          "done": true,
+          "text": "Keep ordinary ore/timber stacks capped at 12."
+        },
+        {
+          "done": true,
+          "text": "Implement crafting and resource-specific holding compartments, with guarded inputs and atomic failure."
+        },
+        {
+          "done": true,
+          "text": "Test save/restart, resource filters, stow/withdraw, same-type swaps and no item duplication."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts costs, capacities, crafting controls and gameplay/save behavior."
+        }
+      ],
+      "status": "Review",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/72",
+      "updatedAt": "2026-10-30T07:09:18Z",
+      "order": 66,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-26",
+      "number": 73,
+      "title": "Bag stealth penalties and garment tradeoffs",
+      "category": "game",
+      "summary": "Integrate bulky-bag NOISY -10% sneak/pickpocket and garment bonus tradeoffs when those mechanics exist.",
+      "scope": [
+        "2026-10-30 inspection of current scripts and project inputs found no implemented sneak or pickpocket system. There is therefore no supported gameplay probability/stat to modify. This task remains Planned / Backlog, dependent on the underlying mechanics. No inert penalty label or disconnected modifier framework was added. GAME-24 and GAME-25 can be reviewed independently."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Establish implemented sneak/pickpocket mechanics and their authoritative stat contracts."
+        },
+        {
+          "done": false,
+          "text": "Define affected bags, garment bonuses and player-facing descriptions."
+        },
+        {
+          "done": false,
+          "text": "Apply/remove modifiers exactly once on gear changes and save/reload."
+        },
+        {
+          "done": false,
+          "text": "Verify the effect in intended gameplay and preserve inventory behavior."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/73",
+      "updatedAt": "2026-10-30T07:09:19Z",
+      "order": 67,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-08",
+      "number": 74,
+      "title": "Verify inventory in the canonical campaign package",
+      "category": "qa",
+      "summary": "Verify inventory and authored loot in the canonical retained campaign executable with reliable source provenance.",
+      "scope": [
+        "2026-10-30: current-source inventory, authored loot and bag identity checks pass, including a separate fresh-process read. A separate fablebagsreview.exe release package exercises release-active --acceptance-inventory write/read/loot checks with disposable save slots; logs and hashes are recorded in PLAN.md and builds/bag-review-manifest.json.",
+        "The canonical builds/fableopenworld.exe SHA-256 at audit was 57a76db3364bf67cd8e4701787209a3943f63f8159d1e7fdf2bdd056acbcb845. It starts successfully but lacks the new inventory acceptance hook; its hash does not match the older QA-01 v3 campaign manifest. This does not establish its current inventory behavior or source provenance. No canonical file was rebuilt or replaced in this task. The review package includes the current shared-checkout snapshot; it grants no acceptance to concurrent workstreams."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Establish canonical executable source provenance and record its verified hash."
+        },
+        {
+          "done": false,
+          "text": "Verify authored Road Cache arrays and reward delivery in that canonical package."
+        },
+        {
+          "done": false,
+          "text": "Verify full-capacity/equipment/stash transfers in that canonical package."
+        },
+        {
+          "done": false,
+          "text": "Verify its save/write and fresh-process read without loss/duplication."
+        },
+        {
+          "done": false,
+          "text": "Record reviewed package promotion separately if needed, preserving user saves."
+        }
+      ],
+      "status": "In progress",
+      "priority": "Next",
+      "area": "Release review",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/74",
+      "updatedAt": "2026-10-30T07:09:21Z",
+      "order": 68,
       "statusSource": "project"
     }
   ]
