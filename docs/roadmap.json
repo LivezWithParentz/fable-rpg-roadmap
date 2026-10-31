@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "63baaa85911e7d712d192d2698c6fec6ebc2d4adef442283517b3b174f814a7d",
-  "syncedAt": "2026-10-30T12:44:35.259593+00:00",
+  "contentVersion": "46d2694a2cfc9442ae2a4599023b7f0dac04ecfc61dc0e05dc1c350825f2528a",
+  "syncedAt": "2026-10-31T07:30:25.561753+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2831,17 +2831,17 @@
           "text": "Test invalid metadata, remote access, failed operations and ownership conservation."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Jason accepts the world interaction, placeholder readability and save/restart loop in gameplay."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/71",
-      "updatedAt": "2026-10-30T07:09:16Z",
+      "updatedAt": "2026-10-31T03:28:45Z",
       "order": 65,
       "statusSource": "project"
     },
@@ -2873,17 +2873,17 @@
           "text": "Test save/restart, resource filters, stow/withdraw, same-type swaps and no item duplication."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Jason accepts costs, capacities, crafting controls and gameplay/save behavior."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/72",
-      "updatedAt": "2026-10-30T07:09:18Z",
+      "updatedAt": "2026-10-31T03:28:50Z",
       "order": 66,
       "statusSource": "project"
     },
@@ -2892,36 +2892,45 @@
       "number": 73,
       "title": "Bag stealth penalties and garment tradeoffs",
       "category": "game",
-      "summary": "Integrate bulky-bag NOISY -10% sneak/pickpocket and garment bonus tradeoffs when those mechanics exist.",
+      "summary": "Jason authorized both prerequisite mechanics on 2026-10-30. Hold V to sneak at 45% speed; NPC sight/hearing builds awareness and full awareness turns the NPC toward the player. Approach an adult from behind within 1.8 m and hold G for 1.5 seconds to pickpocket. Base success is 80%, reward 5 gold, one completed/caught attempt…",
       "scope": [
-        "2026-10-30 inspection of current scripts and project inputs found no implemented sneak or pickpocket system. There is therefore no supported gameplay probability/stat to modify. This task remains Planned / Backlog, dependent on the underlying mechanics. No inert penalty label or disconnected modifier framework was added. GAME-24 and GAME-25 can be reviewed independently."
+        "Jason authorized both prerequisite mechanics on 2026-10-30. Hold V to sneak at 45% speed; NPC sight/hearing builds awareness and full awareness turns the NPC toward the player. Approach an adult from behind within 1.8 m and hold G for 1.5 seconds to pickpocket. Base success is 80%, reward 5 gold, one completed/caught attempt per adult per day. Sight blocks starting a theft and catches an ongoing attempt. Walls, reach, facing, combat and pause are guarded. Children are excluded. Existing social memory owns caught offences and their reputation/recovery consequences. No enemy stealth combat, crouch animation or general crime simulation is claimed.",
+        "Travel/courier/mining/lumberjack bags apply -10% sneak and pickpocket skill while worn. Waist bag is neutral. Field coat gives +10% sneak and +5% pickpocket, retaining zero storage. Bonuses derive from current gear, never accumulated saved buffs. Coat plus noisy bag gives 100% sneak / 95% pickpocket skill and 76% success chance. Values are provisional for review."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
-          "text": "Establish implemented sneak/pickpocket mechanics and their authoritative stat contracts."
+          "done": true,
+          "text": "Establish implemented sneak/pickpocket mechanics and authoritative stat contracts."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Define affected bags, garment bonuses and player-facing descriptions."
         },
         {
-          "done": false,
-          "text": "Apply/remove modifiers exactly once on gear changes and save/reload."
+          "done": true,
+          "text": "Verify modifiers from worn gear on changes and repeated/fresh-process save/reload."
+        },
+        {
+          "done": true,
+          "text": "Automated campaign geometry/outcome checks and inventory/social/movement regressions."
         },
         {
           "done": false,
-          "text": "Verify the effect in intended gameplay and preserve inventory behavior."
+          "text": "Jason reviews sneak/detection feel, successful/caught theft, gear comparisons and save/restart behavior."
+        },
+        {
+          "done": false,
+          "text": "Accept or revise review values and close the bounded slice explicitly."
         }
       ],
-      "status": "Backlog",
-      "priority": "Later",
+      "status": "Review",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/73",
-      "updatedAt": "2026-10-30T07:09:19Z",
+      "updatedAt": "2026-10-31T07:13:26Z",
       "order": 67,
       "statusSource": "project"
     },
@@ -2966,6 +2975,140 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/74",
       "updatedAt": "2026-10-30T07:09:21Z",
       "order": 68,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-08",
+      "number": 75,
+      "title": "Ground menu styling and item/HUD icons in material realism",
+      "category": "art",
+      "summary": "Ground menu styling and item/HUD icons in material realism.",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Retain reproducible menu/item art, sources and provenance."
+        },
+        {
+          "done": true,
+          "text": "Preserve existing UI/gameplay/input/save contracts."
+        },
+        {
+          "done": true,
+          "text": "Verify focus, shop scrolling, current resource loading and intended-context rendering."
+        },
+        {
+          "done": true,
+          "text": "Inspect cutouts and representative menu captures at supported resolutions."
+        },
+        {
+          "done": true,
+          "text": "Jason accepts the delivered visual styling."
+        }
+      ],
+      "status": "Done",
+      "priority": "Now",
+      "area": "Art",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/75",
+      "updatedAt": "2026-10-31T04:44:10Z",
+      "order": 69,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-27",
+      "number": 76,
+      "title": "Lockpicking minigame and optional locked loot",
+      "category": "game",
+      "summary": "Requested by Jason on 2026-10-30 during GAME-26 preparation. E opens the optional abandoned lockbox beside the village path; A/D or arrows set the pick angle, Space applies tension, and Esc leaves. The cylinder rotates partially when off-angle; forcing a jam accumulates strain and can break a pick. Release to reposition.…",
+      "scope": [
+        "Requested by Jason on 2026-10-30 during GAME-26 preparation. E opens the optional abandoned lockbox beside the village path; A/D or arrows set the pick angle, Space applies tension, and Esc leaves. The cylinder rotates partially when off-angle; forcing a jam accumulates strain and can break a pick. Release to reposition. Three tolerances are supported; the authored box is Simple. The world pauses during the modal. This uses the interaction concept requested as a Skyrim reference, with original presentation and no copied assets.",
+        "Mira sells lockpicks for a base 5 gold; picks stack to 12. Only broken picks are consumed. Intact picks survive success and cancellation. Last-pick exhaustion exits safely. Ordinary campaign starts grant no kit. Unlocking and looting save separately; a full inventory preserves unlocked contents. Taking the reward gives one bronze charm and 25 gold exactly once and opens the visual lid. Quest-critical doors and accepted authored caches are unchanged. No locked-door campaign integration, NPC property crime or skill tree is claimed."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Angle/tension minigame with readable partial rotation, strain, breakage and cancel."
+        },
+        {
+          "done": true,
+          "text": "Real carried inventory picks, merchant availability and guarded world interaction."
+        },
+        {
+          "done": true,
+          "text": "Compatible save migration, persistent unlocking, full-inventory recovery and no duplicate rewards."
+        },
+        {
+          "done": true,
+          "text": "Automated integration/regression checks and rendered UI inspection."
+        },
+        {
+          "done": true,
+          "text": "Jason accepted the bounded first-cut mechanic: \"Nice, this is good, I like the mechanic\" and \"this is a great first cut\". No additional individual manual test observations are inferred."
+        },
+        {
+          "done": true,
+          "text": "Track the requested 3D scene and mouse adjustment as deferred GAME-28 #77."
+        }
+      ],
+      "status": "Done",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/76",
+      "updatedAt": "2026-10-31T05:58:26Z",
+      "order": 70,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-28",
+      "number": 77,
+      "title": "3D lockpicking scene with mouse-controlled pick",
+      "category": "game",
+      "summary": "Deferred follow-up requested by Jason on 2026-10-30 after reviewing GAME-27: \"Nice, this is good, I like the mechanic\" and \"I'd like the lock picking scene to be in 3D and adjust the pick with your mouse ... mark the 3D improvement as an Issue for down the line\".",
+      "scope": [
+        "Deferred follow-up requested by Jason on 2026-10-30 after reviewing GAME-27: \"Nice, this is good, I like the mechanic\" and \"I'd like the lock picking scene to be in 3D and adjust the pick with your mouse ... mark the 3D improvement as an Issue for down the line\".",
+        "Replace the drawn mechanism with an original 3D lock, pick and tension-tool presentation using the approved grounded fantasy realism art direction. Map mouse movement to pick angle with clear, controllable sensitivity. Retain readable turning, resistance/jam, strain and breakage feedback. Preserve GAME-27 inventory consumption, unlocking/loot persistence, guarded interaction, pause/cancel and full-inventory recovery contracts. Retain keyboard adjustment as an accessible fallback where practical."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Original 3D lock/pick/tension scene follows grounded art direction."
+        },
+        {
+          "done": false,
+          "text": "Mouse adjusts pick angle intuitively without moving the campaign camera."
+        },
+        {
+          "done": false,
+          "text": "Rotation, resistance, strain and breakage feedback remain readable."
+        },
+        {
+          "done": false,
+          "text": "Enter/exit restores cursor, camera and paused-world behavior reliably."
+        },
+        {
+          "done": false,
+          "text": "Preserve inventory, save compatibility, reward and full-inventory contracts; regress GAME-27."
+        },
+        {
+          "done": false,
+          "text": "Review supported resolutions and mouse sensitivity; Jason accepts the 3D/input improvement."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/77",
+      "updatedAt": "2026-10-31T05:57:41Z",
+      "order": 71,
       "statusSource": "project"
     }
   ]
