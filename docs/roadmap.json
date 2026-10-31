@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "46d2694a2cfc9442ae2a4599023b7f0dac04ecfc61dc0e05dc1c350825f2528a",
-  "syncedAt": "2026-10-31T07:30:25.561753+00:00",
+  "contentVersion": "a0c6c8351919f107ffe384585a032b5b85dff756ee9e68aa2a93019b6e2677a4",
+  "syncedAt": "2026-10-31T17:58:55.663839+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2916,21 +2916,21 @@
           "text": "Automated campaign geometry/outcome checks and inventory/social/movement regressions."
         },
         {
-          "done": false,
-          "text": "Jason reviews sneak/detection feel, successful/caught theft, gear comparisons and save/restart behavior."
+          "done": true,
+          "text": "Jason accepted the refined mechanic, feedback and cover review: \"Works, implement it.\" This is bounded user acceptance; no additional individual manual observations are inferred."
         },
         {
-          "done": false,
-          "text": "Accept or revise review values and close the bounded slice explicitly."
+          "done": true,
+          "text": "Accept the bounded review values/layout and integrate the shared yard into campaign source; close this slice with the recorded evidence."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/73",
-      "updatedAt": "2026-10-31T07:13:26Z",
+      "updatedAt": "2026-10-31T17:34:45Z",
       "order": 67,
       "statusSource": "project"
     },
