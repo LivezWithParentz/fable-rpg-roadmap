@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "a0c6c8351919f107ffe384585a032b5b85dff756ee9e68aa2a93019b6e2677a4",
-  "syncedAt": "2026-10-31T17:58:55.663839+00:00",
+  "contentVersion": "25a20090d5e0dc3f23478879355d30b02650b36f3d36fa85c433e9190de7e8b9",
+  "syncedAt": "2026-11-01T05:53:48.334246+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -270,37 +270,37 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Determine from the provider/task record whether the pilot completed, failed, or remains uncertain; save the actual output and task state."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Reconcile actual credits billed and current balance against the 500-credit floor; update billing.md and the preparation state without overwriting originals."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Archive task metadata, original preview, and output before evaluating any derivative; keep generated results out of production until reviewed."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Review identity uniqueness and grounded style; record a decision and unresolved visual/technical issues."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep generation on hold until the pilot is reconciled and any next exact proposal is separately approved."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record remaining modular extraction, shared-rig binding, twelve-clip, and visual/runtime gates in PLAN.md."
         }
       ],
-      "status": "Backlog",
+      "status": "Done",
       "priority": "Now",
       "area": "NPC production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/6",
-      "updatedAt": "2026-10-17T19:35:10Z",
+      "updatedAt": "2026-11-01T05:20:31Z",
       "order": 6,
       "statusSource": "project"
     },
@@ -932,33 +932,33 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "All six helpers default to the sole campaign launcher, with explicit executable selection where useful and a clear missing-file error."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Test deadlines and script-error handling terminate only the owned process tree and return without hanging on inherited stdout handles."
         },
         {
-          "done": false,
+          "done": true,
           "text": "A deliberately timed-out test proves cleanup leaves no child Godot process running."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Normal source checks and relevant packaged restart checks still pass with isolated test slots; the player's normal save is preserved."
         },
         {
-          "done": false,
+          "done": true,
           "text": "README/PLAN validation instructions and the corresponding issue reflect the actual commands and results."
         }
       ],
-      "status": "Backlog",
-      "priority": null,
-      "area": "Production tooling",
+      "status": "Done",
+      "priority": "Now",
+      "area": "Release review",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/24",
-      "updatedAt": "2026-10-17T19:52:14Z",
+      "updatedAt": "2026-11-01T05:34:43Z",
       "order": 24,
       "statusSource": "project"
     },
@@ -1146,55 +1146,14 @@
         "Male HBM jump Begin/Fall/Land sources are now retargeted and integrated for review after the user rejected the previous jump. Source originals, RM comparisons and editable master are preserved. Technical source/gameplay and embedded-pack checks pass; human jump feel was subsequently accepted as complete on 2026-10-20. Existing bow motion approval and prop/garment review boundaries remain unchanged."
       ],
       "evidence": [],
-      "acceptance": [
-        {
-          "done": true,
-          "text": "Record verified vendor/source link, fresh archive download date, source-page snapshot, original hashes and intended use/root/prop information; explicitly record the unknown original user download date."
-        },
-        {
-          "done": true,
-          "text": "Inventory seven FBXs without changing originals."
-        },
-        {
-          "done": true,
-          "text": "Select a first bow draw/aim/release cycle and prepare an editable, reproducible retarget on the actual gameplay skeleton."
-        },
-        {
-          "done": true,
-          "text": "Prepare deliberate in-place evaluation segments without replacing movement/combat controllers."
-        },
-        {
-          "done": false,
-          "text": "Review neutral mapping, feet/floor contact, finger/palm grip, drawn bow string and nocked arrow contact; refine the candidate before promotion."
-        },
-        {
-          "done": true,
-          "text": "Record the user's approval of the observed candidate motion feel; preserve its body tracks and native timing."
-        },
-        {
-          "done": false,
-          "text": "Accept the latest equipment placement, foot stability, aim seam, transitions and final contact quality in close-up/gameplay views."
-        },
-        {
-          "done": false,
-          "text": "Inspect knife takes and assess existing full-body UAL2 sword sources without assuming compatibility."
-        },
-        {
-          "done": false,
-          "text": "Promote only reviewed animation-only GLBs and integrate required roles deliberately, with focused/exported gameplay checks."
-        },
-        {
-          "done": true,
-          "text": "Record current preparation/check results and remaining gates in PLAN.md; retain this issue open until acceptance passes."
-        }
-      ],
-      "status": "In progress",
+      "acceptance": [],
+      "status": "Done",
       "priority": "Now",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/28",
-      "updatedAt": "2026-10-20T07:47:00Z",
+      "updatedAt": "2026-11-01T04:24:22Z",
       "order": 28,
       "statusSource": "project"
     },
@@ -2941,39 +2900,46 @@
       "category": "qa",
       "summary": "Verify inventory and authored loot in the canonical retained campaign executable with reliable source provenance.",
       "scope": [
-        "2026-10-30: current-source inventory, authored loot and bag identity checks pass, including a separate fresh-process read. A separate fablebagsreview.exe release package exercises release-active --acceptance-inventory write/read/loot checks with disposable save slots; logs and hashes are recorded in PLAN.md and builds/bag-review-manifest.json.",
-        "The canonical builds/fableopenworld.exe SHA-256 at audit was 57a76db3364bf67cd8e4701787209a3943f63f8159d1e7fdf2bdd056acbcb845. It starts successfully but lacks the new inventory acceptance hook; its hash does not match the older QA-01 v3 campaign manifest. This does not establish its current inventory behavior or source provenance. No canonical file was rebuilt or replaced in this task. The review package includes the current shared-checkout snapshot; it grants no acceptance to concurrent workstreams."
+        "2026-10-31: the accepted GAME-24/25 bag review prerequisite is satisfied. QA-08 remained relevant because the older canonical package had no verified current inventory path or matching provenance.",
+        "A current-source Windows release candidate was exported, checked, promoted with the previous executable and native DLLs backed up, then checked again at the canonical path. All five release-active modes pass on both candidate and canonical: write, fresh-process read, authored loot, campaign-write and campaign-read. Dedicated disposable save slots preserve the normal campaign save.",
+        "The promoted executable is 1,171,842,000 bytes, SHA-256 8666467f67520c3daadd58456f52fb53c83e008cc0ea4eb2948df9b0ff03d212. Provenance is base HEAD fbd53bbfb340fd7ffaaca4d23b774a33ef4f0dd2 plus explicit local input hashes and working-tree state, not an unmodified-HEAD claim. Local evidence: builds/qa08-20261031-220010/manifest.json, export.log, candidate-.log and canonical-.log. The prior canonical executable (SHA-256 57a76db3364bf67cd8e4701787209a3943f63f8159d1e7fdf2bdd056acbcb845) and DLL backups remain in that evidence directory.",
+        "Coverage includes authored Road Cache arrays and exact rewards, full-capacity rejection without mutation, equipment swaps, closed-stash rejection, stash transfers/placement, cottage ownership, equipped bow and saved totals across fresh processes. A missing chest interaction guard was fixed: direct repeated interaction now rejects an already claimed saved content flag. Normal interaction eligibility already excluded opened chests. Source campaign inventory, authored-loot and equipped-storage regressions pass.",
+        "The repeatable verifier is tools/verify-campaign-inventory.ps1; -Promote preserves and replaces the canonical package only after candidate checks, retests it and restores the previous package if canonical checks fail. Known export MCP warning and exact editor-shutdown resource diagnostics remain; no script parse failure occurred."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Establish canonical executable source provenance and record its verified hash."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify authored Road Cache arrays and reward delivery in that canonical package."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify full-capacity/equipment/stash transfers in that canonical package."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify its save/write and fresh-process read without loss/duplication."
         },
         {
-          "done": false,
-          "text": "Record reviewed package promotion separately if needed, preserving user saves."
+          "done": true,
+          "text": "Record package promotion separately, preserving user saves and the previous package."
+        },
+        {
+          "done": true,
+          "text": "Jason accepts the bounded QA-08 handoff alongside the recorded canonical package checks."
         }
       ],
-      "status": "In progress",
+      "status": "Done",
       "priority": "Next",
       "area": "Release review",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/74",
-      "updatedAt": "2026-10-30T07:09:21Z",
+      "updatedAt": "2026-11-01T05:17:03Z",
       "order": 68,
       "statusSource": "project"
     },
