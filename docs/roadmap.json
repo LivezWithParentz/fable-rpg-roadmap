@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "5531992137d9ced3b868b7a69f85156ea360c7d15e67d0d802c687078ebaf204",
-  "syncedAt": "2026-11-07T01:17:02.808743+00:00",
+  "contentVersion": "29ac833c37b5dfc158846cf4a9dd751ca1ec01ba9cd5d99fda30bc68aa915ee7",
+  "syncedAt": "2026-11-07T07:16:02.355225+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -196,13 +196,13 @@
           "text": "Keep automation evidence distinct from manual acceptance and feature maturity."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/4",
-      "updatedAt": "2026-10-17T19:56:20Z",
+      "updatedAt": "2026-11-07T06:10:33Z",
       "order": 4,
       "statusSource": "project"
     },
@@ -1205,7 +1205,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-10-29T05:00:55Z",
+      "updatedAt": "2026-11-07T06:05:49Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1391,13 +1391,13 @@
           "text": "Complete heavy contact, campaign-wide and stress/remaining checklist gates."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
-      "updatedAt": "2026-11-06T23:30:53Z",
+      "updatedAt": "2026-11-07T05:26:39Z",
       "order": 33,
       "statusSource": "project"
     },
@@ -1412,6 +1412,34 @@
       ],
       "evidence": [],
       "acceptance": [
+        {
+          "done": true,
+          "text": "Preserve the existing three-light/Whirlwind, heavy/sweep/riposte, defensive and spell contracts; no clip mappings or combat timings replaced."
+        },
+        {
+          "done": true,
+          "text": "Fourteen focused source suites pass: full-set/checker controls, M8, fluid combat, combat prototype, Whirlwind input, dodge, sword grip, bow presentation, campaign inventory, UAL2, calibration, M11 and open world."
+        },
+        {
+          "done": true,
+          "text": "All 15 candidate package checks pass: four rendered combat caps, five inventory/save modes, four fluid modes, grip and rendered review startup."
+        },
+        {
+          "done": true,
+          "text": "Approximately 14.5/29.7/59.3/135.0 packaged process FPS yields the same single-hit counts and physics durations for all seven sword resources. Bounded tests also cover queue, pause, disabled animation playback, equipment changes, skill-arrow ownership, fireball deduplication/origin, Force Push cooldown/Brute resistance, parry, death/reset and district-travel cleanup."
+        },
+        {
+          "done": true,
+          "text": "Source/package evidence and inspected 1080p role-review captures recorded in PLAN.md; normal saves and canonical executable remain unchanged."
+        },
+        {
+          "done": false,
+          "text": "Jason reviews normal/slow-speed Raider, Brute and Archer encounters: chain/heavy transitions, target/reaction feedback, guard/parry/riposte/execution, bow/spells, interruptions and weapon switches."
+        },
+        {
+          "done": false,
+          "text": "Resolve confirmed review findings, then promote only the accepted scope and verify the promoted package before completion. No canonical promotion or human acceptance is inferred from automation."
+        },
         {
           "done": false,
           "text": "Preserve the complete existing three-light light-light-whirlwind chain, heavy/sweep/riposte branches, guard/parry, lock-on and contextual moves; do not downgrade to the proposal two-strike example."
@@ -1433,13 +1461,13 @@
           "text": "Record changed clip mappings, gameplay/package checks and remaining human acceptance in PLAN.md; QA-01 (#1) owns final integrated feel acceptance, QA-05 (#5) owns gore acceptance."
         }
       ],
-      "status": "Backlog",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Combat",
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/34",
-      "updatedAt": "2026-10-18T23:04:36Z",
+      "updatedAt": "2026-11-07T06:05:47Z",
       "order": 34,
       "statusSource": "project"
     },
@@ -2660,7 +2688,7 @@
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/67",
-      "updatedAt": "2026-10-29T05:00:29Z",
+      "updatedAt": "2026-11-07T06:05:51Z",
       "order": 62,
       "statusSource": "project"
     },
@@ -3118,8 +3146,12 @@
           "text": "Resolve or explicitly disposition remaining validation findings."
         },
         {
+          "done": true,
+          "text": "Merge the reviewed audit/hygiene changes: PR #81, merge f1acbdd5705b7aef8e9045f994e482ae68c16a63, authorized by Jason on 2026-11-07."
+        },
+        {
           "done": false,
-          "text": "Merge reviewed changes and explicitly close only after remaining gates pass."
+          "text": "Explicitly close only after remaining cleanup and validation gates pass."
         }
       ],
       "status": "Review",
@@ -3128,8 +3160,100 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/80",
-      "updatedAt": "2026-11-06T23:57:02Z",
+      "updatedAt": "2026-11-07T05:24:50Z",
       "order": 72,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-29",
+      "number": 86,
+      "title": "Mira trade decision reaction and remembered conversation",
+      "category": "game",
+      "summary": "Content expansion after accepted GAME-17/#45. Preserve the existing relief example, quest outcomes, stable IDs, save schema and shop/personal services. No new dialogue manager. PLAN.md owns maturity and acceptance.",
+      "scope": [
+        "Content expansion after accepted GAME-17/#45. Preserve the existing relief example, quest outcomes, stable IDs, save schema and shop/personal services. No new dialogue manager. PLAN.md owns maturity and acceptance."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Audit HEAD and avoid duplicating accepted relief dialogue."
+        },
+        {
+          "done": true,
+          "text": "Author contextual trade choice and later callback with unique stable IDs."
+        },
+        {
+          "done": true,
+          "text": "Preserve private replay receipts and saved branch responses."
+        },
+        {
+          "done": true,
+          "text": "Complete narrative/social/quest regressions and record exact results."
+        },
+        {
+          "done": false,
+          "text": "Review wording, pacing, legibility and interaction manually; obtain user acceptance."
+        }
+      ],
+      "status": "Review",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/86",
+      "updatedAt": "2026-11-07T06:31:09Z",
+      "order": 73,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-09",
+      "number": 87,
+      "title": "Refresh village lighting and readability benchmark",
+      "category": "art",
+      "summary": "A focused village lighting/readability benchmark using existing assets. Reuse accepted graphics evidence, preserve day/night and gameplay, compare matched images and motion frame times, and apply only evidence-backed improvements.",
+      "scope": [
+        "A focused village lighting/readability benchmark using existing assets. Reuse accepted graphics evidence, preserve day/night and gameplay, compare matched images and motion frame times, and apply only evidence-backed improvements."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Audit current source, enabled lighting and accepted evidence; record the specific unmet need or an explicit evidence-backed no-change disposition."
+        },
+        {
+          "done": false,
+          "text": "Establish a repeatable village gameplay view with Hero/NPC, doorway, vegetation, ground and sun/shade; record revision, time, camera and settings."
+        },
+        {
+          "done": false,
+          "text": "Capture matched before/after native-resolution images for any changes; preserve district/day-night control and the gameplay camera."
+        },
+        {
+          "done": false,
+          "text": "Compare equivalent traversal/combat frame times, including spikes and hardware/renderer/resolution/settings; coordinate with QA-07."
+        },
+        {
+          "done": false,
+          "text": "Check shared effects in village, woodland, camp and interior, including faces, prompts, telegraphs and consequence visibility."
+        },
+        {
+          "done": false,
+          "text": "Run relevant regressions and an isolated Windows export; record limitations and obtain hands-on acceptance before claiming Validated or promoting a package."
+        },
+        {
+          "done": false,
+          "text": "Update PLAN.md with evidence, disposition and the next bounded task; preserve completed graphics/art acceptance boundaries."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Art",
+      "maturity": "Planned",
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/87",
+      "updatedAt": "2026-11-07T07:08:37Z",
+      "order": 74,
       "statusSource": "project"
     }
   ]
