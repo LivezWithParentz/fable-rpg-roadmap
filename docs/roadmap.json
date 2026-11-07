@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "29ac833c37b5dfc158846cf4a9dd751ca1ec01ba9cd5d99fda30bc68aa915ee7",
-  "syncedAt": "2026-11-07T07:16:02.355225+00:00",
+  "contentVersion": "9a303c67b2b9e53d461e0255c4f4bb9e673ea260b4f90c322b461dff5692e62a",
+  "syncedAt": "2026-11-07T14:06:14.724339+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3254,6 +3254,56 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/87",
       "updatedAt": "2026-11-07T07:08:37Z",
       "order": 74,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-30",
+      "number": 88,
+      "title": "Clear dialogue choices and guarded Winter Supplies decisions",
+      "category": "game",
+      "summary": "Presentation repair on existing narrative/quest/social architecture. No new narrative content, autoload or save schema. Preserve the accepted pipeline, optional Mira reactions, both Winter outcomes and shop/personal services. PLAN.md owns maturity and acceptance.",
+      "scope": [
+        "Presentation repair on existing narrative/quest/social architecture. No new narrative content, autoload or save schema. Preserve the accepted pipeline, optional Mira reactions, both Winter outcomes and shop/personal services. PLAN.md owns maturity and acceptance."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Update local narrative skill to v2 and validate its structure."
+        },
+        {
+          "done": true,
+          "text": "Derive previews from real quest/social handlers; preserve stable save identities."
+        },
+        {
+          "done": true,
+          "text": "Guard confirmation/cancel, stale conditions and duplicate submissions."
+        },
+        {
+          "done": true,
+          "text": "Capture and inspect actual engine output at 720p and 1080p."
+        },
+        {
+          "done": true,
+          "text": "Complete the corrected exported-game keyboard/mouse and saved-response walkthrough."
+        },
+        {
+          "done": true,
+          "text": "Record final exact regression, artifact and manual evidence in PLAN.md."
+        },
+        {
+          "done": false,
+          "text": "Obtain Jason's review acceptance of the changed interface."
+        }
+      ],
+      "status": "Review",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/88",
+      "updatedAt": "2026-11-07T07:29:54Z",
+      "order": 75,
       "statusSource": "project"
     }
   ]
