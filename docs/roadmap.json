@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "25a20090d5e0dc3f23478879355d30b02650b36f3d36fa85c433e9190de7e8b9",
-  "syncedAt": "2026-11-01T05:53:48.334246+00:00",
+  "contentVersion": "5531992137d9ced3b868b7a69f85156ea360c7d15e67d0d802c687078ebaf204",
+  "syncedAt": "2026-11-07T01:17:02.808743+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1392,12 +1392,12 @@
         }
       ],
       "status": "Review",
-      "priority": "Later",
+      "priority": "Now",
       "area": "Combat",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/33",
-      "updatedAt": "2026-10-30T04:19:39Z",
+      "updatedAt": "2026-11-06T23:30:53Z",
       "order": 33,
       "statusSource": "project"
     },
@@ -3075,6 +3075,61 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/77",
       "updatedAt": "2026-10-31T05:57:41Z",
       "order": 71,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-06",
+      "number": 80,
+      "title": "Audit repository dependencies and review conservative cleanup",
+      "category": "ops",
+      "summary": "One cleanup branch and draft PR: https://github.com/LivezWithParentz/godot-game-main/pull/81",
+      "scope": [
+        "One cleanup branch and draft PR: https://github.com/LivezWithParentz/godot-game-main/pull/81",
+        "Initial validation baseline b0549681c17895458a7f06da32272c74258679f1; inventory refreshed to 24aa7d333d0ce950dc26e3bfceece28c766065f6 after independent PR #79 merged. The original concurrent checkout and main are preserved."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Preserve unrelated work in a separate worktree."
+        },
+        {
+          "done": true,
+          "text": "Inventory hashes, sizes, dependencies, history and retention decisions."
+        },
+        {
+          "done": true,
+          "text": "Record canonical entry points and intentionally retained assets."
+        },
+        {
+          "done": true,
+          "text": "Record baseline/post-change validation and limitations in PLAN/report."
+        },
+        {
+          "done": true,
+          "text": "Open one reviewable draft PR; keep issue open / Project Review."
+        },
+        {
+          "done": false,
+          "text": "Review the audit and approve any exact consequential retirement changeset."
+        },
+        {
+          "done": false,
+          "text": "Resolve or explicitly disposition remaining validation findings."
+        },
+        {
+          "done": false,
+          "text": "Merge reviewed changes and explicitly close only after remaining gates pass."
+        }
+      ],
+      "status": "Review",
+      "priority": "Now",
+      "area": "Release review",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/80",
+      "updatedAt": "2026-11-06T23:57:02Z",
+      "order": 72,
       "statusSource": "project"
     }
   ]
