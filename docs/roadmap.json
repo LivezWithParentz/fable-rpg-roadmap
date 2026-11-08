@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "9a303c67b2b9e53d461e0255c4f4bb9e673ea260b4f90c322b461dff5692e62a",
-  "syncedAt": "2026-11-07T14:06:14.724339+00:00",
+  "contentVersion": "22cb596c7576fcef0faa46f6794a6836ce6128aa320c11a41008eba7fe44b9bc",
+  "syncedAt": "2026-11-08T07:50:12.916491+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3304,6 +3304,52 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/88",
       "updatedAt": "2026-11-07T07:29:54Z",
       "order": 75,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-31",
+      "number": 89,
+      "title": "Review a voiced Mira conversation performance slice",
+      "category": "game",
+      "summary": "Post-M12 follow-up. Source-only isolated presentation prototype; retain existing narrative choices, social authority and save identities. Keep character-art and campaign integration gates separate.",
+      "scope": [
+        "Post-M12 follow-up. Source-only isolated presentation prototype; retain existing narrative choices, social authority and save identities. Keep character-art and campaign integration gates separate."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Isolate the fixture and save path; preserve existing dialogue work."
+        },
+        {
+          "done": true,
+          "text": "Reuse existing conversation and remembered callback with guarded effects."
+        },
+        {
+          "done": true,
+          "text": "Supply labelled temporary voice, timed subtitles, close camera and head emphasis."
+        },
+        {
+          "done": true,
+          "text": "Verify both responses, stale choices, save/resume, audio stop and camera restoration."
+        },
+        {
+          "done": true,
+          "text": "Render and inspect 720p/1080p layouts."
+        },
+        {
+          "done": true,
+          "text": "Obtain Jason's hands-on review of timing, sound, framing and feel."
+        }
+      ],
+      "status": "Done",
+      "priority": "Now",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/89",
+      "updatedAt": "2026-11-08T05:17:44Z",
+      "order": 76,
       "statusSource": "project"
     }
   ]
