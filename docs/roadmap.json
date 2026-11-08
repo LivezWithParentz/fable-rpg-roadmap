@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "a89aa553a539d3da87017ac60b8afbee20c0058bfe5abbd0fd91c27f86c2ed4c",
-  "syncedAt": "2026-11-08T19:03:33.857995+00:00",
+  "contentVersion": "2ffb002e5b3ac012b657ae918ea289f789fea460b0f9913d6d34ebfb4573795c",
+  "syncedAt": "2026-11-08T22:47:49.696094+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3394,6 +3394,70 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/90",
       "updatedAt": "2026-11-08T09:34:33Z",
       "order": 77,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-08",
+      "number": 91,
+      "title": "Overhaul Blender asset processing after current tickets close",
+      "category": "ops",
+      "summary": "Scheduling gate: do not begin until Jason has closed every ticket that was open when this epic was requested on 2026-11-08. This fixed prerequisite set excludes this epic and future phase tickets:",
+      "scope": [
+        "Scheduling gate: do not begin until Jason has closed every ticket that was open when this epic was requested on 2026-11-08. This fixed prerequisite set excludes this epic and future phase tickets:",
+        "#7, #29, #35, #36, #38, #39, #40, #41, #42, #43, #44, #47, #54, #63, #64, #67, #68, #77, #80, #86, #87, #88.",
+        "No due date. The Critical/P0/P1/P2 labels in the supplied plan order phases only after this gate; they do not override current work."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "All 22 prerequisite tickets above are closed before starting Phase 0."
+        },
+        {
+          "done": false,
+          "text": "Phase 0 audits reusable code, actual Blender/Godot versions, public reference documentation, gaps, boundaries, dependencies, risks and verification strategy."
+        },
+        {
+          "done": false,
+          "text": "Phase 0 produces BLENDERCAPABILITYGAPANALYSIS.md and BLENDERPROCESSINGARCHITECTURE.md; findings are reviewed before Phase 1."
+        },
+        {
+          "done": false,
+          "text": "Define focused phase issues/PRs after the audit; implement in dependency order with separate commits and no automatic merge."
+        },
+        {
+          "done": false,
+          "text": "Preserve originals, editable masters, v1 manifests, existing CLI, isolated workspaces, disable-autoexec, permissions, revision hashes and approval/release gates."
+        },
+        {
+          "done": false,
+          "text": "Deliver phases 1–4 with fixture-based unit/Blender integration checks, expected failures, reproducibility and Godot import/render/runtime evidence."
+        },
+        {
+          "done": false,
+          "text": "Deliver phases 5–7 with deterministic materials, rig/animation compatibility and usable desktop/mobile comparison/review."
+        },
+        {
+          "done": false,
+          "text": "Evaluate optional Phase 8 only after underlying tools are stable; retain timeouts, cancellation, recovery, path/resource controls and audit trails."
+        },
+        {
+          "done": false,
+          "text": "Record measured improvements and visual comparisons; retain human visual/animation acceptance separately from automation."
+        },
+        {
+          "done": false,
+          "text": "Avoid unrelated refactoring, paid calls, unreviewed asset publication and production-asset replacement."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Later",
+      "area": "Art",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/91",
+      "updatedAt": "2026-11-08T21:49:28Z",
+      "order": 78,
       "statusSource": "project"
     }
   ]
