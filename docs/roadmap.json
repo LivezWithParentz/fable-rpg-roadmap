@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "5623aed59d4830462c012898cc5f3912236be2663f48b2ff4cdc9f022a60e9bf",
-  "syncedAt": "2026-11-08T14:34:13.536480+00:00",
+  "contentVersion": "a89aa553a539d3da87017ac60b8afbee20c0058bfe5abbd0fd91c27f86c2ed4c",
+  "syncedAt": "2026-11-08T19:03:33.857995+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -161,48 +161,48 @@
       "number": 4,
       "title": "Manually accept M10 routines and personal relationships",
       "category": "qa",
-      "summary": "Complete hands-on M10 acceptance for daily routines, personal relationships, optional favours, and save/reopen behavior in the exported campaign.",
+      "summary": "Completed 2026-11-08. Jason accepted the revised favour/conversation menus: “I’ve reviewed them and accept them.” The reviewed source is merged, a continuous exact-1080p measurement is recorded, and the verified campaign package is promoted. Execution: Done. Maturity: Validated for this bounded QA-04 follow-up; existing M10…",
       "scope": [
-        "Complete hands-on M10 acceptance for daily routines, personal relationships, optional favours, and save/reopen behavior in the exported campaign."
+        "Jason previously reported the menu as the only QA-04 issue and deferred detailed NPC routine iteration. That report and the explicit revised-menu acceptance close the remaining presentation gate without inventing individual full-day/route observations. Existing schedule/relationship/save authority is preserved. GAME-29/30 retain separate content/decision acceptance; GAME-31's accepted performance template remains separate.",
+        "Four focused source regressions pass again: conversation layout, dialogue UX, M10 and M10 routes. PR #85 is merged.",
+        "The rendered source-debug measurement covers 121.77 seconds / 7,204 frames: 60 seconds stationary live village and 20 seconds each of Elin/Mira/Tomas paused favour menus. Verified 1920x1080, Forward+, RTX 3050 / Ryzen 5 5600G, scale 1.0, MSAA/TAA off, VSync enabled. Mean/p95/p99 wall frame intervals: 16.90/18.38/22.84 ms. Five frames exceed 33.33 ms: two village frames (maximum 47.73 ms) and three screenshot/menu transitions (maximum 631.57 ms), with instrumentation overhead retained. All three favour captures were inspected. This resolves the measurement gate; it does not claim sustained traversal/combat performance, a full-day playthrough or universal 60 FPS. QA-07 retains broader profiling.",
+        "Canonical builds/fableopenworld.exe SHA-256: 85949efa50479273a4c7945e6b8b217c278d4fb6d4cd33e0e00e1be7618c0cf0, with matching native DLLs. Candidate checks pass five inventory modes, four fluid-combat modes, rendered combat-set cap 60 and fresh M10/narrative write/read. The canonical launcher passes five inventory modes and M10/narrative write/read again. Campaign save and backup hashes are unchanged; prior EXE/DLLs are retained for rollback.",
+        "Export exits 0 but retains known editor-shutdown RID/resource diagnostics. The existing verify-campaign-inventory.ps1 rule explicitly permits those two patterns; no additional errors were accepted. The generic strict export wrapper would still reject them. Runtime verification is separate; no clean-shutdown claim is made."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
-          "text": "Play and observe a complete in-game day, including work/evening/home transitions; important NPCs remain reachable and routines are understandable."
+          "done": true,
+          "text": "Record Jason's original review and defer detailed routine expansion."
         },
         {
-          "done": false,
-          "text": "Confirm menu/dialogue/loading clock pauses, no offline time advancement, and waiting until morning through the public resting point."
+          "done": true,
+          "text": "Implement and technically/render-verify conversation/favour presentation."
         },
         {
-          "done": false,
-          "text": "Complete both first-quest routes and the optional Elin, Mira, and Tomas favours/benefits through the exported UI."
+          "done": true,
+          "text": "Obtain Jason's explicit acceptance of the revised menus."
         },
         {
-          "done": false,
-          "text": "Confirm merchant hours, quest NPC destinations, home-doorway conversations, and the absent mayor's state remain clear and usable."
+          "done": true,
+          "text": "Record continuous exact-1080p performance, settings, spikes and limits."
         },
         {
-          "done": false,
-          "text": "Save and Continue at night; verify time, trust, favours, unique benefits, and NPC destinations persist without duplicate claims."
+          "done": true,
+          "text": "Deliver reviewed source and verify candidate/canonical package persistence and combat/inventory regressions."
         },
         {
-          "done": false,
-          "text": "Inspect camera and art readability and measure continuous 1080p performance; record build/source revision, settings, observations, and remaining gates in PLAN.md."
-        },
-        {
-          "done": false,
-          "text": "Keep automation evidence distinct from manual acceptance and feature maturity."
+          "done": true,
+          "text": "Preserve campaign saves and rollback binaries; record evidence in PLAN.md."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Next",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/4",
-      "updatedAt": "2026-11-07T06:10:33Z",
+      "updatedAt": "2026-11-08T18:54:59Z",
       "order": 4,
       "statusSource": "project"
     },
