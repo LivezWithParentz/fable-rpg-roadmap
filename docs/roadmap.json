@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "22cb596c7576fcef0faa46f6794a6836ce6128aa320c11a41008eba7fe44b9bc",
-  "syncedAt": "2026-11-08T07:50:12.916491+00:00",
+  "contentVersion": "5623aed59d4830462c012898cc5f3912236be2663f48b2ff4cdc9f022a60e9bf",
+  "syncedAt": "2026-11-08T14:34:13.536480+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3350,6 +3350,50 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/89",
       "updatedAt": "2026-11-08T05:17:44Z",
       "order": 76,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-07",
+      "number": 90,
+      "title": "Simplify static environment asset intake and gameplay review",
+      "category": "ops",
+      "summary": "Simplify static environment asset intake and gameplay review.",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "One command registers/prepares a static model and opens gameplay review."
+        },
+        {
+          "done": true,
+          "text": "Shared reusable scene owns material configuration and static collision."
+        },
+        {
+          "done": true,
+          "text": "Unchanged assets skip preparation; source/material changes invalidate readiness and acceptance."
+        },
+        {
+          "done": true,
+          "text": "Verify another prop, semantic swaps, save isolation and existing cottage integration."
+        },
+        {
+          "done": true,
+          "text": "Document the generation brief, correction loop and human acceptance boundary; update project skill guidance."
+        },
+        {
+          "done": true,
+          "text": "Deliver validated changes to local main and GitHub main as requested."
+        }
+      ],
+      "status": "Done",
+      "priority": "Now",
+      "area": "Art",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/90",
+      "updatedAt": "2026-11-08T09:34:33Z",
+      "order": 77,
       "statusSource": "project"
     }
   ]
