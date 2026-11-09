@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "62956b08eee78659e4966841644590e1d17394ddb814fbddad78dc6435da20c1",
-  "syncedAt": "2026-11-09T02:03:45.789144+00:00",
+  "contentVersion": "b1f477ad88917a77b6271b1bef87769a462eceeb0ec7059edfa415792a3987d8",
+  "syncedAt": "2026-11-09T09:38:17.027005+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3166,9 +3166,9 @@
       "number": 86,
       "title": "Mira trade decision reaction and remembered conversation",
       "category": "game",
-      "summary": "Content expansion after accepted GAME-17/#45. Preserve the existing relief example, quest outcomes, stable IDs, save schema and shop/personal services. No new dialogue manager. PLAN.md owns maturity and acceptance.",
+      "summary": "Mira's optional Winter Supplies trade reaction, the distinct stance responses, replay-safe private memory and later callback. Preserve the existing relief content, quest outcomes, stable IDs, save schema and shop/personal services.",
       "scope": [
-        "Content expansion after accepted GAME-17/#45. Preserve the existing relief example, quest outcomes, stable IDs, save schema and shop/personal services. No new dialogue manager. PLAN.md owns maturity and acceptance."
+        "Mira's optional Winter Supplies trade reaction, the distinct stance responses, replay-safe private memory and later callback. Preserve the existing relief content, quest outcomes, stable IDs, save schema and shop/personal services."
       ],
       "evidence": [],
       "acceptance": [
@@ -3189,17 +3189,17 @@
           "text": "Complete narrative/social/quest regressions and record exact results."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Review wording, pacing, legibility and interaction manually; obtain user acceptance."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/86",
-      "updatedAt": "2026-11-07T06:31:09Z",
+      "updatedAt": "2026-11-09T05:37:19Z",
       "order": 73,
       "statusSource": "project"
     },
@@ -3258,9 +3258,9 @@
       "number": 88,
       "title": "Clear dialogue choices and guarded Winter Supplies decisions",
       "category": "game",
-      "summary": "Presentation repair on existing narrative/quest/social architecture. No new narrative content, autoload or save schema. Preserve the accepted pipeline, optional Mira reactions, both Winter outcomes and shop/personal services. PLAN.md owns maturity and acceptance.",
+      "summary": "The existing Winter Supplies conversation interface: intent labels, verified previews, guarded irreversible-decision confirmation and outcome/next-objective guidance. Preserve narrative/quest/social authority and existing services.",
       "scope": [
-        "Presentation repair on existing narrative/quest/social architecture. No new narrative content, autoload or save schema. Preserve the accepted pipeline, optional Mira reactions, both Winter outcomes and shop/personal services. PLAN.md owns maturity and acceptance."
+        "The existing Winter Supplies conversation interface: intent labels, verified previews, guarded irreversible-decision confirmation and outcome/next-objective guidance. Preserve narrative/quest/social authority and existing services."
       ],
       "evidence": [],
       "acceptance": [
@@ -3289,17 +3289,17 @@
           "text": "Record final exact regression, artifact and manual evidence in PLAN.md."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Obtain Jason's review acceptance of the changed interface."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/88",
-      "updatedAt": "2026-11-07T07:29:54Z",
+      "updatedAt": "2026-11-09T05:37:21Z",
       "order": 75,
       "statusSource": "project"
     },
@@ -3455,6 +3455,62 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/91",
       "updatedAt": "2026-11-08T21:49:28Z",
       "order": 78,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-32",
+      "number": 94,
+      "title": "Generate Mira dialogue replies and NPC movement decisions with AI",
+      "category": "game",
+      "summary": "Generate Mira dialogue replies and NPC movement decisions with AI.",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Inspect existing narrative and NPC systems and avoid duplicate controllers."
+        },
+        {
+          "done": true,
+          "text": "Generate Mira responses inside normal dialogue without a free-text UI."
+        },
+        {
+          "done": true,
+          "text": "Preserve existing player choices, honest previews and guarded quest/private-trust effects."
+        },
+        {
+          "done": true,
+          "text": "Allow model-selected named movement intents through the existing motor."
+        },
+        {
+          "done": true,
+          "text": "Verify physical walking, correct pace, proximity stop, timeout, stale period, pause, escort and reset guards."
+        },
+        {
+          "done": true,
+          "text": "Verify live generated response and live named movement decision."
+        },
+        {
+          "done": true,
+          "text": "Run targeted narrative/routine/dialogue regressions and inspect rendered layouts."
+        },
+        {
+          "done": false,
+          "text": "Jason reviews natural replies, choice consequences and dedicated-save reload."
+        },
+        {
+          "done": false,
+          "text": "Jason reviews movement plausibility, interruption and provider failure fallback."
+        }
+      ],
+      "status": "Review",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/94",
+      "updatedAt": "2026-11-09T07:34:43Z",
+      "order": 79,
       "statusSource": "project"
     }
   ]
