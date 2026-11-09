@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2ffb002e5b3ac012b657ae918ea289f789fea460b0f9913d6d34ebfb4573795c",
-  "syncedAt": "2026-11-08T22:47:49.696094+00:00",
+  "contentVersion": "62956b08eee78659e4966841644590e1d17394ddb814fbddad78dc6435da20c1",
+  "syncedAt": "2026-11-09T02:03:45.789144+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1171,20 +1171,20 @@
           "text": "Record source-backed baseline and bounded implementation scope for each active stage."
         },
         {
-          "done": false,
-          "text": "Stage 1 reference setup passes remaining garment/visual gates."
+          "done": true,
+          "text": "Stage 1 bounded reference/garment calibration accepted under GAME-03 (#31), 2026-10-29; canonical art acceptance remains separate."
         },
         {
           "done": true,
           "text": "Stage 2 movement and corrected wall-contact jump camera accepted; GAME-04 complete (2026-10-20)."
         },
         {
-          "done": false,
-          "text": "Stage 3 sword contact/heavy presentation and Stage 4 complete combat set pass without losing accepted behavior."
+          "done": true,
+          "text": "Stage 3 GAME-05 (#33) and Stage 4 GAME-06 (#34) accepted and delivered, 2026-11-07; see PLAN.md and their closed issues."
         },
         {
-          "done": false,
-          "text": "Stage 5 proves reuse with a differently proportioned humanoid and records onboarding requirements."
+          "done": true,
+          "text": "Stage 5 technical reuse/onboarding delivered through GAME-07 (#35), PR #93, 2026-11-08; current Brute study/profile reuses Hero controllers. No production-art approval."
         },
         {
           "done": false,
@@ -1205,7 +1205,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-11-07T06:05:49Z",
+      "updatedAt": "2026-11-08T23:27:19Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1476,40 +1476,40 @@
       "number": 35,
       "title": "Prove humanoid reuse and document character onboarding",
       "category": "game",
-      "summary": "Stage 5 - Prove humanoid reuse and document character onboarding. A differently proportioned second humanoid uses the same controllers and clip roles with explicit asset/profile tuning. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "summary": "Stage 5 of GAME-01 (#29). Owner: Jason. Category: Game. Area: Combat. Milestone: Post-M12 acceptance and production follow-ups. Execution: Done. Maturity: Implemented for the bounded technical proof. Canonical art and Alex's ART-02 (#7) hold remain separate.",
       "scope": [
-        "Stage 5 - Prove humanoid reuse and document character onboarding. A differently proportioned second humanoid uses the same controllers and clip roles with explicit asset/profile tuning. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+        "Stage 5 of GAME-01 (#29). Owner: Jason. Category: Game. Area: Combat. Milestone: Post-M12 acceptance and production follow-ups. Execution: Done. Maturity: Implemented for the bounded technical proof. Canonical art and Alex's ART-02 (#7) hold remain separate."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
-          "text": "Select a source-audited second humanoid and record measured dimensions, mapping, source/license and supported capabilities; do not silently promote a study asset."
+          "done": true,
+          "text": "Select and source-audit the second humanoid; record dimensions, mapping, retained Blender source, CC0 foundation/license notices, source/export/profile hashes and supported capabilities."
         },
         {
-          "done": false,
-          "text": "Confine differences to visuals, rig mapping, profile/socket offsets and measured tuning; avoid actor-filename branches or duplicated gameplay controllers."
+          "done": true,
+          "text": "Confine differences to the existing visual override and explicit profile; keep the Hero controllers and damage/save ownership unchanged."
         },
         {
-          "done": false,
-          "text": "Run diagnostic poses, movement, first strike, relevant existing combat actions, hit/death and actual equipment side by side with the reference."
+          "done": true,
+          "text": "Run diagnostic poses and existing actions on both roles; verify actual movement, first-strike damage, guard/dodge/bow/cast/hit/death and equipment."
         },
         {
-          "done": false,
-          "text": "Verify reimport and two-actor shared-resource isolation, collision dimensions and independent runtime state."
+          "done": true,
+          "text": "Verify forced reimport, independent mutable resources and two actual Player instances' collision/health/combat state."
         },
         {
-          "done": false,
-          "text": "Document onboarding with pass/fail evidence, reproducible sources/exports, unresolved capability/art gates and PLAN.md links."
+          "done": true,
+          "text": "Document reproducible onboarding, pass/fail evidence and unresolved art/arbitrary-rig capabilities in PLAN and the onboarding guide."
         }
       ],
-      "status": "Backlog",
+      "status": "Done",
       "priority": "Next",
       "area": "Combat",
-      "maturity": "Planned",
+      "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/35",
-      "updatedAt": "2026-10-18T23:04:38Z",
+      "updatedAt": "2026-11-08T23:26:00Z",
       "order": 35,
       "statusSource": "project"
     },
@@ -1546,7 +1546,7 @@
         }
       ],
       "status": "Backlog",
-      "priority": "Later",
+      "priority": "Now",
       "area": "Combat",
       "maturity": "Planned",
       "note": "",
@@ -3110,16 +3110,13 @@
       "number": 80,
       "title": "Audit repository dependencies and review conservative cleanup",
       "category": "ops",
-      "summary": "One cleanup branch and draft PR: https://github.com/LivezWithParentz/godot-game-main/pull/81",
-      "scope": [
-        "One cleanup branch and draft PR: https://github.com/LivezWithParentz/godot-game-main/pull/81",
-        "Initial validation baseline b0549681c17895458a7f06da32272c74258679f1; inventory refreshed to 24aa7d333d0ce950dc26e3bfceece28c766065f6 after independent PR #79 merged. The original concurrent checkout and main are preserved."
-      ],
+      "summary": "Audit repository dependencies and review conservative cleanup.",
+      "scope": [],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Preserve unrelated work in a separate worktree."
+          "text": "Preserve unrelated work and the existing audit worktree."
         },
         {
           "done": true,
@@ -3135,32 +3132,32 @@
         },
         {
           "done": true,
-          "text": "Open one reviewable draft PR; keep issue open / Project Review."
-        },
-        {
-          "done": false,
-          "text": "Review the audit and approve any exact consequential retirement changeset."
-        },
-        {
-          "done": false,
-          "text": "Resolve or explicitly disposition remaining validation findings."
+          "text": "Deliver the reviewable audit/hygiene through PR #81."
         },
         {
           "done": true,
-          "text": "Merge the reviewed audit/hygiene changes: PR #81, merge f1acbdd5705b7aef8e9045f994e482ae68c16a63, authorized by Jason on 2026-11-07."
+          "text": "Review candidate disposition: retain all; no consequential retirement changeset is justified or required."
         },
         {
-          "done": false,
-          "text": "Explicitly close only after remaining cleanup and validation gates pass."
+          "done": true,
+          "text": "Resolve or explicitly disposition remaining validation findings with current evidence."
+        },
+        {
+          "done": true,
+          "text": "Merge completion through PR #92 and synchronize main."
+        },
+        {
+          "done": true,
+          "text": "Explicitly close the bounded audit after its retention and validation gates pass."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Release review",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/80",
-      "updatedAt": "2026-11-07T05:24:50Z",
+      "updatedAt": "2026-11-08T23:17:21Z",
       "order": 72,
       "statusSource": "project"
     },
