@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "84ed5e9be14ca5417a073ee7bfc8ae4e29a37e286580e0720e13fa62588a17be",
-  "syncedAt": "2026-11-10T02:39:42.815917+00:00",
+  "contentVersion": "a6f07eea5850dfb30d64705a8462c423fe0462748e295b01824b47817ff4b001",
+  "syncedAt": "2026-11-10T10:23:48.517676+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3499,18 +3499,70 @@
           "text": "Finish visual and import/smoke checks, with existing shutdown diagnostics recorded."
         },
         {
-          "done": false,
-          "text": "Jason reviews dialogue quality, workshop behavior, interruption and saved callback."
+          "done": true,
+          "text": "Jason accepts the visible workshop walk (2026-11-10)."
+        },
+        {
+          "done": true,
+          "text": "Jason confirms the corrected functional flow works; UI polish is tracked separately in #95."
+        },
+        {
+          "done": true,
+          "text": "Jason accepts completion of the current functional source slice, supported by recorded technical checks; no claim of separate manual coverage of every test case."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": null,
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/94",
-      "updatedAt": "2026-11-10T01:21:32Z",
+      "updatedAt": "2026-11-10T06:05:51Z",
       "order": 79,
+      "statusSource": "project"
+    },
+    {
+      "key": "QA-09",
+      "number": 95,
+      "title": "Refine AI NPC dialogue and overheard conversation UI",
+      "category": "qa",
+      "summary": "Refine AI NPC dialogue and overheard conversation UI.",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Identify and document the current UI friction in the actual review flow."
+        },
+        {
+          "done": false,
+          "text": "Refine caption/readability and dialogue transitions with consistent existing UI styling."
+        },
+        {
+          "done": false,
+          "text": "Keep speaker, completion, waiting/fallback and next action clear without redundant clutter."
+        },
+        {
+          "done": false,
+          "text": "Verify keyboard/mouse use and actual rendered 720p/1080p views."
+        },
+        {
+          "done": false,
+          "text": "Preserve accepted NPC movement, callback, saves and guarded gameplay outcomes."
+        },
+        {
+          "done": false,
+          "text": "Jason accepts the refined UI in gameplay."
+        }
+      ],
+      "status": "Backlog",
+      "priority": "Next",
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/95",
+      "updatedAt": "2026-11-10T06:05:14Z",
+      "order": 80,
       "statusSource": "project"
     }
   ]
