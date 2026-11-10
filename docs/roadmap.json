@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "b1f477ad88917a77b6271b1bef87769a462eceeb0ec7059edfa415792a3987d8",
-  "syncedAt": "2026-11-09T09:38:17.027005+00:00",
+  "contentVersion": "84ed5e9be14ca5417a073ee7bfc8ae4e29a37e286580e0720e13fa62588a17be",
+  "syncedAt": "2026-11-10T02:39:42.815917+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3460,47 +3460,47 @@
     {
       "key": "GAME-32",
       "number": 94,
-      "title": "Generate Mira dialogue replies and NPC movement decisions with AI",
+      "title": "Refine Mira AI dialogue and complete a remembered workshop visit",
       "category": "game",
-      "summary": "Generate Mira dialogue replies and NPC movement decisions with AI.",
+      "summary": "Refine Mira AI dialogue and complete a remembered workshop visit.",
       "scope": [],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Inspect existing narrative and NPC systems and avoid duplicate controllers."
+          "text": "Preserve existing NPC motor, navigation, contact, quest, social and save ownership."
         },
         {
           "done": true,
-          "text": "Generate Mira responses inside normal dialogue without a free-text UI."
+          "text": "Refine response context, voice, selected-intent continuity, stale-reply handling and fallback."
         },
         {
           "done": true,
-          "text": "Preserve existing player choices, honest previews and guarded quest/private-trust effects."
+          "text": "Complete a physical once-only two-person workshop consultation."
         },
         {
           "done": true,
-          "text": "Allow model-selected named movement intents through the existing motor."
+          "text": "Persist its real fact and gate an authored callback with ordinary choices and optional AI wording."
         },
         {
           "done": true,
-          "text": "Verify physical walking, correct pace, proximity stop, timeout, stale period, pause, escort and reset guards."
+          "text": "Verify interruption, no early credit, replay, private effects and no hero/quest/public rewards."
         },
         {
           "done": true,
-          "text": "Verify live generated response and live named movement decision."
+          "text": "Verify fresh-process saved callback and existing narrative/social/routine regressions."
         },
         {
           "done": true,
-          "text": "Run targeted narrative/routine/dialogue regressions and inspect rendered layouts."
+          "text": "Exercise live generated replies and explicitly recorded fallback behavior."
+        },
+        {
+          "done": true,
+          "text": "Finish visual and import/smoke checks, with existing shutdown diagnostics recorded."
         },
         {
           "done": false,
-          "text": "Jason reviews natural replies, choice consequences and dedicated-save reload."
-        },
-        {
-          "done": false,
-          "text": "Jason reviews movement plausibility, interruption and provider failure fallback."
+          "text": "Jason reviews dialogue quality, workshop behavior, interruption and saved callback."
         }
       ],
       "status": "Review",
@@ -3509,7 +3509,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/94",
-      "updatedAt": "2026-11-09T07:34:43Z",
+      "updatedAt": "2026-11-10T01:21:32Z",
       "order": 79,
       "statusSource": "project"
     }
