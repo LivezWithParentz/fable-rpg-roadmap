@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "a6f07eea5850dfb30d64705a8462c423fe0462748e295b01824b47817ff4b001",
-  "syncedAt": "2026-11-10T10:23:48.517676+00:00",
+  "contentVersion": "08df23d8d7d1f32ae575151260d256f44374c35b2204429393727cf4435f95a6",
+  "syncedAt": "2026-11-10T23:04:17.000179+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1639,7 +1639,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/38",
-      "updatedAt": "2026-10-20T22:15:02Z",
+      "updatedAt": "2026-11-10T22:19:53Z",
       "order": 38,
       "statusSource": "project"
     },
@@ -2634,7 +2634,7 @@
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/64",
-      "updatedAt": "2026-10-28T03:19:35Z",
+      "updatedAt": "2026-11-10T22:19:52Z",
       "order": 61,
       "statusSource": "project"
     },
@@ -3531,23 +3531,23 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Identify and document the current UI friction in the actual review flow."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Refine caption/readability and dialogue transitions with consistent existing UI styling."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep speaker, completion, waiting/fallback and next action clear without redundant clutter."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify keyboard/mouse use and actual rendered 720p/1080p views."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve accepted NPC movement, callback, saves and guarded gameplay outcomes."
         },
         {
@@ -3555,14 +3555,250 @@
           "text": "Jason accepts the refined UI in gameplay."
         }
       ],
-      "status": "Backlog",
-      "priority": "Next",
+      "status": "Review",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/95",
-      "updatedAt": "2026-11-10T06:05:14Z",
+      "updatedAt": "2026-11-10T22:52:39Z",
       "order": 80,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-33",
+      "number": 98,
+      "title": "Campaign music, audio buses and saved volume settings",
+      "category": "game",
+      "summary": "Add region and encounter music with smooth transitions and clear control over music and sound effects.",
+      "scope": [
+        "Reuse existing audio players and interaction/combat cues. Add Music and SFX bus routing, saved independent volume/mute settings, and a small music coordinator that avoids restarting the current track and restores appropriate ambience after combat, menus, loading and recovery. Coordinate guard audio with #63 and voice work with #89."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Audit existing audio assets, licensing, routing and playback ownership."
+        },
+        {
+          "done": false,
+          "text": "Prove one region transition and combat enter/exit with smooth, interruption-safe music changes."
+        },
+        {
+          "done": false,
+          "text": "Persist Music/SFX controls across application restart and handle missing tracks safely."
+        },
+        {
+          "done": false,
+          "text": "Check pause, New Game, Continue, recovery, repeated encounters and scene changes for duplicate players or stuck music."
+        },
+        {
+          "done": false,
+          "text": "Review audio balance in a Windows export and record acceptance."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/98",
+      "updatedAt": "2026-11-10T22:19:29Z",
+      "order": 81,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-34",
+      "number": 99,
+      "title": "Reusable NPC onboarding and schedule authoring pilot",
+      "category": "game",
+      "summary": "Make adding a named NPC and editing its daily routine repeatable through existing gameplay systems.",
+      "scope": [
+        "Use Tomas as the first authoring pilot, coordinating with workshop art #96 and social work #38. Audit existing identity, SocialCatalog, role bindings, narrative Resources and routine destinations. Provide a validated definition/workflow and an Inspector schedule editor where it reduces repeated editing. Reference SkeleRealms component templates and schedule tools, adapting only the parts that fit existing contracts."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Document and validate stable identity, role, appearance, region, dialogue and work/evening/home destinations."
+        },
+        {
+          "done": false,
+          "text": "Demonstrate schedule editing with reachable fallback destinations and safe missing-data behavior."
+        },
+        {
+          "done": false,
+          "text": "Onboard one additional test contact through the same workflow without special-case HUD or detector branches."
+        },
+        {
+          "done": false,
+          "text": "Verify facing, proximity conversation priority, schedule interruption/resumption, merchant or quest availability and path recovery."
+        },
+        {
+          "done": false,
+          "text": "Verify save/restart and New Game isolation, shared immutable content and independent runtime state."
+        },
+        {
+          "done": false,
+          "text": "Preserve GameSession/SaveService authority and existing narrative/social completion receipts."
+        },
+        {
+          "done": false,
+          "text": "Record source/license attribution for any adapted MIT code and approve actual gameplay behavior."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/99",
+      "updatedAt": "2026-11-10T22:19:31Z",
+      "order": 82,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-35",
+      "number": 100,
+      "title": "First authored dungeon or lair with persistent completion",
+      "category": "game",
+      "summary": "Deliver one compact dungeon/lair that turns existing combat, loot, checkpoints and consequences into a complete exploration route.",
+      "scope": [
+        "Choose a location and story hook from the current game design before building. Author entrance/exit, readable landmarks, an escalating encounter sequence, optional discovery, a stronger final encounter and a clear payoff. Evaluate SkeleRealms loot tables or dungeon-device patterns only when a concrete content requirement benefits from them. Coordinate combat #29, environment intake #90, and performance #64."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Approve the location, story hook, route, checkpoint policy and reward budget."
+        },
+        {
+          "done": false,
+          "text": "Prove traversal, collision, camera and enemy navigation throughout the route."
+        },
+        {
+          "done": false,
+          "text": "Introduce distinct encounter pacing and readable retreat/recovery opportunities."
+        },
+        {
+          "done": false,
+          "text": "Assign stable IDs to treasure, encounter completion and any puzzle state; gate rewards once."
+        },
+        {
+          "done": false,
+          "text": "Verify death/retry, leaving/returning, save/Continue and full-inventory reward recovery."
+        },
+        {
+          "done": false,
+          "text": "Review the complete exported route for difficulty, objective clarity and environmental readability."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/100",
+      "updatedAt": "2026-11-10T22:19:32Z",
+      "order": 83,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-36",
+      "number": 101,
+      "title": "Authored campaign ending, credits and return flow",
+      "category": "game",
+      "summary": "Give the eventual campaign conclusion a complete, understandable playable flow through outcome presentation, credits and return to the title menu.",
+      "scope": [
+        "Depends on approving and implementing the corresponding story milestone. Bind ending conditions to canonical quest/world facts. Author ending presentation and credits using the existing UI style and asset attribution records. Define the post-ending Continue policy before implementation. Coordinate narrative pipeline #45 and menu work #46."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Approve the story milestone, outcome conditions and post-ending save/Continue policy."
+        },
+        {
+          "done": false,
+          "text": "Provide reliable completion-to-ending-to-credits-to-title navigation and explicit skip/back behavior."
+        },
+        {
+          "done": false,
+          "text": "Verify New Game, Continue, pause, recovery and return-to-title around the ending boundary."
+        },
+        {
+          "done": false,
+          "text": "Prevent duplicate final rewards or contradictory endings across save/restart."
+        },
+        {
+          "done": false,
+          "text": "Include required asset/source credits and review readability at supported resolutions."
+        },
+        {
+          "done": false,
+          "text": "Accept the complete Windows-export flow and record evidence."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/101",
+      "updatedAt": "2026-11-10T22:19:33Z",
+      "order": 84,
+      "statusSource": "project"
+    },
+    {
+      "key": "GAME-37",
+      "number": 102,
+      "title": "Evaluate Dialogic 2 for narrative authoring and cinematic dialogue (pilot only)",
+      "category": "game",
+      "summary": "Evaluate Dialogic 2 for narrative authoring and cinematic dialogue (pilot only).",
+      "scope": [],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Show a controlled before/after comparison for the same Mira dialogue and record authoring/editing time, visual screenshots, code/change surface, and tangible benefit; reject adoption if gains do not justify complexity."
+        },
+        {
+          "done": false,
+          "text": "Existing quest, NPC service, shop, social, schedule, input/pause/cursor, line-of-sight/proximity and combat-interruption behavior is unchanged outside the isolated pilot."
+        },
+        {
+          "done": false,
+          "text": "Branch conditions and revalidation at choice submission match existing runtime. Unsupported actions fail closed. Irreversible decisions retain their preview + confirmation UX."
+        },
+        {
+          "done": false,
+          "text": "Stable IDs, previously saved branch receipts, old-save migrations and anti-duplicate quest/relationship rewards survive close/reopen, save/quit/restart and New Game; neither Dialogic internal state nor its save function becomes canonical."
+        },
+        {
+          "done": false,
+          "text": "Demo a readable Windows keyboard/mouse build at 1280×720 and 1920×1080, with no clipped dialogue/choices, focus regressions or unexpected pause/input changes."
+        },
+        {
+          "done": false,
+          "text": "Pass existing narrative, Mira trade, dialogue UX, M9/M10/social, save migration and Windows export/restart regression checks; record command outputs and genuine rendered/manual observations separately."
+        },
+        {
+          "done": false,
+          "text": "Inspect addon footprint, import/editor startup, script warnings, export compatibility and version-upgrade risks, with explicit rollback instructions."
+        },
+        {
+          "done": false,
+          "text": "Publish decision record: A) adopt pinned Dialogic as optional UI/authoring adapter; B) extract selective ideas without dependency; C) stay with current system. State the evidence, owner and additional cost before any implementation issue or migration."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Gameplay",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/102",
+      "updatedAt": "2026-11-10T22:41:53Z",
+      "order": 85,
       "statusSource": "project"
     }
   ]
