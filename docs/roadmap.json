@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "08df23d8d7d1f32ae575151260d256f44374c35b2204429393727cf4435f95a6",
-  "syncedAt": "2026-11-10T23:04:17.000179+00:00",
+  "contentVersion": "a0e3e7663d90bd876ae681776d1d75a28b9b6a32baa3b081c65e1ce13c840a4a",
+  "syncedAt": "2026-11-11T02:43:08.886846+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1187,8 +1187,8 @@
           "text": "Stage 5 technical reuse/onboarding delivered through GAME-07 (#35), PR #93, 2026-11-08; current Brute study/profile reuses Hero controllers. No production-art approval."
         },
         {
-          "done": false,
-          "text": "Stage 6 records measured contact polish or an evidence-backed no-change decision."
+          "done": true,
+          "text": "Stage 6 GAME-08 (#36) completed 2026-11-10 through measured, accepted no-change disposition; known 20-degree test-ramp contact limitation retained."
         },
         {
           "done": true,
@@ -1205,7 +1205,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/29",
-      "updatedAt": "2026-11-08T23:27:19Z",
+      "updatedAt": "2026-11-10T23:58:17Z",
       "order": 29,
       "statusSource": "project"
     },
@@ -1518,40 +1518,40 @@
       "number": 36,
       "title": "Evaluate measured foot, grip and impact polish",
       "category": "game",
-      "summary": "Stage 6 - Evaluate measured foot, grip and impact polish. Resolve remaining demonstrated contact issues, or record why no procedural correction is needed. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started.",
+      "summary": "Stage 6 - Evaluate measured foot, grip and impact polish. Resolve remaining demonstrated contact issues, or record why no procedural correction is needed. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Baseline evaluation started 2026-11-10; no gameplay correction implemented.",
       "scope": [
-        "Stage 6 - Evaluate measured foot, grip and impact polish. Resolve remaining demonstrated contact issues, or record why no procedural correction is needed. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Implementation has not started."
+        "Stage 6 - Evaluate measured foot, grip and impact polish. Resolve remaining demonstrated contact issues, or record why no procedural correction is needed. Follow GAME-01 (#29) for the ordered workstream and prerequisites. Feature maturity: Planned. Baseline evaluation started 2026-11-10; no gameplay correction implemented."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Diagnose scale/orientation, rest mapping, skin weights, clips, speed agreement and socket offsets before proposing IK or aim corrections."
         },
         {
-          "done": false,
+          "done": true,
           "text": "For demonstrated need only, scope foot placement/planting, off-hand grip or bounded upper-body aim; verify APIs against the locally installed engine before implementation."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Compare before/after joint motion and normal-speed contact; verify limits, correction order and blend-out during jump/dodge/death, with no snapping."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep feedback tied to accepted gameplay contact and existing stagger rules; preserve the user removal of melee arcs/trails/glows."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record representative 1080p frame times, hardware/settings/actor count and target 60 FPS comparison. Supply QA-01/QA-05 evidence or document an explicit no-change decision when no correction is justified."
         }
       ],
-      "status": "Backlog",
+      "status": "Done",
       "priority": "Now",
       "area": "Combat",
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/36",
-      "updatedAt": "2026-10-18T23:04:40Z",
+      "updatedAt": "2026-11-10T23:58:02Z",
       "order": 36,
       "statusSource": "project"
     },
@@ -3551,17 +3551,17 @@
           "text": "Preserve accepted NPC movement, callback, saves and guarded gameplay outcomes."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Jason accepts the refined UI in gameplay."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/95",
-      "updatedAt": "2026-11-10T22:52:39Z",
+      "updatedAt": "2026-11-10T23:18:59Z",
       "order": 80,
       "statusSource": "project"
     },
