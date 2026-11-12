@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "86143bbc4382015f12b0c83500acb8ae5672234b94080500bbbd1fca5d45a5f0",
-  "syncedAt": "2026-11-12T04:10:31.510097+00:00",
+  "contentVersion": "7900133f94c90d1badd693bbca481e6e16efdd4320251627ae183e07952f6764",
+  "syncedAt": "2026-11-12T12:39:34.427321+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -1610,36 +1610,44 @@
       "number": 38,
       "title": "Reputation, relationships and living NPCs - staged village delivery",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "Connected village, recoverable reputation, autonomous social life, adult relationships, bounded family formation and selected existing settlement opportunities.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "Connected village, recoverable reputation, autonomous social life, adult relationships, bounded family formation and selected existing settlement opportunities."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the six-stage social model and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Replace instant visit/care/service controls with intentional completion checks and finite, once-only conversation topics."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Record 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction on 2026-11-12."
+        },
+        {
+          "done": true,
+          "text": "Complete stages #39, #40, #41, #42, #43 and #44; approved narrative pipeline #45 remains complete."
+        },
+        {
+          "done": true,
+          "text": "Preserve separate art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/38",
-      "updatedAt": "2026-11-10T22:19:53Z",
+      "updatedAt": "2026-11-12T07:42:32Z",
       "order": 38,
       "statusSource": "project"
     },
@@ -1648,36 +1656,36 @@
       "number": 39,
       "title": "Connected village social profiles and family journal",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "Authored village identities, directed opinions, overlapping connections, a prototype household and a journal of discovered information.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "Authored village identities, directed opinions, overlapping connections, a prototype household and a journal of discovered information."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the bounded social implementation and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Record technical evidence: 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction for the delivered slice on 2026-11-12."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Preserve separate final-art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/39",
-      "updatedAt": "2026-10-20T17:05:11Z",
+      "updatedAt": "2026-11-12T07:41:52Z",
       "order": 39,
       "statusSource": "project"
     },
@@ -1686,36 +1694,36 @@
       "number": 40,
       "title": "Recoverable reputation and witnessed consequences",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "Community aid and optional service, witnessed offences, personal reactions, settlement standing, services, peaceful escort and an accessible recovery contact.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "Community aid and optional service, witnessed offences, personal reactions, settlement standing, services, peaceful escort and an accessible recovery contact."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the bounded social implementation and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Record technical evidence: 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction for the delivered slice on 2026-11-12."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Preserve separate final-art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/40",
-      "updatedAt": "2026-10-20T17:05:12Z",
+      "updatedAt": "2026-11-12T07:41:55Z",
       "order": 40,
       "statusSource": "project"
     },
@@ -1724,36 +1732,36 @@
       "number": 41,
       "title": "Autonomous meetings, gossip and saved social time",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "Gradual connected meetings every thirty game minutes, private knowledge, bounded ordinary news, persistent major memories and saved elapsed time.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "Gradual connected meetings every thirty game minutes, private knowledge, bounded ordinary news, persistent major memories and saved elapsed time."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the bounded social implementation and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Record technical evidence: 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction for the delivered slice on 2026-11-12."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Preserve separate final-art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/41",
-      "updatedAt": "2026-10-20T19:08:31Z",
+      "updatedAt": "2026-11-12T07:41:57Z",
       "order": 41,
       "statusSource": "project"
     },
@@ -1762,36 +1770,36 @@
       "number": 42,
       "title": "Adult relationship agency and household transitions",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "Adult consent, kinship checks, gradual courtship and commitments, private affairs, warnings, separation and reconciliation while preserving jobs and family history.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "Adult consent, kinship checks, gradual courtship and commitments, private affairs, warnings, separation and reconciliation while preserving jobs and family history."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the bounded social implementation and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Record technical evidence: 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction for the delivered slice on 2026-11-12."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Preserve separate final-art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/42",
-      "updatedAt": "2026-10-20T19:08:33Z",
+      "updatedAt": "2026-11-12T07:42:00Z",
       "order": 42,
       "statusSource": "project"
     },
@@ -1800,36 +1808,36 @@
       "number": 43,
       "title": "Bounded family formation and story-based growth",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "One authored birth, adoption, caregiving, explicit child residence and growth at a story interlude. No continuous generations or natural-death simulation.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "One authored birth, adoption, caregiving, explicit child residence and growth at a story interlude. No continuous generations or natural-death simulation."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the bounded social implementation and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Record technical evidence: 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction for the delivered slice on 2026-11-12."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Preserve separate final-art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/43",
-      "updatedAt": "2026-10-20T17:05:17Z",
+      "updatedAt": "2026-11-12T07:42:03Z",
       "order": 43,
       "statusSource": "project"
     },
@@ -1838,36 +1846,36 @@
       "number": 44,
       "title": "Settlement opportunities through existing gameplay",
       "category": "game",
-      "summary": "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet.",
+      "summary": "Independent woodland standing and a one-time local work offer, plus reputation checks for existing trading and new housing. Wider economy, investments, defence and bounties remain future work.",
       "scope": [
-        "Post-M12 social prototype. Project execution status is separate from maturity. Keep open pending acceptance. Implementation is local; no scoped implementation PR is published yet."
+        "Independent woodland standing and a one-time local work offer, plus reputation checks for existing trading and new housing. Wider economy, investments, defence and bounties remain future work."
       ],
       "evidence": [],
       "acceptance": [
         {
           "done": true,
-          "text": "Deliver the bounded local prototype and guarded operations."
+          "text": "Deliver the bounded social implementation and guarded contextual completion producers."
         },
         {
           "done": true,
-          "text": "Record final automated, rendered and packaged verification."
+          "text": "Record technical evidence: 20 source checks, 31 fresh packaged processes, inspected 720p/1080p captures and dedicated review startup."
         },
         {
-          "done": false,
-          "text": "Play several village days and accept understandable social changes, indirect news and recovery."
+          "done": true,
+          "text": "Receive Jason's explicit hands-on acceptance and completion instruction for the delivered slice on 2026-11-12."
         },
         {
-          "done": false,
-          "text": "Review final presentation separately; technical delivery does not grant art acceptance."
+          "done": true,
+          "text": "Preserve separate final-art, broader performance, content-expansion and package-delivery scope."
         }
       ],
-      "status": "Review",
-      "priority": "Next",
+      "status": "Done",
+      "priority": "Now",
       "area": "Gameplay",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/44",
-      "updatedAt": "2026-10-20T17:05:23Z",
+      "updatedAt": "2026-11-12T07:42:06Z",
       "order": 44,
       "statusSource": "project"
     },
@@ -3813,24 +3821,24 @@
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
+          "done": true,
           "text": "Add retained Sand3D source recipes and a runnable local Windows CLI using pinned supported library version."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Generate GLB and editable .blend with source/output hashes, dimensions/geometry counts, and a non-approval review receipt."
         },
         {
-          "done": false,
-          "text": "Provide an isolated Godot orbit-review scene and one construction study (e.g., ironbound chest), without touching campaign scenes, save state, NPC navigation, or runtime dependencies."
+          "done": true,
+          "text": "Provide an isolated Godot orbit-review scene and one construction study (ironbound chest), without touching campaign scenes, save state, NPC navigation, or runtime dependencies."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add offline safety/contract tests and run them."
         },
         {
-          "done": false,
-          "text": "On Jason's Windows workstation, actually install the Python 3.13/Sand3D 1.6.3 dependency, build pilot asset, import to pinned Godot 4.7.2, inspect scale/materials/appearance and capture review screenshots. Do not claim this passed from static tests alone."
+          "done": true,
+          "text": "On Jason's Windows workstation, install the Python 3.13/Sand3D 1.6.3 dependency, build the pilot asset, import to pinned Godot 4.7.2, inspect scale/materials/appearance, and capture review screenshots."
         },
         {
           "done": false,
@@ -3841,13 +3849,13 @@
           "text": "Explicit human visual approval and gameplay integration remain separate."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": null,
       "area": "Art production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/105",
-      "updatedAt": "2026-11-12T00:25:02Z",
+      "updatedAt": "2026-11-12T06:06:46Z",
       "order": 87,
       "statusSource": "project"
     },
@@ -3856,19 +3864,60 @@
       "number": 107,
       "title": "CodePawl CC0 discovery in Asset Workshop — pilot and hosted catalogue integration",
       "category": "ops",
-      "summary": "Extend the existing Asset Workshop with read-only, license-filtered discovery from the CodePawl Asset Index; do not duplicate its ingestion, processing or approval pipeline.",
+      "summary": "Extend the existing Asset Workshop with read-only, license-filtered discovery from the CodePawl Asset Index; do not duplicate its ingestion, processing, approval, or release authority.",
       "scope": [
-        "Extend the existing Asset Workshop with read-only, license-filtered discovery from the CodePawl Asset Index; do not duplicate its ingestion, processing or approval pipeline."
+        "Extend the existing Asset Workshop with read-only, license-filtered discovery from the CodePawl Asset Index; do not duplicate its ingestion, processing, approval, or release authority."
       ],
       "evidence": [],
-      "acceptance": [],
-      "status": "Backlog",
+      "acceptance": [
+        {
+          "done": true,
+          "text": "Validate current metadata download, schema, search fields, and CC0/redistributable filtering."
+        },
+        {
+          "done": true,
+          "text": "Obtain three real official-source material candidates with source URL, license, credit, hashes, and bounded local acquisition."
+        },
+        {
+          "done": true,
+          "text": "Implement authenticated hosted search with D1 caching/snapshot activation and service-outage fallback."
+        },
+        {
+          "done": true,
+          "text": "Preserve existing authentication, upload/revision, review, runner, and release controls."
+        },
+        {
+          "done": true,
+          "text": "Add API/security/resource-limit tests and desktop/mobile browser coverage."
+        },
+        {
+          "done": false,
+          "text": "Resolve aggregate Asset Index redistribution permission."
+        },
+        {
+          "done": false,
+          "text": "Deploy migration and Worker/UI only after that permission is resolved."
+        },
+        {
+          "done": false,
+          "text": "Populate a hosted snapshot and exercise the authenticated hosted interface."
+        },
+        {
+          "done": false,
+          "text": "Submit prepared real sources through the existing Workshop flow and validate Blender/Godot/Windows export."
+        },
+        {
+          "done": false,
+          "text": "Obtain explicit ART-11 visual approval before any production material promotion."
+        }
+      ],
+      "status": "Review",
       "priority": null,
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/107",
-      "updatedAt": "2026-11-12T00:41:37Z",
+      "updatedAt": "2026-11-12T05:58:47Z",
       "order": 88,
       "statusSource": "project"
     },
@@ -3877,48 +3926,60 @@
       "number": 108,
       "title": "100STYLE character locomotion personalities — three-NPC animation pilot",
       "category": "art",
-      "summary": "Evaluate whether CodePawl's CC-BY-4.0 100STYLE locomotion clips can improve distinct NPC movement personalities (guard, Mira, generic villager) without replacing the game-owned locomotion, 65-bone rig, twelve accepted clips or combat timing.",
+      "summary": "Evaluate whether CodePawl's CC-BY-4.0 100STYLE locomotion clips can improve distinct NPC movement personalities without replacing game-owned locomotion, the canonical 65-bone rig, accepted clips, movement authority, or combat timing.",
       "scope": [
-        "Evaluate whether CodePawl's CC-BY-4.0 100STYLE locomotion clips can improve distinct NPC movement personalities (guard, Mira, generic villager) without replacing the game-owned locomotion, 65-bone rig, twelve accepted clips or combat timing."
+        "Evaluate whether CodePawl's CC-BY-4.0 100STYLE locomotion clips can improve distinct NPC movement personalities without replacing game-owned locomotion, the canonical 65-bone rig, accepted clips, movement authority, or combat timing."
       ],
       "evidence": [],
       "acceptance": [
         {
-          "done": false,
-          "text": "Inspect actual 100STYLE metadata, choose three contrasting clips, retain original source files/hashes/CC-BY credit (Ian Mason, CodePawl) and note their original root paths."
+          "done": true,
+          "text": "Inspect live 100STYLE metadata and retain three explicit sources with hashes and CC-BY credit."
+        },
+        {
+          "done": true,
+          "text": "Validate actual source bone names and implement explicit mapping without altering the target skeleton."
+        },
+        {
+          "done": true,
+          "text": "Produce bounded editable Blender/GLB review candidates with provenance and open-gate reports."
+        },
+        {
+          "done": true,
+          "text": "Parse generated animation GLBs in Godot 4.7.2."
         },
         {
           "done": false,
-          "text": "Validate source bone names/rest mapping and retargeter operation on Blender 5.2. Correct any mapping, action/NLA or scale issues; do not alter the canonical 65-bone skeleton."
+          "text": "Select and trim real loop ranges rather than relying on the 600-frame review excerpts."
         },
         {
           "done": false,
-          "text": "Demonstrate side-by-side neutral/wary/energetic (or other empirically appropriate) clips with idle/walk/run/transition consistency and code-owned in-place locomotion."
+          "text": "Demonstrate the three clips on guard, Mira, and a generic villager in a dedicated in-engine comparison."
         },
         {
           "done": false,
-          "text": "Check feet/stride/loops/slope transitions, torso/weapon contact, navigation conversations, performance and restore behavior; compare actual quality with the current accepted motions."
+          "text": "Review feet/stride/loop seams, deformation, hands/props, slopes, transitions, and gameplay readability."
         },
         {
           "done": false,
-          "text": "Godot 4.7.2 import/headless and dedicated in-engine 720p/1080p 3-NPC review; exported Windows playback and human visual approval."
+          "text": "Run navigation, conversations, schedules, combat, performance, save/restart, and Windows-export regressions."
         },
         {
           "done": false,
-          "text": "If accepted, create separate small approved animation-only GLB resources, per-NPC presentation selection and credits. Preserve gameplay state, timings and existing fallback."
+          "text": "Obtain explicit human visual approval and prove improvement over the current accepted motions."
         },
         {
           "done": false,
-          "text": "Run regression coverage for combat, navigation, schedules, dialogues and save/restart; record measured impact and exact hashes before production rollout."
+          "text": "If accepted, promote separate small animation-only resources with credits and existing fallback preserved."
         }
       ],
-      "status": "Backlog",
+      "status": "Review",
       "priority": null,
       "area": "Art production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/108",
-      "updatedAt": "2026-11-12T00:33:23Z",
+      "updatedAt": "2026-11-12T05:58:48Z",
       "order": 89,
       "statusSource": "project"
     }
