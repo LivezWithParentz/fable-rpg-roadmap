@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "a0e3e7663d90bd876ae681776d1d75a28b9b6a32baa3b081c65e1ce13c840a4a",
-  "syncedAt": "2026-11-11T02:43:08.886846+00:00",
+  "contentVersion": "86143bbc4382015f12b0c83500acb8ae5672234b94080500bbbd1fca5d45a5f0",
+  "syncedAt": "2026-11-12T04:10:31.510097+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -2634,7 +2634,7 @@
       "maturity": "Planned",
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/64",
-      "updatedAt": "2026-11-10T22:19:52Z",
+      "updatedAt": "2026-11-12T00:34:53Z",
       "order": 61,
       "statusSource": "project"
     },
@@ -3453,7 +3453,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/91",
-      "updatedAt": "2026-11-08T21:49:28Z",
+      "updatedAt": "2026-11-12T00:34:57Z",
       "order": 78,
       "statusSource": "project"
     },
@@ -3799,6 +3799,127 @@
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/102",
       "updatedAt": "2026-11-10T22:41:53Z",
       "order": 85,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-12",
+      "number": 105,
+      "title": "Pilot Sand3D procedural asset authoring for reproducible props and modular details",
+      "category": "art",
+      "summary": "Category: Art. Area: Procedural Asset Authoring / Graphics Overhaul. Execution: Review once PR exists. Maturity: Prototype after code lands, not Validated. Do not bypass the gating prerequisite list of OPS-08 (#91) or automatically reopen that overhaul.",
+      "scope": [
+        "Category: Art. Area: Procedural Asset Authoring / Graphics Overhaul. Execution: Review once PR exists. Maturity: Prototype after code lands, not Validated. Do not bypass the gating prerequisite list of OPS-08 (#91) or automatically reopen that overhaul."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Add retained Sand3D source recipes and a runnable local Windows CLI using pinned supported library version."
+        },
+        {
+          "done": false,
+          "text": "Generate GLB and editable .blend with source/output hashes, dimensions/geometry counts, and a non-approval review receipt."
+        },
+        {
+          "done": false,
+          "text": "Provide an isolated Godot orbit-review scene and one construction study (e.g., ironbound chest), without touching campaign scenes, save state, NPC navigation, or runtime dependencies."
+        },
+        {
+          "done": false,
+          "text": "Add offline safety/contract tests and run them."
+        },
+        {
+          "done": false,
+          "text": "On Jason's Windows workstation, actually install the Python 3.13/Sand3D 1.6.3 dependency, build pilot asset, import to pinned Godot 4.7.2, inspect scale/materials/appearance and capture review screenshots. Do not claim this passed from static tests alone."
+        },
+        {
+          "done": false,
+          "text": "Decide if the output improves modelling quality/iteration for two representative assets before expanding scope; track additional PBR baking, material recipes, UV, optimization or safe Workshop UI only under OPS-08 sequencing."
+        },
+        {
+          "done": false,
+          "text": "Explicit human visual approval and gameplay integration remain separate."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Art production",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/105",
+      "updatedAt": "2026-11-12T00:25:02Z",
+      "order": 87,
+      "statusSource": "project"
+    },
+    {
+      "key": "OPS-09",
+      "number": 107,
+      "title": "CodePawl CC0 discovery in Asset Workshop — pilot and hosted catalogue integration",
+      "category": "ops",
+      "summary": "Extend the existing Asset Workshop with read-only, license-filtered discovery from the CodePawl Asset Index; do not duplicate its ingestion, processing or approval pipeline.",
+      "scope": [
+        "Extend the existing Asset Workshop with read-only, license-filtered discovery from the CodePawl Asset Index; do not duplicate its ingestion, processing or approval pipeline."
+      ],
+      "evidence": [],
+      "acceptance": [],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Production tooling",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/107",
+      "updatedAt": "2026-11-12T00:41:37Z",
+      "order": 88,
+      "statusSource": "project"
+    },
+    {
+      "key": "ART-12",
+      "number": 108,
+      "title": "100STYLE character locomotion personalities — three-NPC animation pilot",
+      "category": "art",
+      "summary": "Evaluate whether CodePawl's CC-BY-4.0 100STYLE locomotion clips can improve distinct NPC movement personalities (guard, Mira, generic villager) without replacing the game-owned locomotion, 65-bone rig, twelve accepted clips or combat timing.",
+      "scope": [
+        "Evaluate whether CodePawl's CC-BY-4.0 100STYLE locomotion clips can improve distinct NPC movement personalities (guard, Mira, generic villager) without replacing the game-owned locomotion, 65-bone rig, twelve accepted clips or combat timing."
+      ],
+      "evidence": [],
+      "acceptance": [
+        {
+          "done": false,
+          "text": "Inspect actual 100STYLE metadata, choose three contrasting clips, retain original source files/hashes/CC-BY credit (Ian Mason, CodePawl) and note their original root paths."
+        },
+        {
+          "done": false,
+          "text": "Validate source bone names/rest mapping and retargeter operation on Blender 5.2. Correct any mapping, action/NLA or scale issues; do not alter the canonical 65-bone skeleton."
+        },
+        {
+          "done": false,
+          "text": "Demonstrate side-by-side neutral/wary/energetic (or other empirically appropriate) clips with idle/walk/run/transition consistency and code-owned in-place locomotion."
+        },
+        {
+          "done": false,
+          "text": "Check feet/stride/loops/slope transitions, torso/weapon contact, navigation conversations, performance and restore behavior; compare actual quality with the current accepted motions."
+        },
+        {
+          "done": false,
+          "text": "Godot 4.7.2 import/headless and dedicated in-engine 720p/1080p 3-NPC review; exported Windows playback and human visual approval."
+        },
+        {
+          "done": false,
+          "text": "If accepted, create separate small approved animation-only GLB resources, per-NPC presentation selection and credits. Preserve gameplay state, timings and existing fallback."
+        },
+        {
+          "done": false,
+          "text": "Run regression coverage for combat, navigation, schedules, dialogues and save/restart; record measured impact and exact hashes before production rollout."
+        }
+      ],
+      "status": "Backlog",
+      "priority": null,
+      "area": "Art production",
+      "maturity": null,
+      "note": "",
+      "url": "https://github.com/LivezWithParentz/godot-game-main/issues/108",
+      "updatedAt": "2026-11-12T00:33:23Z",
+      "order": 89,
       "statusSource": "project"
     }
   ]
