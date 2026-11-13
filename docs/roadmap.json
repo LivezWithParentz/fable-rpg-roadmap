@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "7900133f94c90d1badd693bbca481e6e16efdd4320251627ae183e07952f6764",
-  "syncedAt": "2026-11-12T12:39:34.427321+00:00",
+  "contentVersion": "46da1b19a91bfbb44ac810d905bc8c8b00770b6fe8af2d6e32e903b21771bf62",
+  "syncedAt": "2026-11-13T01:18:52.958415+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3891,20 +3891,24 @@
           "text": "Add API/security/resource-limit tests and desktop/mobile browser coverage."
         },
         {
-          "done": false,
-          "text": "Resolve aggregate Asset Index redistribution permission."
+          "done": true,
+          "text": "Resolve the private aggregate-index mirror permission."
+        },
+        {
+          "done": true,
+          "text": "Deploy the migration and Worker/UI."
+        },
+        {
+          "done": true,
+          "text": "Populate and live-verify the authenticated hosted snapshot."
         },
         {
           "done": false,
-          "text": "Deploy migration and Worker/UI only after that permission is resolved."
+          "text": "Prepare and submit a real source through the existing Workshop revision flow."
         },
         {
           "done": false,
-          "text": "Populate a hosted snapshot and exercise the authenticated hosted interface."
-        },
-        {
-          "done": false,
-          "text": "Submit prepared real sources through the existing Workshop flow and validate Blender/Godot/Windows export."
+          "text": "Validate Blender/Godot preparation and Windows export for the selected material."
         },
         {
           "done": false,
@@ -3917,7 +3921,7 @@
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/107",
-      "updatedAt": "2026-11-12T05:58:47Z",
+      "updatedAt": "2026-11-13T00:08:22Z",
       "order": 88,
       "statusSource": "project"
     },
