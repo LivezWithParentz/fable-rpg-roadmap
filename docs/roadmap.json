@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "46da1b19a91bfbb44ac810d905bc8c8b00770b6fe8af2d6e32e903b21771bf62",
-  "syncedAt": "2026-11-13T01:18:52.958415+00:00",
+  "contentVersion": "7892b1054d21b062c9a516ad6b624030b8dc704ede29e86ab560b3c4fcae234b",
+  "syncedAt": "2026-11-13T08:08:41.495675+00:00",
   "items": [
     {
       "key": "QA-01",
@@ -3903,25 +3903,29 @@
           "text": "Populate and live-verify the authenticated hosted snapshot."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Prepare and submit a real source through the existing Workshop revision flow."
         },
         {
-          "done": false,
-          "text": "Validate Blender/Godot preparation and Windows export for the selected material."
+          "done": true,
+          "text": "Validate local Blender/Godot preparation and isolated Windows review export for the selected material."
         },
         {
-          "done": false,
-          "text": "Obtain explicit ART-11 visual approval before any production material promotion."
+          "done": true,
+          "text": "Resume the original queued Inspect job and verify its exact source-hash-bound result."
+        },
+        {
+          "done": true,
+          "text": "Keep the inspected source as compatibility evidence only; ART-11 building materials remain kit-owned and any later production promotion is separate work."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": null,
       "area": "Production tooling",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/107",
-      "updatedAt": "2026-11-13T00:08:22Z",
+      "updatedAt": "2026-11-13T06:27:24Z",
       "order": 88,
       "statusSource": "project"
     },
@@ -3953,37 +3957,29 @@
           "text": "Parse generated animation GLBs in Godot 4.7.2."
         },
         {
-          "done": false,
-          "text": "Select and trim real loop ranges rather than relying on the 600-frame review excerpts."
-        },
-        {
-          "done": false,
+          "done": true,
           "text": "Demonstrate the three clips on guard, Mira, and a generic villager in a dedicated in-engine comparison."
         },
         {
-          "done": false,
-          "text": "Review feet/stride/loop seams, deformation, hands/props, slopes, transitions, and gameplay readability."
+          "done": true,
+          "text": "Produce and render a reproducible isolated Windows review export."
         },
         {
-          "done": false,
-          "text": "Run navigation, conversations, schedules, combat, performance, save/restart, and Windows-export regressions."
+          "done": true,
+          "text": "Run focused navigation, dialogue, save/travel, inventory/stash, Mira resume, and isolated performance checks."
         },
         {
-          "done": false,
-          "text": "Obtain explicit human visual approval and prove improvement over the current accepted motions."
-        },
-        {
-          "done": false,
-          "text": "If accepted, promote separate small animation-only resources with credits and existing fallback preserved."
+          "done": true,
+          "text": "Complete hands-on pilot review and record the selective verdict: Neutral and Old accepted; Angry rejected."
         }
       ],
-      "status": "Review",
+      "status": "Done",
       "priority": null,
       "area": "Art production",
       "maturity": null,
       "note": "",
       "url": "https://github.com/LivezWithParentz/godot-game-main/issues/108",
-      "updatedAt": "2026-11-12T05:58:48Z",
+      "updatedAt": "2026-11-13T06:27:27Z",
       "order": 89,
       "statusSource": "project"
     }
